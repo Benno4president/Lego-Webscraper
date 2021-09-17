@@ -15,7 +15,7 @@ class Legoset:
 
 
     def print(self):
-        print(self.name, 'age', self.age, 'brick amount', self.amount_brick, 'price', self.price, self.product_number, 'stars', self.rating_amount,'FunRating', self.rating_fun, 'RatingWorth', self.rating_worth)
+        print(self.name, 'age', self.age, 'brick amount', self.amount_bricks, 'price', self.price, self.product_number, 'stars', self.rating_amount,'FunRating', self.rating_fun, 'RatingWorth', self.rating_worth)
 
 
 
