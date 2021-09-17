@@ -17,5 +17,5 @@ if __name__ == '__main__':
     legomodel = []
     if os.path.exists ("pickle.rick"):
         legomodel = load_objects_from_path("pickle.rick")
-
+    print(legomodel)
     app.run()

@@ -4,14 +4,14 @@ from ScraperLib import *
 
 
 
-def legodotcom_scraper(link):
+def legodotcom_scraper(link, nrofthemes=50000):
     soup = requestSoup(link)
     core_link: str = 'https://www.lego.com'
     themes: list[Theme] = []
     legosets = []
     theme_souplist = findAllElmt(soup, 'div', 'class', 'CategoryLeafstyles__Details-is33yg-4 fXkPfj')
     for th in theme_souplist:
-        if len(themes) > 1:
+        if len(themes) == nrofthemes:
             break
         new_theme = Theme()
         new_theme.name = findElmt(th, 'span', 'class','Markup__StyledMarkup-ar1l9g-0 hlipzx', get_text= True)
@@ -44,7 +44,7 @@ def legodotcom_scraper(link):
 
         big_boxtemp = findElmt(model_soup, 'div', 'class', 'ProductDetailsstyles__AttributesWrapper-sc-16lgx7x-1 dxRXjG')
         small_boxtemp = findAllElmt(big_boxtemp, 'span', 'class', 'Text__BaseText-sc-178efqu-0 cMNVBC ProductDetailsstyles__ProductAttributeValue-sc-16lgx7x-6 iLLHZh')
-        mo.age = int(small_boxtemp[0].text.split('+')[0])
+        mo.age = int(small_boxtemp[0].text.split('+')[0].split('-')[0].split('½')[0])
         mo.amount_brick = int(small_boxtemp[1].text)
         if len(small_boxtemp) <=3:
             mo.product_number = 00000
@@ -60,15 +60,17 @@ def legodotcom_scraper(link):
             mo.rating_amount = findElmt(big_starboxtemp, 'span', 'class', 'RatingBarstyles__RatingDisplay-sc-11ujyfe-0 iDkflT', get_text=True)
 
             starboxtemp = findAllElmt(big_starboxtemp, 'div', 'class', 'RatingBarstyles__RatingContainer-sc-11ujyfe-2 fgbdIf', get_item='title')
-            print(starboxtemp)
             mo.rating_fun = float(starboxtemp[0])
             mo.rating_worth = float(starboxtemp[1])
 
         mo.print()
+
+    return legosets
     #print(len(themes),len(legosets))
 
 
 if __name__ == '__main__':
     legodotcom = 'https://www.lego.com/da-dk/themes'
-    lego_setliste = legodotcom_scraper(legodotcom)
-
+    lego_setliste = legodotcom_scraper(legodotcom, 2)
+    save_objects_to_path(lego_setliste, "pickle.rick")
+    print("Alph 1.121351131831381 worked")
