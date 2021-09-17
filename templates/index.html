@@ -1,7 +1,24 @@
 {% include 'includes/_navbar.html' %}
 {% block body %}
 
+
 <h1>Yeet</h1>
+<div class="grid-container" style="display: grid; grid-template-columns: auto auto auto; padding: 10px">
+{% for mo in models %}
+{{mo.amount_bricks}}
+<div class="grid-product" style="padding: 20px; text-align: center; border: 0.5px solid rgba(0,0,0,0.8)">
+    <h4>{{mo.name}}</h4>
+    <div style="color: deeppink;padding: 5px 5px"
+    <h5 >Theme: {{mo.theme}}</h5>
+    <h5 >Price: {{mo.price}}</h5>
+    <h5 >Age: {{mo.age}}+</h5>
+    <h5 >Bricks: {{mo.amount_bricks}}</h5>
+    <h5 >Rating: {{mo.rating_amount}}</h5>
+    <h5 >Rating Fun: {{mo.rating_fun}}</h5>
+    <h5 >Rating Worth: {{mo.rating_worth}}</h5>
+    </div>
+</div>
 
-
+{% endfor %}
+</div>
 {% endblock %}

@@ -4,6 +4,7 @@ from ScraperLib import *
 
 
 
+
 def legodotcom_scraper(link, nrofthemes=50000):
     soup = requestSoup(link)
     core_link: str = 'https://www.lego.com'
@@ -34,8 +35,9 @@ def legodotcom_scraper(link, nrofthemes=50000):
             legosets.append(new_legoset)
             #print(new_legoset.link)
 # Price
+    print(len(legosets)*"#")
     for mo in legosets:
-
+        print("#",end="")
         model_soup = requestSoup(mo.link)
 
         #big_box
@@ -45,7 +47,7 @@ def legodotcom_scraper(link, nrofthemes=50000):
         big_boxtemp = findElmt(model_soup, 'div', 'class', 'ProductDetailsstyles__AttributesWrapper-sc-16lgx7x-1 dxRXjG')
         small_boxtemp = findAllElmt(big_boxtemp, 'span', 'class', 'Text__BaseText-sc-178efqu-0 cMNVBC ProductDetailsstyles__ProductAttributeValue-sc-16lgx7x-6 iLLHZh')
         mo.age = int(small_boxtemp[0].text.split('+')[0].split('-')[0].split('½')[0])
-        mo.amount_brick = int(small_boxtemp[1].text)
+        mo.amount_bricks = int(small_boxtemp[1].text)
         if len(small_boxtemp) <=3:
             mo.product_number = 00000
         else:
@@ -63,7 +65,7 @@ def legodotcom_scraper(link, nrofthemes=50000):
             mo.rating_fun = float(starboxtemp[0])
             mo.rating_worth = float(starboxtemp[1])
 
-        mo.print()
+        #mo.print()
 
     return legosets
     #print(len(themes),len(legosets))
@@ -73,4 +75,4 @@ if __name__ == '__main__':
     legodotcom = 'https://www.lego.com/da-dk/themes'
     lego_setliste = legodotcom_scraper(legodotcom, 2)
     save_objects_to_path(lego_setliste, "pickle.rick")
-    print("Alph 1.121351131831381 worked")
+    print("GHETTO SHIT")

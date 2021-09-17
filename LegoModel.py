@@ -2,14 +2,13 @@ class Legoset:
     def __init__(self):
         self.price: float
         self.age: int
-        self.accessible: bool
         self.link: str
         self.amount_bricks: int
-        self.amount_figure: int
+        #self.amount_figure: int
         self.rating_amount: float
         self.rating_fun: float
         self.rating_worth: float
-        self.theme: int
+        self.theme: str
         self.product_number: int
         self.name: str
 
