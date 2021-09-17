@@ -36,10 +36,22 @@
 
     
 </style>
-<div class="navbar">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>LegoScraper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
+  </head>
+  <body>
+    <div class="navbar">
     <ul>
         <li><a class="active" href="#benno">Benno</a></li>
         <li><a href="#oli">Oli</a></li>
         <li><a href="#dunnis">Dunnis</a></li>
     </ul>
 </div>
+{% block body %}{% endblock %}
+</body>
+</html>
