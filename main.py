@@ -44,6 +44,11 @@ def legodotcom_scraper(link, nrofthemes=50000):
         nametemp = findElmt(model_soup, 'div', 'class', 'ProductOverviewstyles__ProductOverviewRow-sc-1a1az6h-1 hblOYO')
         mo.name = findElmt(nametemp, 'span', 'class', 'Markup__StyledMarkup-ar1l9g-0 hlipzx', get_text=True)
 
+        # temp_link_soup = findAllElmt(model_soup, 'ol', 'class', 'breadcrumbsstyles__Wrapper-sc-15z7ihn-0 fEVsMb ProductDetailsPagestyles__Breadcrumbs-sc-1waehzg-0 jHjxNV')
+        # mo.link = \
+        #findAllElmt(temp_link_soup[0], 'source', get_item='srcset')
+        #print(mo.link)
+
         big_boxtemp = findElmt(model_soup, 'div', 'class', 'ProductDetailsstyles__AttributesWrapper-sc-16lgx7x-1 dxRXjG')
         small_boxtemp = findAllElmt(big_boxtemp, 'span', 'class', 'Text__BaseText-sc-178efqu-0 cMNVBC ProductDetailsstyles__ProductAttributeValue-sc-16lgx7x-6 iLLHZh')
         mo.age = int(small_boxtemp[0].text.split('+')[0].split('-')[0].split('½')[0])
