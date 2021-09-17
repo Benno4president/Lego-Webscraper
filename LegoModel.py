@@ -3,6 +3,7 @@ class Legoset:
         self.price: float
         self.age: int
         self.link: str
+        self.img_link: str
         self.amount_bricks: int
         #self.amount_figure: int
         self.rating_amount: float
