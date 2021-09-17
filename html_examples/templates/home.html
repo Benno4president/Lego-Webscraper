@@ -1,0 +1,61 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<!--
+<span>
+    {% for item in lol_items%}
+        <p>{{item.name}}</p>
+        <img src={{item.icon_link}} class="img-fluid" alt="Responsive image">
+    {% endfor %}
+</span>
+-->
+
+<div class="container">
+    <div class="sidebar">
+        <form action="/" method="post">
+            <input class="btn btn-primary btn-lg" type="submit" name="next" value="next">
+            <input class="btn btn-primary btn-lg" type="submit" name="fuck go back" value="fuck go back">
+            <p>{{num}}/{{num_max}}</p>
+            <h4>Item wackadoodle </h4>
+            <input class="slider" type="range" min="0" max="100" value={{slider_arr[0]}} name="item_slider_item" id="item_slider_item" />
+            <h4>Rune swigglewiggle </h4>
+            <input class="slider" type="range" min="0" max="100" value={{slider_arr[1]}} name="item_slider_rune" id="item_slider_rune" />
+            <h4>Spell flipflopping </h4>
+            <input class="slider" type="range" min="0" max="100" value={{slider_arr[2]}} name="item_slider_spell" id="item_slider_spell" />
+        </form>
+    </div>
+
+<ul class="list-group">
+      <li class="list-group-item">
+          <div class="card">
+              <img class="card-img-top img" src={{champ_build.champ_banner}} alt="Card image cap">
+              <div class="card-body">
+                  <h2 class="card-title">{{champ_build.champ_name}}</h2>
+                  <h3 class="card-title">Runes</h3>
+                  <div class="content">
+                  {% for rune in champ_build.build_runes.rune_list %}
+                      <img src={{rune.icon_link}} class="img-fluid imgIcon" alt="Responsive image">
+                  {% endfor %}
+                  </div>
+
+                  <h3 class="card-title">Items</h3>
+                  <div class="wrapper">
+                  {% for itm_box in champ_build.build_items.item_boxes %}
+                      <div class="content">
+                          <p class="">{{itm_box.box_name}}</p>
+                          {% for itm in itm_box.items %}
+                          <img src={{itm.icon_link}} class="img-fluid img" alt="Responsive image">
+                          {% endfor %}
+                      </div>
+                  {% endfor %}
+                  </div>
+                  <a href="#!" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+      </li>
+</ul>
+</div>
+<div class="container">
+  <!-- Content here -->
+</div>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<!--
+<span>
+    {% for item in lol_items%}
+        <p>{{item.name}}</p>
+        <img src={{item.icon_link}} class="img-fluid" alt="Responsive image">
+    {% endfor %}
+</span>
+-->
+
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <form class="form-inline" method="POST" action="{{ url_for('item_display') }}">
+                <div class="wrapper">
+                {% for itm in lol_items %}
+                    <div class="content">
+                        <p class="">{{itm.name}}</p>
+                        <img src={{itm.icon_link}} class="img-fluid" alt="Responsive image">
+                        <select name="lol-item-typer" class="selectpicker form-control">
+                            {% for o in enum_types %}
+                                <option value="{{ o.name }}" {% if o.name == itm.type %} selected {% endif %}>{{ o.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                {% endfor %}
+                </div>
+                <button type="submit" class="btn btn-default">Go</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container">
+  <!-- Content here -->
+</div>
+{% endblock %}

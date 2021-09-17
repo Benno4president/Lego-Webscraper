@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<!--
+<span>
+    {% for item in lol_items%}
+        <p>{{item.name}}</p>
+        <img src={{item.icon_link}} class="img-fluid" alt="Responsive image">
+    {% endfor %}
+</span>
+-->
+<div class="container">
+<ul class="list-group">
+    {% for bld in champ_builds %}
+      <li class="list-group-item">
+          <div class="card">
+              <img class="card-img-top img" src={{bld.champ_banner}} alt="Card image cap">
+              <div class="card-body">
+                  <h4 class="card-title">{{bld.champ_name}}</h4>
+                  <div class="wrapper">
+                  {% for itm_box in bld.build_items.item_boxes %}
+                      <div class="content">
+                          <p class="">{{itm_box.box_name}}</p>
+                          {% for itm in itm_box.items %}
+                          <img src={{itm.icon_link}} class="img-fluid" alt="Responsive image">
+                          {% endfor %}
+                      </div>
+                  {% endfor %}
+                  </div>
+                  <a href="#!" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+      </li>
+    {% endfor %}
+</ul>
+</div>
+<div class="container">
+  <!-- Content here -->
+</div>
+{% endblock %}
