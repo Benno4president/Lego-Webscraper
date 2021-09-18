@@ -115,8 +115,8 @@ def main():
     legodotcom = 'https://www.lego.com/da-dk/themes'
 
     t0 = time.time()
-    lego_setliste = LegoDotComScraper(legodotcom, 3)
-    save_objects_to_path(lego_setliste, "pickle.rick")
+    lego_setliste = LegoDotComScraper(legodotcom)
+    # save_objects_to_path(lego_setliste, "pickle.rick")
     print(ANSI_RAINBOW("   GHETTO SHIT"))
     t1 = time.time()
     print(f"It took {ANSI_YELLOW(t1 - t0)} seconds to download to save {ANSI_GREEN(len(lego_setliste))} legoset models.")
