@@ -75,11 +75,13 @@ def divide_chunks(l, n):
     for i in range(0, len(l), n):
         yield l[i:i + n]
 
-def read_progressbar_theme(filename):
+def read_textfile(filename):
     lines=[]
     with open (filename, encoding='utf8') as f:
         lines = f.readlines()
     return lines
+
+
 
 
 def save_objects_to_path(obj, filename):
