@@ -156,7 +156,7 @@ class BarDesign(Enum):
 
 class ProgressBar:
     def __init__(self, tag: str, length: int=0, pre_fix: str='', bar_design: BarDesign=1, display_time_elapsed: bool=False, is_relative: bool=True):
-        self.progress
+        self.progress: int = 0
         self.tag: str = tag
         self.length: int = length
         self.pre_fix: str = pre_fix
