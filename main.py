@@ -119,13 +119,13 @@ def main():
     legodotcom = 'https://www.lego.com/da-dk/themes'
 
     t0 = time.time()
-    lego_setliste = LegoDotComScraper(legodotcom)
+    #lego_setliste = LegoDotComScraper(legodotcom, 1)
+    lego_setliste =  load_objects_from_path('pickle.rick')
     # save_objects_to_path(lego_setliste, "pickle.rick")
     print(ANSI_RAINBOW("   GHETTO SHIT"))
     t1 = time.time()
     print(f"It took {ANSI_YELLOW(t1 - t0)} seconds to download to save {ANSI_GREEN(len(lego_setliste))} legoset models.")
     print('average time pr set:', (t1 - t0)/len(lego_setliste))
-
 
 if __name__ == '__main__':
     main()

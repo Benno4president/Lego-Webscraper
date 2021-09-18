@@ -29,8 +29,9 @@ if __name__ == '__main__':
     allitems=[]
     for i in legomodel:
         allitems.append(i.amount_bricks)
-
     print(da.averagepricepritem(allprices, allitems))
+
+
 
     app.run()
 
