@@ -1,5 +1,7 @@
 import pickle
 import sys
+from enum import Enum
+
 import requests
 from bs4 import BeautifulSoup
 import os
@@ -142,15 +144,38 @@ def removeDupFromList(x):
     return list(dict.fromkeys(x))
 
 
+# ProgressBar.new_bar('th', len(list[object]), 'pre-fix', )
+
+# ProgressBar.update('th')
+
+# ProgressBar.start(['th', 'st'])
+
+class BarDesign(Enum):
+    simple = 0
+    nyan_cat = 1
+
 class ProgressBar:
-    process_count = 0
-    process_length = 0
-    process_pretext = ''
+    def __init__(self, tag: str, length: int=0, pre_fix: str='', bar_design: BarDesign=1, display_time_elapsed: bool=False, is_relative: bool=True):
+        self.progress
+        self.tag: str = tag
+        self.length: int = length
+        self.pre_fix: str = pre_fix
+        self.design: BarDesign = bar_design
+        self.time_elapsed: bool = display_time_elapsed
+        self.is_relative: bool = is_relative
+
+class PBM:
+    progress_bars = []
+    active_progress_bars: list[ProgressBar] = []
+
+
+    def cc(self):
+        _ = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
 
     @classmethod
     def start(cls):
         cls.process_count = 0
-        clearConsole()
+        cc()
         print(cls.process_pretext, end='')
         for i in range(cls.process_length):
             print(ANSI_RED('_'), end='')
@@ -158,9 +183,29 @@ class ProgressBar:
     @classmethod
     def update(cls):
         cls.process_count += 1
-        clearConsole()
+        cc()
         print(cls.process_pretext, end='')
         for i in range(cls.process_count):
             print(ANSI_GREEN('='), end='')
         for i in range(cls.process_length - cls.process_count):
             print(ANSI_RED('_'), end='')
+
+    @staticmethod
+    def print_nyancat(model: ProgressBar):
+        pass
+
+    @classmethod
+    def print_active_bars(cls):
+        for bar in cls.active_progress_bars:
+            if bar.design == 0:
+                pass
+                #something to create a simple
+            elif bar.design == 1:
+                cls.print_nyancat(bar)
+
+
+    @classmethod
+    def new_bar(cls, tag: str, length: int=0, pre_fix='', bar_design: BarDesign=1, display_time_elapsed: bool=False, is_relative: bool=True):
+        bar = ProgressBar(tag, length, pre_fix, bar_design, display_time_elapsed, is_relative)
+        cls.progress_bars.append(bar)
+
