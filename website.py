@@ -7,15 +7,16 @@ from ScraperLib import *
 
 app = Flask(__name__)
 
+
 # Index
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    
     return render_template('index.html', models=legomodel)
+
 
 if __name__ == '__main__':
     legomodel = []
-    if os.path.exists ("pickle.rick"):
+    if os.path.exists("pickle.rick"):
         legomodel = load_objects_from_path("pickle.rick")
     print(legomodel)
     app.run()

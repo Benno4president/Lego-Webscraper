@@ -2,8 +2,10 @@ import pickle
 import sys
 import requests
 from bs4 import BeautifulSoup
+import os
 
 sys.setrecursionlimit(10 ** 6)
+clearConsole = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
 
 
 def ANSI_RESET(text):
@@ -66,6 +68,14 @@ def ANSI_RAINBOW(text):
     return rainbow_str
 
 
+# Yield successive n-sized
+# chunks from l.
+def divide_chunks(l, n):
+    # looping till length l
+    for i in range(0, len(l), n):
+        yield l[i:i + n]
+
+
 def save_objects_to_path(obj, filename):
     with open(filename, "wb") as f:
         pickle.dump(len(obj), f)
@@ -122,3 +132,27 @@ def requestSoup(link):
 
 def removeDupFromList(x):
     return list(dict.fromkeys(x))
+
+
+class ProgressBar:
+    process_count = 0
+    process_length = 0
+    process_pretext = ''
+
+    @classmethod
+    def start(cls):
+        cls.process_count = 0
+        clearConsole()
+        print(cls.process_pretext, end='')
+        for i in range(cls.process_length):
+            print(ANSI_RED('_'), end='')
+
+    @classmethod
+    def update(cls):
+        cls.process_count += 1
+        clearConsole()
+        print(cls.process_pretext, end='')
+        for i in range(cls.process_count):
+            print(ANSI_GREEN('='), end='')
+        for i in range(cls.process_length - cls.process_count):
+            print(ANSI_RED('_'), end='')
