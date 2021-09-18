@@ -192,7 +192,12 @@ class PBM:
 
     @staticmethod
     def print_nyancat(model: ProgressBar):
-        pass
+        nyancat = read_textfile('nyanloadingbar.txt')
+        for no in nyancat:
+            print(model.progress * ANSI_RED('#'),no)
+            
+
+
 
     @classmethod
     def print_active_bars(cls):
