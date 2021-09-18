@@ -29,7 +29,11 @@ def ScrapeLegoSet(mo):
         mo.product_number = 00000
     else:
         mo.product_number = int(small_boxtemp[3].text)
-    mo.price = int(small_boxtemp[2].text)
+    if int(small_boxtemp[2].text) > 12000:
+        mo.price = 00000
+    else:
+        mo.price = int(small_boxtemp[2].text)
+
     big_starboxtemp = findElmt(model_soup, 'div', 'class',
                                'Spacing-iay53v-0 ProductReviewsOverviewstyles__BreakdownWrapper-echww5-2 jrAhXd')
     if big_starboxtemp is None:
