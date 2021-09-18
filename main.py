@@ -7,7 +7,7 @@ from ScraperLib import *
 
 def ScrapeLegoSet(mo):
     # print("#", end="")
-    ProgressBar.update()
+    Loading.update('ls')
     # Price
     model_soup = requestSoup(mo.link)
 
@@ -70,9 +70,9 @@ def LegoDotComScraper(link, nrofthemes=50000):
                                               get_item='href')
         themes.append(new_theme)
 
-    ProgressBar.process_length = len(themes)
-    ProgressBar.process_pretext = 'Pulling sets from themes:'
-    ProgressBar.start()
+    Loading.new_bar('th', len(theme_souplist), 'Scraping themes:')
+    Loading.new_bar('ls', len(legosets), 'Scraping lego sets:')
+    Loading.start('th', 'ls')
     for ls in themes:
         set_soup = requestSoup(ls.link)
         legosets_box_soup = findAllElmt(set_soup, 'div', 'class',
@@ -90,11 +90,9 @@ def LegoDotComScraper(link, nrofthemes=50000):
             new_legoset.link = core_link + i
             legosets.append(new_legoset)
             # print(new_legoset.link)
-        ProgressBar.update()
+        Loading.update('th')
 
-    ProgressBar.process_length = len(legosets)
-    ProgressBar.process_pretext = 'Pulling info from sets:'
-    ProgressBar.start()
+
     # ## single threading
     for i in legosets:
         ScrapeLegoSet(i)
@@ -111,7 +109,7 @@ def LegoDotComScraper(link, nrofthemes=50000):
             print(result.print())
     legosets_ = mergeListOfLists(list_split_by_threads)
     """
-
+    Loading.removeActive()
     return legosets
 
 
@@ -119,8 +117,8 @@ def main():
     legodotcom = 'https://www.lego.com/da-dk/themes'
 
     t0 = time.time()
-    #lego_setliste = LegoDotComScraper(legodotcom, 1)
-    lego_setliste =  load_objects_from_path('pickle.rick')
+    lego_setliste = LegoDotComScraper(legodotcom, 1)
+    #lego_setliste =  load_objects_from_path('pickle.rick')
     # save_objects_to_path(lego_setliste, "pickle.rick")
     print(ANSI_RAINBOW("   GHETTO SHIT"))
     t1 = time.time()

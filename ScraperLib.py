@@ -46,27 +46,32 @@ def ANSI_WHITE(text):
     return f"\u001B[37m{text}\u001B[0m"
 
 
-def ANSI_RAINBOW(text):
-    i = 0
+ansi_rainbow_global_variable: int = 0
+
+
+def ANSI_RAINBOW(text, reset_on=0):
+    global ansi_rainbow_global_variable
+    if reset_on is 0 or ansi_rainbow_global_variable % reset_on == 0:
+        ansi_rainbow_global_variable = 0
     rainbow_str: str = ''
     for char in text:
         if char == ' ':
             rainbow_str += ' '
-        elif i == 0:
+        elif ansi_rainbow_global_variable == 0:
             rainbow_str += ANSI_RED(char)
-            i += 1
-        elif i == 1:
+            ansi_rainbow_global_variable += 1
+        elif ansi_rainbow_global_variable == 1:
             rainbow_str += ANSI_YELLOW(char)
-            i += 1
-        elif i == 2:
+            ansi_rainbow_global_variable += 1
+        elif ansi_rainbow_global_variable == 2:
             rainbow_str += ANSI_GREEN(char)
-            i += 1
-        elif i == 3:
+            ansi_rainbow_global_variable += 1
+        elif ansi_rainbow_global_variable == 3:
             rainbow_str += ANSI_BLUE(char)
-            i += 1
+            ansi_rainbow_global_variable += 1
         else:
             rainbow_str += ANSI_PURPLE(char)
-            i = 0
+            ansi_rainbow_global_variable = 0
     return rainbow_str
 
 
@@ -77,13 +82,12 @@ def divide_chunks(l, n):
     for i in range(0, len(l), n):
         yield l[i:i + n]
 
+
 def read_textfile(filename):
-    lines=[]
-    with open (filename, encoding='utf8') as f:
+    lines = []
+    with open(filename, encoding='utf8') as f:
         lines = f.readlines()
     return lines
-
-
 
 
 def save_objects_to_path(obj, filename):
@@ -148,14 +152,16 @@ def removeDupFromList(x):
 
 # ProgressBar.update('th')
 
-# ProgressBar.start(['th', 'st'])
+# ProgressBar.start('th', 'st')
 
 class BarDesign(Enum):
     simple = 0
     nyan_cat = 1
 
+
 class ProgressBar:
-    def __init__(self, tag: str, length: int=0, pre_fix: str='', bar_design: BarDesign=1, display_time_elapsed: bool=False, is_relative: bool=True):
+    def __init__(self, tag: str, length: int = 0, pre_fix: str = '', bar_design: BarDesign = 1,
+                 display_time_elapsed: bool = False, is_relative: bool = True):
         self.progress: int = 0
         self.tag: str = tag
         self.length: int = length
@@ -164,53 +170,54 @@ class ProgressBar:
         self.time_elapsed: bool = display_time_elapsed
         self.is_relative: bool = is_relative
 
-class PBM:
-    progress_bars = []
+
+class Loading:
+    progress_bars: list[ProgressBar] = []
     active_progress_bars: list[ProgressBar] = []
 
-
-    def cc(self):
-        _ = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
+    @classmethod
+    def start(cls, *args):
+        for arg in args:
+            for bar in cls.progress_bars:
+                if bar.tag == arg:
+                    cls.active_progress_bars.append(bar)
+        clearConsole()
+        cls.print_active_bars()
 
     @classmethod
-    def start(cls):
-        cls.process_count = 0
-        cc()
-        print(cls.process_pretext, end='')
-        for i in range(cls.process_length):
-            print(ANSI_RED('_'), end='')
+    def update(cls, tag: str):
+        for bar in cls.active_progress_bars:
+            if bar.tag == tag:
+                bar.progress += 1
+        else:
+            clearConsole()
+            cls.print_active_bars()
 
     @classmethod
-    def update(cls):
-        cls.process_count += 1
-        cc()
-        print(cls.process_pretext, end='')
-        for i in range(cls.process_count):
-            print(ANSI_GREEN('='), end='')
-        for i in range(cls.process_length - cls.process_count):
-            print(ANSI_RED('_'), end='')
+    def removeActive(cls):
+        for prg in cls.active_progress_bars:
+            cls.progress_bars.remove(prg)
+        cls.active_progress_bars = []
 
     @staticmethod
     def print_nyancat(model: ProgressBar):
         nyancat = read_textfile('nyanloadingbar.txt')
+        print('')
         for no in nyancat:
-            print(model.progress * ANSI_RED('#'),no)
-            
-
-
+            print(model.progress * ANSI_RAINBOW('#', reset_on=len(nyancat)), no, end='')
 
     @classmethod
     def print_active_bars(cls):
         for bar in cls.active_progress_bars:
             if bar.design == 0:
                 pass
-                #something to create a simple
+                # something to create a simple
             elif bar.design == 1:
                 cls.print_nyancat(bar)
-
+        print('')
 
     @classmethod
-    def new_bar(cls, tag: str, length: int=0, pre_fix='', bar_design: BarDesign=1, display_time_elapsed: bool=False, is_relative: bool=True):
+    def new_bar(cls, tag: str, length: int = 0, pre_fix='', bar_design: BarDesign = 1,
+                display_time_elapsed: bool = False, is_relative: bool = True):
         bar = ProgressBar(tag, length, pre_fix, bar_design, display_time_elapsed, is_relative)
         cls.progress_bars.append(bar)
-
