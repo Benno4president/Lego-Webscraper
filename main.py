@@ -1,3 +1,5 @@
+import time
+
 from LegoModel import Theme, Legoset
 from ScraperLib import *
 
@@ -78,6 +80,10 @@ def legodotcom_scraper(link, nrofthemes=50000):
 
 if __name__ == '__main__':
     legodotcom = 'https://www.lego.com/da-dk/themes'
-    lego_setliste = legodotcom_scraper(legodotcom, 2)
+
+    t0 = time.time()
+    lego_setliste = legodotcom_scraper(legodotcom, 1)
     save_objects_to_path(lego_setliste, "pickle.rick")
-    print("GHETTO SHIT")
+    print(ANSI_RAINBOW("   GHETTO SHIT"))
+    t1 = time.time()
+    print(f"It took {ANSI_YELLOW(t1-t0)} seconds to download and save {ANSI_GREEN(len(lego_setliste))} legoset models.")
