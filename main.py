@@ -70,7 +70,7 @@ def LegoDotComScraper(link, nrofthemes=50000):
                                               get_item='href')
         themes.append(new_theme)
 
-    Loading.new_bar('th', len(theme_souplist), 'Scraping themes:')
+    Loading.new_bar('th', nrofthemes, 'Scraping themes:')
     Loading.new_bar('ls', len(legosets), 'Scraping lego sets:')
     Loading.start('th', 'ls')
     for ls in themes:
@@ -92,7 +92,7 @@ def LegoDotComScraper(link, nrofthemes=50000):
             # print(new_legoset.link)
         Loading.update('th')
 
-
+    Loading.update_length('ls', len(legosets))
     # ## single threading
     for i in legosets:
         ScrapeLegoSet(i)
