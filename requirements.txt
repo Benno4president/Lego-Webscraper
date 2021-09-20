@@ -1,0 +1,5 @@
+pandas
+matplotlib
+numpy
+plotly
+https://github.com/pandas-profiling/pandas-profiling/archive/master.zip

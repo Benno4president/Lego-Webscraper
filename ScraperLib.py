@@ -153,6 +153,8 @@ def remove_dubs_heavy(_list):
     new_list = []
     seen = [] # set()  # set for fast O(1) amortized lookup
     for line in _list:
+        if line.price == 0:
+            continue
         if (line.name + str(line.product_number)) in seen:
             # line.print()
             continue  # skip duplicate

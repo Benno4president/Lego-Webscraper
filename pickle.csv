@@ -1,515 +1,460 @@
 ,link,name,age,amount_bricks,product_number,price,rating_amount,rating_worth,rating_fun
-0,https://www.lego.com/da-dk/product/empire-state-building-21046,Empire State Building,16,1767,210462104621046,899,0,0.0,0.0
-1,https://www.lego.com/da-dk/product/statue-of-liberty-21042,Frihedsgudinden,16,1685,210422104221042,899,0,0.0,0.0
-2,https://www.lego.com/da-dk/product/taj-mahal-21056,Taj Mahal,18,2022,210562105621056,899,0,0.0,0.0
-3,https://www.lego.com/da-dk/product/trafalgar-square-21045,Trafalgar Square,12,1197,210452104521045,749,0,0.0,0.0
-4,https://www.lego.com/da-dk/product/the-white-house-21054,Det Hvide Hus,18,1483,210542105421054,719,0,0.0,0.0
-5,https://www.lego.com/da-dk/product/tokyo-21051,Tokyo,16,547,210512105121051,549,0,0.0,0.0
-6,https://www.lego.com/da-dk/product/new-york-city-21028,New York City,12,598,210282102821028,449,0,0.0,0.0
-7,https://www.lego.com/da-dk/product/paris-21044,Paris,12,649,210442104421044,449,0,0.0,0.0
-8,https://www.lego.com/da-dk/product/london-21034,London,12,468,210342103421034,399,4.0,4.1,4.0
-9,https://www.lego.com/da-dk/product/dubai-21052,Dubai,16,740,210522105221052,549,0,0.0,0.0
-10,https://www.lego.com/da-dk/product/san-francisco-21043,San Francisco,12,565,210432104321043,449,0,0.0,0.0
-11,https://www.lego.com/da-dk/product/burj-khalifa-21055,Burj Khalifa,16,333,210552105521055,399,2.2,2.2,2.2
-12,https://www.lego.com/da-dk/product/batman-40386,Batman™,8,115,403864038640386,150,0,0.0,0.0
-13,https://www.lego.com/da-dk/product/the-joker-40428,Jokeren,8,170,404284042840428,150,0,0.0,0.0
-14,https://www.lego.com/da-dk/product/batman-vs-the-penguin-harley-quinn-40453,Batman™ mod Pingvinen og Harley Quinn™,6,63,404534045340453,130,0,0.0,0.0
-15,https://www.lego.com/da-dk/product/1989-batmobile-76139,1989 Batmobile™,16,3306,761397613976139,1899,4.4,4.4,4.4
-16,https://www.lego.com/da-dk/product/1989-batwing-76161,1989-batving​e,18,2363,761617616176161,1599,3.9,4.1,3.9
-17,https://www.lego.com/da-dk/product/mobile-bat-base-76160,Mobil batbase,8,743,761607616076160,799,0,0.0,0.0
-18,https://www.lego.com/da-dk/product/batman-cowl-76182,Batman™-hætte,18,410,761827618276182,549,0,0.0,0.0
-19,https://www.lego.com/da-dk/product/joker-s-trike-chase-76159,Jagt på Jokerens trehjuler,7,440,761597615976159,449,0,0.0,0.0
-20,https://www.lego.com/da-dk/product/batcave-10919,Bathulen,2,33,109191091910919,349,0,0.0,0.0
-21,https://www.lego.com/da-dk/product/batman-classic-tv-series-batmobile-76188,Batmobile™ fra klassisk Batman™ tv-serie,7,345,761887618876188,300,0,0.0,0.0
-22,https://www.lego.com/da-dk/product/batman-vs-the-joker-batmobile-chase-76180,Batman™ mod Jokeren: Batmobile™-jagt,4,136,761807618076180,270,0,0.0,0.0
-23,https://www.lego.com/da-dk/product/lego-dc-batman-batmobile-tumbler-76240,LEGO® DC Batman™ Batmobile™-Tumbler,18,2049,762407624076240,1799,0,0.0,0.0
-24,https://www.lego.com/da-dk/product/classic-tv-series-batman-cowl-76238,Batman™-hætte fra klassisk tv-serie,18,372,762387623876238,549,0,0.0,0.0
-25,https://www.lego.com/da-dk/product/lego-dc-batman-batmobile-tumbler-scarecrow-showdown-76239,LEGO® DC Batman™ Batmobile™-Tumbler: Opgør med Scarecrow™,8,422,762397623976239,349,0,0.0,0.0
-26,https://www.lego.com/da-dk/product/lego-batman-movie-hq-luggage-tag-5005296,LEGO BATMAN: FILMEN HQ BAGAGEMÆRKE,6,90,0,0,0,0.0,0.0
-27,https://www.lego.com/da-dk/product/lego-batman-movie-luggage-tag-5005273,LEGO BATMAN: FILMEN – BAGAGEMÆRKE,6,90,0,0,0,0.0,0.0
-28,https://www.lego.com/da-dk/product/batboat-the-penguin-pursuit-76158,Batbåd – Pingvinjagten!,4,54,761587615876158,100,0,0.0,0.0
-29,https://www.lego.com/da-dk/product/boost-creative-toolbox-17101,Kreativ værktøjskasse,7,847,171011710117101,1399,0,0.0,0.0
-30,https://www.lego.com/da-dk/product/harry-hermione-ron-hagrid-40495,"Harry, Hermione, Ron og Hagrid™",10,466,404954049540495,230,0,0.0,0.0
-31,https://www.lego.com/da-dk/product/scrooge-mcduck-huey-dewey-louie-40477,"Joakim von And, Rip, Rap og Rup",10,340,404774047740477,230,0,0.0,0.0
-32,https://www.lego.com/da-dk/product/voldemort-nagini-bellatrix-40496,"Voldemort™, Nagini og Bellatrix",10,344,404964049640496,230,0,0.0,0.0
-33,https://www.lego.com/da-dk/product/belle-bottom-kevin-and-bob-40421,"Belle Bottom, Kevin og Bob",10,309,404214042140421,200,0,0.0,0.0
-34,https://www.lego.com/da-dk/product/gru-stuart-and-otto-40420,"Gru, Stuart og Otto",10,244,404204042040420,200,0,0.0,0.0
-35,https://www.lego.com/da-dk/product/chinese-new-year-pandas-40466,Kinesisk nytår – pandaer,10,249,404664046640466,200,0,0.0,0.0
-36,https://www.lego.com/da-dk/product/wedding-bride-40383,Brud,10,306,403834038340383,130,0,0.0,0.0
-37,https://www.lego.com/da-dk/product/wedding-groom-40384,Brudgom,10,255,403844038440384,130,0,0.0,0.0
-38,https://www.lego.com/da-dk/product/dalmatian-40479,Dalmatiner,8,252,404794047940479,130,0,0.0,0.0
-39,https://www.lego.com/da-dk/product/goofy-pluto-40378,Fedtmule og Pluto,10,214,403784037840378,130,4.5,4.7,4.5
-40,https://www.lego.com/da-dk/product/goldfish-40442,Guldfisk,8,186,404424044240442,130,0,0.0,0.0
-41,https://www.lego.com/da-dk/product/hamster-40482,Hamster,8,243,404824048240482,130,0,0.0,0.0
-42,https://www.lego.com/da-dk/product/shorthair-cats-40441,Korthårskatte,8,250,404414044140441,130,0,0.0,0.0
-43,https://www.lego.com/da-dk/product/cockatiel-40481,Nymfeparakit,8,219,404814048140481,130,0,0.0,0.0
-44,https://www.lego.com/da-dk/product/ginger-tabby-40480,Rødstribet kat,8,269,404804048040480,130,0,0.0,0.0
-45,https://www.lego.com/da-dk/product/german-shepherd-40440,Schæferhund,8,247,404404044040440,130,3.7,4.0,3.7
-46,https://www.lego.com/da-dk/product/budgie-40443,Undulat,8,261,404434044340443,130,0,0.0,0.0
-47,https://www.lego.com/da-dk/product/donald-duck-40377,Anders And,10,90,403774037740377,100,4.0,4.7,4.0
-48,https://www.lego.com/da-dk/product/brick-sketches-bb-8-40431,BB-8™,8,171,404314043140431,150,0,0.0,0.0
-49,https://www.lego.com/da-dk/product/batman-40386,Batman™,8,115,403864038640386,150,0,0.0,0.0
-50,https://www.lego.com/da-dk/product/the-joker-40428,Jokeren,8,170,404284042840428,150,0,0.0,0.0
-51,https://www.lego.com/da-dk/product/first-order-stormtrooper-40391,LEGO® Brick Sketches™ Stormsoldat fra Den Første Orden,8,151,403914039140391,150,0,0.0,0.0
-52,https://www.lego.com/da-dk/product/mickey-mouse-40456,Mickey Mouse,8,118,404564045640456,150,0,0.0,0.0
-53,https://www.lego.com/da-dk/product/minnie-mouse-40457,Minnie Mouse,8,140,404574045740457,150,0,0.0,0.0
-54,https://www.lego.com/da-dk/product/lego-city-advent-calendar-60303,LEGO® City julekalender,5,349,603036030360303,200,0,0.0,0.0
-55,https://www.lego.com/da-dk/product/main-square-60271,Hovedtorvet,6,1517,602716027160271,1399,0,0.0,0.0
-56,https://www.lego.com/da-dk/product/rocket-assembly-transport-60229,Raketmontering og -transport,7,1054,602296022960229,1199,0,0.0,0.0
-57,https://www.lego.com/da-dk/product/police-station-60246,Politistation,6,743,602466024660246,899,0,0.0,0.0
-58,https://www.lego.com/da-dk/product/fire-station-60215,Brandstation,5,509,602156021560215,549,0,0.0,0.0
-59,https://www.lego.com/da-dk/product/police-helicopter-transport-60244,Politihelikoptertransport,5,317,602446024460244,399,0,0.0,0.0
-60,https://www.lego.com/da-dk/product/race-boat-transporter-60254,Racerbådstransporter,5,238,602546025460254,250,0,0.0,0.0
-61,https://www.lego.com/da-dk/product/fire-helicopter-response-60248,Brandvæsnets helikopterenhed,5,93,602486024860248,230,2.2,1.8,2.2
-62,https://www.lego.com/da-dk/product/racing-cars-60256,Racerbiler,5,190,602566025660256,230,0,0.0,0.0
-63,https://www.lego.com/da-dk/product/police-highway-arrest-60242,Anholdelse i trafikken,5,185,602426024260242,180,0,0.0,0.0
-64,https://www.lego.com/da-dk/product/construction-bulldozer-60252,Byggeplads med bulldozer,4,126,602526025260252,180,0,0.0,0.0
-65,https://www.lego.com/da-dk/product/safari-off-roader-60267,Safari-offroader,5,168,602676026760267,180,0,0.0,0.0
-66,https://www.lego.com/da-dk/product/fire-hazard-truck-60279,Brandslukningsbil,5,87,602796027960279,100,0,0.0,0.0
-67,https://www.lego.com/da-dk/product/street-sweeper-60249,Fejemaskine,5,89,602496024960249,100,0,0.0,0.0
-68,https://www.lego.com/da-dk/product/police-dog-unit-60241,Hundepatrulje,4,67,602416024160241,100,0,0.0,0.0
-69,https://www.lego.com/da-dk/product/monster-truck-60251,Monstertruck,5,55,602516025160251,100,0,0.0,0.0
-70,https://www.lego.com/da-dk/product/police-patrol-car-60239,Politipatruljevogn,5,92,602396023960239,100,0,0.0,0.0
-71,https://www.lego.com/da-dk/product/bricks-and-lights-11009,Klodser og lys,5,441,110091100911009,250,0,0.0,0.0
-72,https://www.lego.com/da-dk/product/bricks-bricks-plates-11717,"Klodser, klodser, plader",4,1504,117171171711717,649,0,0.0,0.0
-73,https://www.lego.com/da-dk/product/bricks-bricks-bricks-10717,"Klodser, klodser, klodser",4,1500,107171071710717,549,0,0.0,0.0
-74,https://www.lego.com/da-dk/product/bricks-and-wheels-11014,Klodser og hjul,4,653,110141101411014,449,0,0.0,0.0
-75,https://www.lego.com/da-dk/product/creative-building-bricks-11016,Kreative byggeklodser,4,1201,110161101611016,449,0,0.0,0.0
-76,https://www.lego.com/da-dk/product/around-the-world-11015,Verden rundt,4,950,110151101511015,449,0,0.0,0.0
-77,https://www.lego.com/da-dk/product/bricks-and-animals-11011,Klodser og dyr,4,1500,110111101111011,439,0,0.0,0.0
-78,https://www.lego.com/da-dk/product/lego-large-creative-brick-box-10698,LEGO® Kreativt byggeri – stor,4,790,106981069810698,399,0,0.0,0.0
-79,https://www.lego.com/da-dk/product/creative-transparent-bricks-11013,Kreative gennemsigtige klodser,4,500,110131101311013,270,0,0.0,0.0
-80,https://www.lego.com/da-dk/product/lego-medium-creative-brick-box-10696,LEGO® Kreativt byggeri – medium,4,484,106961069610696,250,0,0.0,0.0
-81,https://www.lego.com/da-dk/product/basic-brick-set-11002,Basisklodser,4,300,110021100211002,180,0,0.0,0.0
-82,https://www.lego.com/da-dk/product/bricks-and-houses-11008,Klodser og huse,4,270,110081100811008,180,0,0.0,0.0
-83,https://www.lego.com/da-dk/product/creative-suitcase-10713,Kreativ kuffert,4,213,107131071310713,180,0,0.0,0.0
-84,https://www.lego.com/da-dk/product/gray-baseplate-10701,Grå byggeplade,4,1,107011070110701,130,0,0.0,0.0
-85,https://www.lego.com/da-dk/product/lego-creative-bricks-10692,LEGO® Kreative klodser,4,221,106921069210692,130,0,0.0,0.0
-86,https://www.lego.com/da-dk/product/blue-baseplate-10714,Blå byggeplade,4,1,107141071410714,70,0,0.0,0.0
-87,https://www.lego.com/da-dk/product/green-baseplate-10700,Grøn byggeplade,4,1,107001070010700,70,0,0.0,0.0
-88,https://www.lego.com/da-dk/product/white-baseplate-11010,Hvid byggeplade,4,1,110101101011010,70,0,0.0,0.0
-89,https://www.lego.com/da-dk/product/riverside-houseboat-31093,Husbåd,7,396,310933109331093,229,0,0.0,0.0
-90,https://www.lego.com/da-dk/product/propeller-plane-31099,Propelfly,6,128,310993109931099,100,0,0.0,0.0
-91,https://www.lego.com/da-dk/product/medieval-castle-31120,Middelalderborg,9,1426,311203112031120,899,0,0.0,0.0
-92,https://www.lego.com/da-dk/product/pirate-ship-31109,Piratskib,9,1260,311093110931109,899,0,0.0,0.0
-93,https://www.lego.com/da-dk/product/ferris-wheel-31119,Pariserhjul,9,1002,311193111931119,799,0,0.0,0.0
-94,https://www.lego.com/da-dk/product/townhouse-pet-shop-cafe-31097,Byhus med dyrehandel og café,9,969,310973109731097,599,0,0.0,0.0
-95,https://www.lego.com/da-dk/product/caravan-family-holiday-31108,Familieferie med campingvogn,9,766,311083110831108,599,0,0.0,0.0
-96,https://www.lego.com/da-dk/product/monster-burger-truck-31104,Monsterburgervogn,8,499,311043110431104,449,0,0.0,0.0
-97,https://www.lego.com/da-dk/product/space-shuttle-adventure-31117,Rumfærge-eventyr,8,486,311173111731117,449,0,0.0,0.0
-98,https://www.lego.com/da-dk/product/surfer-beach-house-31118,Surfer-strandhus,8,564,311183111831118,449,0,0.0,0.0
-99,https://www.lego.com/da-dk/product/space-rover-explorer-31107,Rumudforskningskøretøj,8,510,311073110731107,359,0,0.0,0.0
-100,https://www.lego.com/da-dk/product/townhouse-toy-store-31105,Byhus med legetøjsbutik,8,554,311053110531105,349,0,0.0,0.0
-101,https://www.lego.com/da-dk/product/fish-tank-31122,Akvarium,8,352,311223112231122,270,4.2,4.3,4.2
-102,https://www.lego.com/da-dk/product/crocodile-31121,Krokodille,7,454,311213112131121,270,0,0.0,0.0
-103,https://www.lego.com/da-dk/product/safari-wildlife-tree-house-31116,Safari-trætophus,7,397,311163111631116,270,0,0.0,0.0
-104,https://www.lego.com/da-dk/product/race-car-transporter-31113,Racerbil-transporter,7,328,311133111331113,230,0,0.0,0.0
-105,https://www.lego.com/da-dk/product/space-mining-mech-31115,Rum-minerobot,7,327,311153111531115,230,0,0.0,0.0
-106,https://www.lego.com/da-dk/product/fire-dragon-31102,Ilddrage,7,234,311023110231102,180,0,0.0,0.0
-107,https://www.lego.com/da-dk/product/colosseum-10276,Colosseum,18,9036,102761027610276,3899,0,0.0,0.0
-108,https://www.lego.com/da-dk/product/camp-nou-fc-barcelona-10284,Camp Nou – FC Barcelona,18,5509,102841028410284,2499,0,0.0,0.0
-109,https://www.lego.com/da-dk/product/police-station-10278,Politistation,18,2923,102781027810278,1399,4.3,4.3,4.3
-110,https://www.lego.com/da-dk/product/the-friends-apartments-10292,Lejlighederne fra Venner,18,2048,102921029210292,1299,0,0.0,0.0
-111,https://www.lego.com/da-dk/product/porsche-911-10295,Porsche 911,18,1458,102951029510295,1199,0,0.0,0.0
-112,https://www.lego.com/da-dk/product/volkswagen-t2-camper-van-10279,Volkswagen T2 autocamper,18,2207,102791027910279,1199,0,0.0,0.0
-113,https://www.lego.com/da-dk/product/santa-s-visit-10293,Julemandens besøg,18,1445,102931029310293,799,0,0.0,0.0
-114,https://www.lego.com/da-dk/product/roller-coaster-10261,Rutsjebane,16,4124,102611026110261,2699,4.6,4.1,4.6
-115,https://www.lego.com/da-dk/product/old-trafford-manchester-united-10272,Old Trafford – Manchester United,16,3898,102721027210272,2199,3.9,3.8,3.9
-116,https://www.lego.com/da-dk/product/assembly-square-10255,Butiksgade,16,4002,102551025510255,2099,4.7,4.6,4.7
-117,https://www.lego.com/da-dk/product/haunted-house-10273,Spøgelseshus i forlystelsespark,18,3231,102731027310273,1799,4.3,4.1,4.3
-118,https://www.lego.com/da-dk/product/ghostbusters-ecto-1-10274,Ghostbusters™ ECTO-1,18,2352,102741027410274,1599,0,0.0,0.0
-119,https://www.lego.com/da-dk/product/corner-garage-10264,Hjørneværksted,16,2569,102641026410264,1499,0,0.0,0.0
-120,https://www.lego.com/da-dk/product/nasa-space-shuttle-discovery-10283,NASA Space Shuttle Discovery,18,2354,102831028310283,1399,0,0.0,0.0
-121,https://www.lego.com/da-dk/product/bookshop-10270,Boghandel,16,2504,102701027010270,1299,0,0.0,0.0
-122,https://www.lego.com/da-dk/product/ford-mustang-10265,Ford Mustang,16,1471,102651026510265,1199,4.6,4.4,4.6
-123,https://www.lego.com/da-dk/product/bird-of-paradise-10289,Paradisfugl,18,1173,102891028910289,899,0,0.0,0.0
-124,https://www.lego.com/da-dk/product/batman-40386,Batman™,8,115,403864038640386,150,0,0.0,0.0
-125,https://www.lego.com/da-dk/product/the-joker-40428,Jokeren,8,170,404284042840428,150,0,0.0,0.0
-126,https://www.lego.com/da-dk/product/batman-vs-the-penguin-harley-quinn-40453,Batman™ mod Pingvinen og Harley Quinn™,6,63,404534045340453,130,0,0.0,0.0
-127,https://www.lego.com/da-dk/product/1989-batmobile-76139,1989 Batmobile™,16,3306,761397613976139,1899,4.4,4.4,4.4
-128,https://www.lego.com/da-dk/product/1989-batwing-76161,1989-batving​e,18,2363,761617616176161,1599,3.9,4.1,3.9
-129,https://www.lego.com/da-dk/product/mobile-bat-base-76160,Mobil batbase,8,743,761607616076160,799,0,0.0,0.0
-130,https://www.lego.com/da-dk/product/batman-cowl-76182,Batman™-hætte,18,410,761827618276182,549,0,0.0,0.0
-131,https://www.lego.com/da-dk/product/joker-s-trike-chase-76159,Jagt på Jokerens trehjuler,7,440,761597615976159,449,0,0.0,0.0
-132,https://www.lego.com/da-dk/product/batcave-10919,Bathulen,2,33,109191091910919,349,0,0.0,0.0
-133,https://www.lego.com/da-dk/product/batman-classic-tv-series-batmobile-76188,Batmobile™ fra klassisk Batman™ tv-serie,7,345,761887618876188,300,0,0.0,0.0
-134,https://www.lego.com/da-dk/product/wonder-woman-vs-cheetah-76157,Wonder Woman™ vs Cheetah,8,371,761577615776157,279,0,0.0,0.0
-135,https://www.lego.com/da-dk/product/batman-vs-the-joker-batmobile-chase-76180,Batman™ mod Jokeren: Batmobile™-jagt,4,136,761807618076180,270,0,0.0,0.0
-136,https://www.lego.com/da-dk/product/lego-dc-batman-batmobile-tumbler-76240,LEGO® DC Batman™ Batmobile™-Tumbler,18,2049,762407624076240,1799,0,0.0,0.0
-137,https://www.lego.com/da-dk/product/classic-tv-series-batman-cowl-76238,Batman™-hætte fra klassisk tv-serie,18,372,762387623876238,549,0,0.0,0.0
-138,https://www.lego.com/da-dk/product/lego-dc-batman-batmobile-tumbler-scarecrow-showdown-76239,LEGO® DC Batman™ Batmobile™-Tumbler: Opgør med Scarecrow™,8,422,762397623976239,349,0,0.0,0.0
-139,https://www.lego.com/da-dk/product/lego-batman-movie-hq-luggage-tag-5005296,LEGO BATMAN: FILMEN HQ BAGAGEMÆRKE,6,90,0,0,0,0.0,0.0
-140,https://www.lego.com/da-dk/product/lego-batman-movie-luggage-tag-5005273,LEGO BATMAN: FILMEN – BAGAGEMÆRKE,6,90,0,0,0,0.0,0.0
-141,https://www.lego.com/da-dk/product/the-disney-castle-71040,Disney-slottet,16,4080,710407104071040,2999,4.5,4.4,4.5
-142,https://www.lego.com/da-dk/product/belle-and-rapunzel-s-royal-stables-43195,Belle og Rapunzels kongelige stalde,5,239,431954319543195,449,0,0.0,0.0
-143,https://www.lego.com/da-dk/product/ariel-belle-cinderella-and-tiana-s-storybook-adventures-43193,"Ariel, Belle, Askepot og Tianas bog-eventyr",5,130,431934319343193,230,0,0.0,0.0
-144,https://www.lego.com/da-dk/product/scrooge-mcduck-huey-dewey-louie-40477,"Joakim von And, Rip, Rap og Rup",10,340,404774047740477,230,0,0.0,0.0
-145,https://www.lego.com/da-dk/product/mickey-mouse-40456,Mickey Mouse,8,118,404564045640456,150,0,0.0,0.0
-146,https://www.lego.com/da-dk/product/minnie-mouse-40457,Minnie Mouse,8,140,404574045740457,150,0,0.0,0.0
-147,https://www.lego.com/da-dk/product/goofy-pluto-40378,Fedtmule og Pluto,10,214,403784037840378,130,4.5,4.7,4.5
-148,https://www.lego.com/da-dk/product/donald-duck-40377,Anders And,10,90,403774037740377,100,4.0,4.7,4.0
-149,https://www.lego.com/da-dk/product/daisy-duck-40476,Andersine And,10,110,404764047640476,100,0,0.0,0.0
-150,https://www.lego.com/da-dk/product/mickey-mouse-minnie-mouse-buildable-characters-43179,Bygbare Mickey Mouse og Minnie Mouse-figurer,18,1739,431794317943179,1399,4.0,3.8,4.0
-151,https://www.lego.com/da-dk/product/winnie-the-pooh-21326,Peter Plys,18,1265,213262132621326,899,4.7,4.4,4.7
-152,https://www.lego.com/da-dk/product/elsa-s-magical-ice-palace-43172,Elsas magiske ispalads,6,701,431724317243172,649,0,0.0,0.0
-153,https://www.lego.com/da-dk/product/boun-s-boat-43185,Bouns båd,6,247,431854318543185,449,0,0.0,0.0
-154,https://www.lego.com/da-dk/product/bruni-the-salamander-buildable-character-43186,Salamanderen Bruni – bygbar figur,6,96,431864318643186,100,0,0.0,0.0
-155,https://www.lego.com/da-dk/product/the-ice-castle-43197,Isslottet,14,1599,0,0,0,0.0,0.0
-156,https://www.lego.com/da-dk/product/disney-s-mickey-mouse-31202,Disneys Mickey Mouse,18,2658,312023120231202,1099,0,0.0,0.0
-157,https://www.lego.com/da-dk/product/arendelle-castle-village-41167,Arendal slotsby,5,521,411674116741167,749,0,0.0,0.0
-158,https://www.lego.com/da-dk/product/belle-and-the-beast-s-castle-43196,Belle og Udyrets slot,6,505,431964319643196,749,0,0.0,0.0
-159,https://www.lego.com/da-dk/product/mickey-friends-fire-truck-station-10776,Mickey og venners brandstation og brandbil,4,144,107761077610776,449,0,0.0,0.0
-160,https://www.lego.com/da-dk/product/mickey-mouse-donald-duck-s-farm-10775,Mickey Mouse og Anders Ands bondegård,4,118,107751077510775,270,0,0.0,0.0
-161,https://www.lego.com/da-dk/product/mickey-mouse-minnie-mouse-s-space-rocket-10774,Mickey Mouse og Minnie Mouses rumraket,4,88,107741077410774,180,0,0.0,0.0
-162,https://www.lego.com/da-dk/product/minnie-mouse-s-ice-cream-shop-10773,Minnie Mouses isbutik,4,100,107731077310773,180,0,0.0,0.0
-163,https://www.lego.com/da-dk/product/mickey-mouse-s-propeller-plane-10772,Mickey Mouses propelfly,4,100,0,0,0,0.0,0.0
-164,https://www.lego.com/da-dk/product/bag-tag-dragon-41939,Taskevedhæng – drage,6,82,419394193941939,60,0,0.0,0.0
-165,https://www.lego.com/da-dk/product/bag-tag-unicorn-41940,Taskevedhæng – enhjørning,6,80,419404194041940,60,0,0.0,0.0
-166,https://www.lego.com/da-dk/product/go-team-bracelet-41911,Armbånd med holdånd,6,33,419114191141911,50,0,0.0,0.0
-167,https://www.lego.com/da-dk/product/creative-designer-box-41938,Kreativt designersæt,7,779,419384193841938,349,0,0.0,0.0
-168,https://www.lego.com/da-dk/product/multi-pack-summer-vibes-41937,Multipak med sommerstemning,6,441,419374193741937,270,0,0.0,0.0
-169,https://www.lego.com/da-dk/product/creative-party-kit-41926,Kreativt festsæt,6,623,419264192641926,230,0,0.0,0.0
-170,https://www.lego.com/da-dk/product/secret-holder-41924,Hemmelighedsholder,6,451,419244192441924,180,0,0.0,0.0
-171,https://www.lego.com/da-dk/product/creative-picture-frames-41914,Kreative billedrammer,6,398,419144191441914,180,0,0.0,0.0
-172,https://www.lego.com/da-dk/product/lots-of-dots-41935,Masser af DOTS,6,1040,419354193541935,180,0,0.0,0.0
-173,https://www.lego.com/da-dk/product/desk-organizer-41907,Skrivebordssystem,6,405,419074190741907,180,0,0.0,0.0
-174,https://www.lego.com/da-dk/product/jewelry-box-41915,Smykkeskrin,6,374,419154191541915,180,0,0.0,0.0
-175,https://www.lego.com/da-dk/product/secret-boxes-41925,Hemmelighedsæsker,6,273,419254192541925,130,0,0.0,0.0
-176,https://www.lego.com/da-dk/product/cool-cactus-bracelet-41922,Armbånd med cool kaktus,6,33,419224192241922,60,0,0.0,0.0
-177,https://www.lego.com/da-dk/product/mermaid-vibes-bracelets-41909,Armbånd med havfruestemning,6,34,419094190941909,60,0,0.0,0.0
-178,https://www.lego.com/da-dk/product/ice-cream-besties-bracelets-41910,Armbånd med is og gode venner,6,34,419104191041910,60,0,0.0,0.0
-179,https://www.lego.com/da-dk/product/starlight-bracelets-41934,Armbånd med stjerneskin,6,34,419344193441934,60,0,0.0,0.0
-180,https://www.lego.com/da-dk/product/adventure-bracelets-41918,Eventyr-armbånd,6,34,419184191841918,60,0,0.0,0.0
-181,https://www.lego.com/da-dk/product/monster-bracelets-41923,Monster-armbånd,6,34,419234192341923,60,0,0.0,0.0
-182,https://www.lego.com/da-dk/product/creative-fun-10887,Kreativt sjov,1,120,108871088710887,349,0,0.0,0.0
-183,https://www.lego.com/da-dk/product/number-train-10847,Tog med tal,1,23,108471084710847,180,0,0.0,0.0
-184,https://www.lego.com/da-dk/product/pizza-stand-10927,Pizzabod,2,18,109271092710927,100,0,0.0,0.0
-185,https://www.lego.com/da-dk/product/lego-education-my-xl-world-45028,Min kæmpestore verden,2,480,450284502845028,2030,0,0.0,0.0
-186,https://www.lego.com/da-dk/product/coding-express-45025,Kodeekspressen,2,234,450254502545025,1918,0,0.0,0.0
-187,https://www.lego.com/da-dk/product/tubes-45026,Rør,3,150,450264502645026,1155,0,0.0,0.0
-188,https://www.lego.com/da-dk/product/tower-crane-construction-10933,Byggeplads med tårnkran,2,123,109331093310933,1099,0,0.0,0.0
-189,https://www.lego.com/da-dk/product/cargo-train-10875,Godstog,2,105,108751087510875,1099,4.1,3.8,4.1
-190,https://www.lego.com/da-dk/product/amusement-park-10956,Forlystelsespark,2,95,109561095610956,999,0,0.0,0.0
-191,https://www.lego.com/da-dk/product/happy-childhood-moments-10943,Glade barndomsstunder,2,227,109431094310943,899,0,0.0,0.0
-192,https://www.lego.com/da-dk/product/parking-garage-and-car-wash-10948,Parkeringshus og bilvask,2,112,109481094810948,899,0,0.0,0.0
-193,https://www.lego.com/da-dk/product/barn-tractor-farm-animal-care-10952,"Lade, traktor og pasning af bondegårdsdyr",2,97,109521095210952,649,0,0.0,0.0
-194,https://www.lego.com/da-dk/product/steam-train-10874,Damptog,2,59,108741087410874,549,0,0.0,0.0
-195,https://www.lego.com/da-dk/product/creative-birthday-party-10958,Kreativ fødselsdagsfest,1,200,109581095810958,549,0,0.0,0.0
-196,https://www.lego.com/da-dk/product/creative-animals-10934,Kreative Dyr,1,175,109341093410934,549,0,0.0,0.0
-197,https://www.lego.com/da-dk/product/modular-playhouse-10929,Modullegehus,2,129,109291092910929,549,0,0.0,0.0
-198,https://www.lego.com/da-dk/product/wrecking-ball-demolition-10932,Nedrivningsarbejde,2,56,109321093210932,549,0,0.0,0.0
-199,https://www.lego.com/da-dk/product/frozen-ice-castle-10899,Frost – isslot,2,59,108991089910899,449,0,0.0,0.0
-200,https://www.lego.com/da-dk/product/lego-friends-advent-calendar-41690,LEGO® Friends julekalender,6,370,416904169041690,200,0,0.0,0.0
-201,https://www.lego.com/da-dk/product/heartlake-city-park-41447,Heartlake park,6,432,414474144741447,279,0,0.0,0.0
-202,https://www.lego.com/da-dk/product/nature-glamping-41392,Luksuscamping i naturen,6,241,413924139241392,270,0,0.0,0.0
-203,https://www.lego.com/da-dk/product/andrea-s-car-stage-41390,Andreas bil og scene,6,240,413904139041390,180,0,0.0,0.0
-204,https://www.lego.com/da-dk/product/heartlake-city-bakery-41440,Heartlake bageri,4,99,414404144041440,180,0,0.0,0.0
-205,https://www.lego.com/da-dk/product/heartlake-city-hair-salon-41391,Heartlake frisørsalon,6,235,413914139141391,180,0,0.0,0.0
-206,https://www.lego.com/da-dk/product/emma-s-dalmatian-cube-41663,Emmas dalmatinerboks,6,41,416634166341663,100,0,0.0,0.0
-207,https://www.lego.com/da-dk/product/puppy-playground-41396,Hvalpelegeplads,4,57,413964139641396,100,0,0.0,0.0
-208,https://www.lego.com/da-dk/product/heartlake-city-grand-hotel-41684,Heartlake Grand Hotel,8,1308,416844168441684,899,0,0.0,0.0
-209,https://www.lego.com/da-dk/product/heartlake-city-shopping-mall-41450,Heartlake butikscenter,8,1032,414504145041450,899,0,0.0,0.0
-210,https://www.lego.com/da-dk/product/magical-funfair-roller-coaster-41685,Magisk rutsjebane-forlystelse,8,974,416854168541685,799,0,0.0,0.0
-211,https://www.lego.com/da-dk/product/party-boat-41433,Festbåd,7,640,414334143341433,749,0,0.0,0.0
-212,https://www.lego.com/da-dk/product/summer-fun-water-park-41430,Sommerbadeland,8,1001,414304143041430,719,0,0.0,0.0
-213,https://www.lego.com/da-dk/product/andrea-s-family-house-41449,Andreas families hus,6,802,414494144941449,649,0,0.0,0.0
-214,https://www.lego.com/da-dk/product/heartlake-city-school-41682,Heartlake skole,6,605,416824168241682,649,0,0.0,0.0
-215,https://www.lego.com/da-dk/product/forest-horseback-riding-center-41683,Skov-ridecenter,7,511,416834168341683,649,0,0.0,0.0
-216,https://www.lego.com/da-dk/product/surfer-beachfront-41693,Surferhus ved stranden,6,685,416934169341693,649,0,0.0,0.0
-217,https://www.lego.com/da-dk/product/elsa-s-magical-ice-palace-43172,Elsas magiske ispalads,6,701,431724317243172,649,0,0.0,0.0
-218,https://www.lego.com/da-dk/product/bruni-the-salamander-buildable-character-43186,Salamanderen Bruni – bygbar figur,6,96,431864318643186,100,0,0.0,0.0
-219,https://www.lego.com/da-dk/product/the-ice-castle-43197,Isslottet,14,1599,0,0,0,0.0,0.0
-220,https://www.lego.com/da-dk/product/arendelle-castle-village-41167,Arendal slotsby,5,521,411674116741167,749,0,0.0,0.0
-221,https://www.lego.com/da-dk/product/frozen-ice-castle-10899,Frost – isslot,2,59,108991089910899,449,0,0.0,0.0
-222,https://www.lego.com/da-dk/product/anna-and-elsa-s-frozen-wonderland-43194,Anna og Elsas Frost-vinterland,4,154,431944319443194,349,0,0.0,0.0
-223,https://www.lego.com/da-dk/product/elsa-s-jewelry-box-creation-41168,Elsas smykkeskrinsmodel,6,300,411684116841168,349,0,0.0,0.0
-224,https://www.lego.com/da-dk/product/elsa-s-wagon-adventure-41166,Elsas vogneventyr,4,116,411664116641166,270,0,0.0,0.0
-225,https://www.lego.com/da-dk/product/anna-and-elsa-s-storybook-adventures-43175,Anna og Elsas bog-eventyr,5,133,431754317543175,180,0,0.0,0.0
-226,https://www.lego.com/da-dk/product/elsa-and-the-nokk-storybook-adventures-43189,Elsa og Nokkens bog-eventyr,5,125,431894318943189,180,0,0.0,0.0
-227,https://www.lego.com/da-dk/product/elsa-and-olaf-s-tea-party-10920,Elsa og Olafs teselskab,2,17,109201092010920,180,0,0.0,0.0
-228,https://www.lego.com/da-dk/product/lego-ǀ-disney-frozen-2-anna-keyring-853969,LEGO® ǀ Disney Frost 2 Anna-nøglering,6,50,0,0,0,0.0,0.0
-229,https://www.lego.com/da-dk/product/lego-ǀ-disney-frozen-2-elsa-keyring-853968,LEGO® ǀ Disney Frost 2 Elsa-nøglering,6,50,0,0,0,0.0,0.0
-230,https://www.lego.com/da-dk/product/diagon-alley-75978,Diagonalstræde,16,5544,759787597875978,3199,0,0.0,0.0
-231,https://www.lego.com/da-dk/product/hogwarts-icons-collectors-edition-76391,Hogwarts™-ikoner – samlerudgave,18,3010,763917639176391,1999,0,0.0,0.0
-232,https://www.lego.com/da-dk/product/lego-harry-potter-advent-calendar-76390,LEGO® Harry Potter™ julekalender,7,274,763907639076390,270,0,0.0,0.0
-233,https://www.lego.com/da-dk/product/harry-hermione-ron-hagrid-40495,"Harry, Hermione, Ron og Hagrid™",10,466,404954049540495,230,0,0.0,0.0
-234,https://www.lego.com/da-dk/product/voldemort-nagini-bellatrix-40496,"Voldemort™, Nagini og Bellatrix",10,344,404964049640496,230,0,0.0,0.0
-235,https://www.lego.com/da-dk/product/hogwarts-castle-71043,Hogwarts™-slottet,16,6020,710437104371043,3499,4.4,4.6,4.4
-236,https://www.lego.com/da-dk/product/hogwarts-room-of-requirement-75966,Hogwarts™ Fornødenhedsrummet,7,193,759667596675966,180,0,0.0,0.0
-237,https://www.lego.com/da-dk/product/hogwarts-chamber-of-secrets-76389,Hogwarts™: Hemmelighedernes Kammer,9,1176,763897638976389,1249,0,0.0,0.0
-238,https://www.lego.com/da-dk/product/harry-potter-hermione-granger-76393,Harry Potter og Hermione Granger™,10,1673,763937639376393,1199,0,0.0,0.0
-239,https://www.lego.com/da-dk/product/harry-potter-hogwarts-crests-31201,Harry Potter™ Hogwarts™-våbenskjolde,18,4249,312013120131201,1099,0,0.0,0.0
-240,https://www.lego.com/da-dk/product/attack-on-the-burrow-75980,Angrebet på Vindelhuset,9,1047,759807598075980,899,4.6,4.3,4.6
-241,https://www.lego.com/da-dk/product/hogwarts-astronomy-tower-75969,Hogwarts™ Astronomitårnet,9,971,759697596975969,899,0,0.0,0.0
-242,https://www.lego.com/da-dk/product/hogwarts-clock-tower-75948,Hogwarts™-klokketårn,9,922,759487594875948,799,4.5,4.3,4.5
-243,https://www.lego.com/da-dk/product/hogsmeade-village-visit-76388,Besøg i Hogsmeade™-landsbyen,8,851,763887638876388,749,0,0.0,0.0
-244,https://www.lego.com/da-dk/product/hogwarts-express-75955,Hogwarts™-ekspressen,8,801,759557595575955,749,4.4,4.3,4.4
-245,https://www.lego.com/da-dk/product/hogwarts-whomping-willow-75953,Hogwarts™-slagpoplen,8,753,759537595375953,649,4.4,4.1,4.4
-246,https://www.lego.com/da-dk/product/hogwarts-wizard-s-chess-76392,Hogwarts™: Troldmandsskak,10,876,763927639276392,649,0,0.0,0.0
-247,https://www.lego.com/da-dk/product/typewriter-21327,Skrivemaskine,18,2079,213272132721327,1599,4.4,4.4,4.4
-248,https://www.lego.com/da-dk/product/seinfeld-21328,Seinfeld,18,1326,213282132821328,749,0,0.0,0.0
-249,https://www.lego.com/da-dk/product/grand-piano-21323,Flygel,18,3662,213232132321323,2699,4.2,4.2,4.2
-250,https://www.lego.com/da-dk/product/tree-house-21318,Trætophus,16,3036,213182131821318,1799,4.6,4.6,4.6
-251,https://www.lego.com/da-dk/product/medieval-blacksmith-21325,Middelaldersmedje,18,2164,213252132521325,1299,4.7,4.3,4.7
-252,https://www.lego.com/da-dk/product/123-sesame-street-21324,123 Sesame Street,18,1367,213242132421324,1099,4.3,4.3,4.3
-253,https://www.lego.com/da-dk/product/winnie-the-pooh-21326,Peter Plys,18,1265,213262132621326,899,4.7,4.4,4.7
-254,https://www.lego.com/da-dk/product/central-perk-21319,Central Perk,16,1070,213192131921319,649,4.5,4.6,4.5
-255,https://www.lego.com/da-dk/product/international-space-station-21321,Den internationale rumstation,16,864,213212132121321,549,3.9,4.4,3.9
-256,https://www.lego.com/da-dk/product/dinosaur-fossils-21320,Dinosaurfossiler,16,910,213202132021320,549,0,0.0,0.0
-257,https://www.lego.com/da-dk/product/ship-in-a-bottle-92177,Flaskeskib,12,962,921779217792177,599,0,0.0,0.0
-258,https://www.lego.com/da-dk/product/lego-nasa-apollo-saturn-v-92176,LEGO® NASA Apollo Saturn V,14,1969,921769217692176,1099,4.6,4.8,4.6
-259,https://www.lego.com/da-dk/product/lego-ideas-fender-stratocaster-21329,LEGO® Ideas Fender® Stratocaster®,18,1074,213292132921329,899,0,0.0,0.0
-260,https://www.lego.com/da-dk/product/joey-keyring-854119,Joey-nøglering,6,50,0,0,0,0.0,0.0
-261,https://www.lego.com/da-dk/product/monica-keyring-854121,Monica-nøglering,6,50,0,0,0,0.0,0.0
-262,https://www.lego.com/da-dk/product/phoebe-keyring-854122,Phoebe-nøglering,6,50,0,0,0,0.0,0.0
-263,https://www.lego.com/da-dk/product/rachel-keyring-854120,Rachel-nøglering,6,50,0,0,0,0.0,0.0
-264,https://www.lego.com/da-dk/product/baryonyx-dinosaur-boat-escape-76942,World Baryonyx-dinosaurflugt i båd,8,308,769427694276942,749,0,0.0,0.0
-265,https://www.lego.com/da-dk/product/stygimoloch-dinosaur-escape-76939,Stygimoloch-dinosaurflugt,4,129,769397693976939,349,0,0.0,0.0
-266,https://www.lego.com/da-dk/product/t-rex-dinosaur-fossil-exhibition-76940,T. rex-dinosaurudstilling,7,198,769407694076940,270,0,0.0,0.0
-267,https://www.lego.com/da-dk/product/indominus-rex-vs-ankylosaurus-75941,Indominus rex mod ankylosaurus,8,537,759417594175941,899,0,0.0,0.0
-268,https://www.lego.com/da-dk/product/t-rex-and-triceratops-dinosaur-breakout-10939,T. rex og triceratops på dinosaurflugt,2,36,109391093910939,270,0,0.0,0.0
-269,https://www.lego.com/da-dk/product/carnotaurus-dinosaur-chase-76941,Carnotaurus-dinosaurjagt,7,240,769417694176941,449,0,0.0,0.0
-270,https://www.lego.com/da-dk/product/jurassic-park-t-rex-rampage-75936,Jurassic Park: T. rex-ravage,16,3120,759367593675936,1899,0,0.0,0.0
-271,https://www.lego.com/da-dk/product/gallimimus-and-pteranodon-breakout-75940,Gallimimus og pteranodon-flugt,7,391,759407594075940,549,0,0.0,0.0
-272,https://www.lego.com/da-dk/product/velociraptor-biplane-rescue-mission-75942,Velociraptor: Flyredningsmission​,4,101,759427594275942,270,0,0.0,0.0
-273,https://www.lego.com/da-dk/product/dr-wu-s-lab-baby-dinosaurs-breakout-75939,Dr. Wus laboratorium: Dinosaurungernes flugt,6,164,759397593975939,180,0,0.0,0.0
-274,https://www.lego.com/da-dk/product/marvel-studios-iron-man-31199,Marvel Studios Iron Man,18,3167,311993119931199,1099,0,0.0,0.0
-275,https://www.lego.com/da-dk/product/star-wars-the-sith-31200,Star Wars™ Sith™-fyrsterne,18,3406,312003120031200,1099,0,0.0,0.0
-276,https://www.lego.com/da-dk/product/world-map-31203,Verdenskort,18,11695,312033120331203,1999,0,0.0,0.0
-277,https://www.lego.com/da-dk/product/andy-warhol-s-marilyn-monroe-31197,Andy Warhol's Marilyn Monroe,18,3341,311973119731197,1099,0,0.0,0.0
-278,https://www.lego.com/da-dk/product/disney-s-mickey-mouse-31202,Disneys Mickey Mouse,18,2658,312023120231202,1099,0,0.0,0.0
-279,https://www.lego.com/da-dk/product/harry-potter-hogwarts-crests-31201,Harry Potter™ Hogwarts™-våbenskjolde,18,4249,312013120131201,1099,0,0.0,0.0
-280,https://www.lego.com/da-dk/product/the-beatles-31198,The Beatles,18,2933,311983119831198,1099,3.3,3.0,3.3
-281,https://www.lego.com/da-dk/product/lego-education-spike-prime-set-45678,LEGO® Education SPIKE™ Prime-sæt,10,528,456784567845678,3110,0,0.0,0.0
-282,https://www.lego.com/da-dk/product/lego-education-my-xl-world-45028,Min kæmpestore verden,2,480,450284502845028,2030,0,0.0,0.0
-283,https://www.lego.com/da-dk/product/coding-express-45025,Kodeekspressen,2,234,450254502545025,1918,0,0.0,0.0
-284,https://www.lego.com/da-dk/product/tubes-45026,Rør,3,150,450264502645026,1155,0,0.0,0.0
-285,https://www.lego.com/da-dk/product/storytales-45005,Min første historie,3,109,450054500545005,987,0,0.0,0.0
-286,https://www.lego.com/da-dk/product/lego-education-spike-prime-expansion-set-45680,LEGO® Education SPIKE™ Prime-udvidelsessæt,10,603,456804568045680,941,0,0.0,0.0
-287,https://www.lego.com/da-dk/product/lego-education-bricq-motion-essential-set-45401,LEGO® Education BricQ Motion Essential-sæt,6,523,454014540145401,922,0,0.0,0.0
-288,https://www.lego.com/da-dk/product/lego-education-bricq-motion-prime-set-45400,LEGO® Education BricQ Motion Prime-sæt,10,564,454004540045400,922,0,0.0,0.0
-289,https://www.lego.com/da-dk/product/the-ultimate-bundle-5007062,Ultimativ sampak,10,2716,0,0,0,0.0,0.0
-290,https://www.lego.com/da-dk/product/the-creative-bundle-5007061,Kreativ sampak,10,1168,0,0,0,0.0,0.0
-291,https://www.lego.com/da-dk/product/the-team-up-bundle-5007060,Teamwork-sampak,10,1098,0,0,0,0.0,0.0
-292,https://www.lego.com/da-dk/product/bowser-s-airship-expansion-set-71391,Bowsers luftskib – udvidelsessæt,8,1152,713917139171391,899,0,0.0,0.0
-293,https://www.lego.com/da-dk/product/reznor-knockdown-expansion-set-71390,Reznor-væltning – udvidelsessæt,8,862,713907139071390,649,0,0.0,0.0
-294,https://www.lego.com/da-dk/product/adventures-with-luigi-starter-course-71387,Eventyr med Luigi – startbane,6,280,713877138771387,549,0,0.0,0.0
-295,https://www.lego.com/da-dk/product/lakitu-sky-world-expansion-set-71389,Lakitu-skyverden – udvidelsessæt,7,484,713897138971389,349,0,0.0,0.0
-296,https://www.lego.com/da-dk/product/boss-sumo-bro-topple-tower-expansion-set-71388,Sumo Bro-bossens væltetårn – udvidelsessæt,6,231,713887138871388,270,0,0.0,0.0
-297,https://www.lego.com/da-dk/product/bee-mario-power-up-pack-71393,Bi-Mario powerpakke,6,13,713937139371393,100,0,0.0,0.0
-298,https://www.lego.com/da-dk/product/frog-mario-power-up-pack-71392,Frø-Mario powerpakke,6,11,713927139271392,100,0,0.0,0.0
-299,https://www.lego.com/da-dk/product/character-packs-series-3-71394,Figurpakker – serie 3,6,24,713947139471394,30,0,0.0,0.0
-300,https://www.lego.com/da-dk/product/nintendo-entertainment-system-71374,Nintendo Entertainment System™,18,2646,713747137471374,1799,0,0.0,0.0
-301,https://www.lego.com/da-dk/product/boomer-bill-barrage-expansion-set-71366,Boomer Bill-spærreild – udvidelsessæt,7,132,713667136671366,270,0,0.0,0.0
-302,https://www.lego.com/da-dk/product/whomp-s-lava-trouble-expansion-set-71364,Whomps lavaballade – udvidelsessæt,6,133,713647136471364,153,0,0.0,0.0
-303,https://www.lego.com/da-dk/product/builder-mario-power-up-pack-71373,Bygge-Mario powerpakke,6,10,713737137371373,100,0,0.0,0.0
-304,https://www.lego.com/da-dk/product/bowser-s-castle-boss-battle-expansion-set-71369,Bowsers slot – bosskamp – udvidelsessæt,8,1010,713697136971369,899,0,0.0,0.0
-305,https://www.lego.com/da-dk/product/toad-s-treasure-hunt-expansion-set-71368,Toads skattejagt – udvidelsessæt,8,464,713687136871368,649,0,0.0,0.0
-306,https://www.lego.com/da-dk/product/daily-bugle-76178,Daily Bugle,18,3772,761787617876178,2299,0,0.0,0.0
-307,https://www.lego.com/da-dk/product/battle-at-the-ancient-village-76177,Kampen ved den gamle landsby,8,400,761777617776177,349,0,0.0,0.0
-308,https://www.lego.com/da-dk/product/tony-stark-s-sakaarian-iron-man-76194,Tony Starks sakaarianske Iron Man,8,369,761947619476194,299,0,0.0,0.0
-309,https://www.lego.com/da-dk/product/bro-thor-s-new-asgard-76200,Bro Thors nye Asgård,7,265,762007620076200,270,0,0.0,0.0
-310,https://www.lego.com/da-dk/product/captain-carter-the-hydra-stomper-76201,Captain Carter og Hydra-knuseren,8,343,762017620176201,270,0,0.0,0.0
-311,https://www.lego.com/da-dk/product/escape-from-the-ten-rings-76176,Flugten fra De Ti Ringe,7,321,761767617676176,270,0,0.0,0.0
-312,https://www.lego.com/da-dk/product/lego-marvel-the-avengers-advent-calendar-76196,LEGO® Marvel Avengers julekalender,7,298,761967619676196,270,0,0.0,0.0
-313,https://www.lego.com/da-dk/product/lego-minifigures-marvel-studios-71031,LEGO® Minifigures Marvel Studios,5,10,710317103171031,30,0,0.0,0.0
-314,https://www.lego.com/da-dk/product/marvel-studios-iron-man-31199,Marvel Studios Iron Man,18,3167,311993119931199,1099,0,0.0,0.0
-315,https://www.lego.com/da-dk/product/iron-man-hall-of-armor-76125,Iron Mans dragtgalleri,7,524,761257612576125,549,0,0.0,0.0
-316,https://www.lego.com/da-dk/product/iron-man-mech-76140,Iron Man-robot,6,148,761407614076140,100,0,0.0,0.0
-317,https://www.lego.com/da-dk/product/the-guardians-ship-76193,Guardians-rumskibet,14,1901,761937619376193,1299,0,0.0,0.0
-318,https://www.lego.com/da-dk/product/avengers-helicarrier-76153,Avengers helicarrier,9,1244,761537615376153,879,0,0.0,0.0
-319,https://www.lego.com/da-dk/product/attack-on-the-spider-lair-76175,Angreb på Spider-tilholdsstedet,8,466,761757617576175,749,0,0.0,0.0
-320,https://www.lego.com/da-dk/product/avengers-endgame-final-battle-76192,Avengers: Endgame – den endelige kamp,8,527,761927619276192,649,0,0.0,0.0
-321,https://www.lego.com/da-dk/product/infinity-gauntlet-76191,Evighedshandsken,18,590,761917619176191,649,0,0.0,0.0
-322,https://www.lego.com/da-dk/product/venomosaurus-ambush-76151,Venomosaurus-baghold,8,640,761517615176151,599,0,0.0,0.0
-323,https://www.lego.com/da-dk/product/robot-inventor-51515,Robot Inventor,10,949,515155151551515,2799,4.0,3.6,4.0
-324,https://www.lego.com/da-dk/product/ev3-intelligent-brick-45500,Intelligent EV3 klods,10,1,455004550045500,1699,0,0.0,0.0
-325,https://www.lego.com/da-dk/product/ev3-gyro-sensor-45505,EV3 Gyrosensor,10,1,455054550545505,300,0,0.0,0.0
-326,https://www.lego.com/da-dk/product/ev3-ultrasonic-sensor-45504,EV3 Ultralydssensor,10,1,455044550445504,300,0,0.0,0.0
-327,https://www.lego.com/da-dk/product/ev3-touch-sensor-45507,EV3 Tryksensor,10,1,455074550745507,180,0,0.0,0.0
-328,https://www.lego.com/da-dk/product/ev3-cable-pack-45514,EV3-kabelpakke,10,7,455144551445514,150,0,0.0,0.0
-329,https://www.lego.com/da-dk/product/ev3-medium-servo-motor-45503,Mellemstor EV3 servomotor,10,1,455034550345503,230,0,0.0,0.0
-330,https://www.lego.com/da-dk/product/the-pillager-outpost-21159,Pillager-forposten,8,303,211592115921159,270,0,0.0,0.0
-331,https://www.lego.com/da-dk/product/the-taiga-adventure-21162,Tajga-eventyret,7,74,211622116221162,100,0,0.0,0.0
-332,https://www.lego.com/da-dk/product/the-pirate-ship-adventure-21152,Piratskibseventyret,8,386,211522115221152,449,0,0.0,0.0
-333,https://www.lego.com/da-dk/product/the-modern-treehouse-21174,Det moderne trætophus,9,909,211742117421174,1099,0,0.0,0.0
-334,https://www.lego.com/da-dk/product/the-creeper-mine-21155,Creeper™-minen,8,834,211552115521155,749,0,0.0,0.0
-335,https://www.lego.com/da-dk/product/the-illager-raid-21160,Illager-angrebet,8,562,211602116021160,649,0,0.0,0.0
-336,https://www.lego.com/da-dk/product/the-crafting-box-3-0-21161,Crafting-boks 3.0,8,564,211612116121161,599,0,0.0,0.0
-337,https://www.lego.com/da-dk/product/the-first-adventure-21169,Det første eventyr,8,542,211692116921169,549,0,0.0,0.0
-338,https://www.lego.com/da-dk/product/the-sky-tower-21173,Himmeltårnet,8,565,211732117321173,499,0,0.0,0.0
-339,https://www.lego.com/da-dk/product/the-pig-house-21170,Grisehuset,8,490,211702117021170,359,0,0.0,0.0
-340,https://www.lego.com/da-dk/product/the-blaze-bridge-21154,Blaze-broen,8,372,211542115421154,349,0,0.0,0.0
-341,https://www.lego.com/da-dk/product/the-jungle-abomination-21176,Det afskyelige junglevæsen,8,489,211762117621176,349,0,0.0,0.0
-342,https://www.lego.com/da-dk/product/the-warped-forest-21168,Den sære skov,8,287,211682116821168,270,0,0.0,0.0
-343,https://www.lego.com/da-dk/product/the-ruined-portal-21172,Den ødelagte portal,8,316,211722117221172,270,0,0.0,0.0
-344,https://www.lego.com/da-dk/product/the-bee-farm-21165,Bifarmen,8,238,211652116521165,180,0,0.0,0.0
-345,https://www.lego.com/da-dk/product/the-abandoned-mine-21166,"Den ""forladte"" mine",7,248,211662116621166,180,0,0.0,0.0
-346,https://www.lego.com/da-dk/product/the-end-battle-21151,Ender-slaget,7,222,211512115121151,180,0,0.0,0.0
-347,https://www.lego.com/da-dk/product/lego-minifigures-marvel-studios-71031,LEGO® Minifigures Marvel Studios,5,10,710317103171031,30,0,0.0,0.0
-348,https://www.lego.com/da-dk/product/series-21-71029,Serie 21,5,8,710297102971029,30,0,0.0,0.0
-349,https://www.lego.com/da-dk/product/fairground-mf-acc-set-40373,Minifigur- og tilbehørssæt – forlystelsespark,6,51,403734037340373,130,0,0.0,0.0
-350,https://www.lego.com/da-dk/product/minifigure-belight-backpack-5005918,Minifigurrygsæk med reflekser,5,399,0,0,0,0.0,0.0
-351,https://www.lego.com/da-dk/product/wizarding-world-minifigure-accessory-set-40500,Minifigur- og tilbehørssæt – Troldmandsverdenen,6,33,405004050040500,130,0,0.0,0.0
-352,https://www.lego.com/da-dk/product/minions-kung-fu-training-40511,Minions kung-fu-træning,6,54,405114051140511,130,0,0.0,0.0
-353,https://www.lego.com/da-dk/product/tlm2-accessory-set-2019-853865,TLM2 tilbehørssæt 2019,6,48,853865853865853865,130,0,0.0,0.0
-354,https://www.lego.com/da-dk/product/harry-potter-series-2-71028,Harry Potter™ serie 2,5,8,710287102871028,30,4.4,3.8,4.4
-355,https://www.lego.com/da-dk/product/looney-tunes-71030,Looney Tunes™,5,8,710307103071030,30,0,0.0,0.0
-356,https://www.lego.com/da-dk/product/belle-bottom-kevin-and-bob-40421,"Belle Bottom, Kevin og Bob",10,309,404214042140421,200,0,0.0,0.0
-357,https://www.lego.com/da-dk/product/gru-stuart-and-otto-40420,"Gru, Stuart og Otto",10,244,404204042040420,200,0,0.0,0.0
-358,https://www.lego.com/da-dk/product/unstoppable-bike-chase-75549,Ustoppelig motorcykeljagt,6,136,755497554975549,180,0,0.0,0.0
-359,https://www.lego.com/da-dk/product/brick-built-minions-and-their-lair-75551,Klodsbyggede Minions og deres tilholdssted,8,876,755517555175551,449,4.4,3.6,4.4
-360,https://www.lego.com/da-dk/product/minions-kung-fu-battle-75550,Minions kung fu-kamp,6,310,755507555075550,349,0,0.0,0.0
-361,https://www.lego.com/da-dk/product/minion-pilot-in-training-75547,Minion-pilotelev,4,119,755477554775547,300,0,0.0,0.0
-362,https://www.lego.com/da-dk/product/minions-in-gru-s-lab-75546,Minions i Grus laboratorium,4,87,755467554675546,180,0,0.0,0.0
-363,https://www.lego.com/da-dk/product/minions-kung-fu-training-40511,Minions kung-fu-træning,6,54,405114051140511,130,0,0.0,0.0
-364,https://www.lego.com/da-dk/product/otto-keyring-854043,Otto-nøglering,6,50,0,0,0,0.0,0.0
-365,https://www.lego.com/da-dk/product/stuart-keyring-854071,Stuart-nøglering,6,50,0,0,0,0.0,0.0
-366,https://www.lego.com/da-dk/product/monkie-kid-s-team-secret-hq-80013,Monkie Kid-teamets hemmelige hovedkvarter,10,1959,800138001380013,1119,0,0.0,0.0
-367,https://www.lego.com/da-dk/product/monkey-king-warrior-mech-80012,Monkey Kings krigerrobot,10,1629,800128001280012,959,3.9,4.4,3.9
-368,https://www.lego.com/da-dk/product/red-son-s-inferno-truck-80011,Red Sons infernovogn,9,1111,800118001180011,719,0,0.0,0.0
-369,https://www.lego.com/da-dk/product/monkie-kid-s-cloud-jet-80008,Monkie Kids himmeljet,8,529,800088000880008,359,0,0.0,0.0
-370,https://www.lego.com/da-dk/product/iron-bull-tank-80007,Jerntyr-kampvogn,7,430,800078000780007,319,0,0.0,0.0
-371,https://www.lego.com/da-dk/product/white-dragon-horse-bike-80006,Hvid dragehest-motorcykel,6,259,800068000680006,216,0,0.0,0.0
-372,https://www.lego.com/da-dk/product/monkie-kid-s-rc-race-40472,Monkie Kids fjernstyrede racerløb,6,57,404724047240472,104,0,0.0,0.0
-373,https://www.lego.com/da-dk/product/monkey-king-40381,Monkey King,10,175,403814038140381,80,0,0.0,0.0
-374,https://www.lego.com/da-dk/product/the-legendary-flower-fruit-mountain-80024,Det legendariske Blomsterfrugtbjerg,10,1949,800248002480024,1039,4.5,4.4,4.5
-375,https://www.lego.com/da-dk/product/the-flaming-foundry-80016,Flammestøberiet,9,1427,800168001680016,959,0,0.0,0.0
-376,https://www.lego.com/da-dk/product/monkie-kid-s-team-dronecopter-80023,Monkie Kid-teamets dronecopter,10,1462,800238002380023,959,0,0.0,0.0
-377,https://www.lego.com/da-dk/product/the-bone-demon-80028,Bone Demon,9,1375,800288002880028,899,0,0.0,0.0
-378,https://www.lego.com/da-dk/product/spider-queen-s-arachnoid-base-80022,Spider Queens edderkoppebase,9,1170,800228002280022,719,0,0.0,0.0
-379,https://www.lego.com/da-dk/product/monkie-kid-s-lion-guardian-80021,Monkie Kids løvevogter,8,774,800218002180021,519,0,0.0,0.0
-380,https://www.lego.com/da-dk/product/pigsy-s-noodle-tank-80026,Pigsys nudelkampvogn,8,662,800268002680026,449,0,0.0,0.0
-381,https://www.lego.com/da-dk/product/monkie-kid-s-cloud-roadster-80015,Monkie Kids himmelfræser,8,659,800158001580015,439,0,0.0,0.0
-382,https://www.lego.com/da-dk/product/sandy-s-power-loader-mech-80025,Sandys Power-Mech,8,520,800258002580025,399,0,0.0,0.0
-383,https://www.lego.com/da-dk/product/sandy-s-speedboat-80014,Sandys speedbåd,8,394,800148001480014,359,0,0.0,0.0
-384,https://www.lego.com/da-dk/product/ninjago-city-gardens-71741,NINJAGO® Citys haver,14,5685,717417174171741,2399,0,0.0,0.0
-385,https://www.lego.com/da-dk/product/epic-battle-set-cole-vs-ghost-warrior-71733,Episk kampsæt – Cole mod spøgelseskriger,6,51,717337173371733,100,0,0.0,0.0
-386,https://www.lego.com/da-dk/product/epic-battle-set-jay-vs-serpentine-71732,Episk kampsæt – Jay mod Serpentine-kriger,6,69,717327173271732,100,0,0.0,0.0
-387,https://www.lego.com/da-dk/product/epic-battle-set-kai-vs-skulkin-71730,Episk kampsæt – Kai mod Skulkin-kriger,6,61,717307173071730,100,0,0.0,0.0
-388,https://www.lego.com/da-dk/product/epic-battle-set-zane-vs-nindroid-71731,Episk kampsæt – Zane mod nindroide,6,57,717317173171731,100,0,0.0,0.0
-389,https://www.lego.com/da-dk/product/hydro-bounty-71756,Skæbne-ubåden,9,1159,717567175671756,1249,0,0.0,0.0
-390,https://www.lego.com/da-dk/product/temple-of-the-endless-sea-71755,Det Uendelige Havs tempel,9,1060,717557175571755,999,0,0.0,0.0
-391,https://www.lego.com/da-dk/product/destiny-s-bounty-71705,Skæbnebåden,9,1781,717057170571705,959,0,0.0,0.0
-392,https://www.lego.com/da-dk/product/ultra-sonic-raider-71739,Ultrasonisk angrebsmaskine,9,725,717397173971739,799,0,0.0,0.0
-393,https://www.lego.com/da-dk/product/skull-sorcerer-s-dungeons-71722,Kranietroldmandens fangekældre,9,1171,717227172271722,719,0,0.0,0.0
-394,https://www.lego.com/da-dk/product/catamaran-sea-battle-71748,Katamarankamp til havs,9,780,717487174871748,649,0,0.0,0.0
-395,https://www.lego.com/da-dk/product/water-dragon-71754,Vanddrage,9,737,717547175471754,649,0,0.0,0.0
-396,https://www.lego.com/da-dk/product/skull-sorcerer-s-dragon-71721,Kranietroldmandens drage,9,1016,717217172171721,599,0,0.0,0.0
-397,https://www.lego.com/da-dk/product/zane-s-titan-mech-battle-71738,Zanes kæmperobotkamp,9,840,717387173871738,499,0,0.0,0.0
-398,https://www.lego.com/da-dk/product/fire-dragon-attack-71753,Ilddrageangreb,8,563,717537175371753,449,0,0.0,0.0
-399,https://www.lego.com/da-dk/product/the-keepers-village-71747,Vogternes landsby,8,632,717477174771747,449,0,0.0,0.0
-400,https://www.lego.com/da-dk/product/x-1-ninja-charger-71737,X-1 ninjabil,8,599,717377173771737,419,0,0.0,0.0
-401,https://www.lego.com/da-dk/product/grand-piano-21323,Flygel,18,3662,213232132321323,2699,4.2,4.2,4.2
-402,https://www.lego.com/da-dk/product/haunted-house-10273,Spøgelseshus i forlystelsespark,18,3231,102731027310273,1799,4.3,4.1,4.3
-403,https://www.lego.com/da-dk/product/passenger-train-60197,Passagertog,6,677,601976019760197,1099,0,0.0,0.0
-404,https://www.lego.com/da-dk/product/liebherr-r-9800-excavator-42100,Liebherr R 9800 gravemaskine,12,4108,421004210042100,3399,4.2,3.9,4.2
-405,https://www.lego.com/da-dk/product/4x4-x-treme-off-roader-42099,Firhjulstrukket X-trem offroader,11,958,420994209942099,1799,0,0.0,0.0
-406,https://www.lego.com/da-dk/product/cargo-train-60198,Godstog,6,1226,601986019860198,1699,0,0.0,0.0
-407,https://www.lego.com/da-dk/product/boost-creative-toolbox-17101,Kreativ værktøjskasse,7,847,171011710117101,1399,0,0.0,0.0
-408,https://www.lego.com/da-dk/product/app-controlled-top-gear-rally-car-42109,App-styret Top Gear-rallybil,9,463,421094210942109,1199,0,0.0,0.0
-409,https://www.lego.com/da-dk/product/move-hub-88006,Move Hub,7,1,880068800688006,699,0,0.0,0.0
-410,https://www.lego.com/da-dk/product/technic-hub-88012,Technic hub,7,1,880128801288012,699,0,0.0,0.0
-411,https://www.lego.com/da-dk/product/hub-88009,Hub,7,1,880098800988009,449,0,0.0,0.0
-412,https://www.lego.com/da-dk/product/technic-xl-motor-88014,Technic XL-motor,7,1,880148801488014,300,0,0.0,0.0
-413,https://www.lego.com/da-dk/product/technic-large-motor-88013,Technic stor motor,7,1,880138801388013,300,0,0.0,0.0
-414,https://www.lego.com/da-dk/product/battery-box-88015,Batteriboks,7,1,880158801588015,270,0,0.0,0.0
-415,https://www.lego.com/da-dk/product/remote-control-88010,Fjernbetjening,7,1,880108801088010,200,0,0.0,0.0
-416,https://www.lego.com/da-dk/product/medium-linear-motor-88008,Mellemstor lineærmotor,7,1,880088800888008,150,0,0.0,0.0
-417,https://www.lego.com/da-dk/product/color-distance-sensor-88007,Farve- og afstandssensor,7,1,880078800788007,130,0,0.0,0.0
-418,https://www.lego.com/da-dk/product/train-motor-88011,Togmotor,7,7,880118801188011,130,0,0.0,0.0
-419,https://www.lego.com/da-dk/product/identity-and-landscape-kit-2000430,LEGO® SERIOUS PLAY® Identity and Landscape Kit,6,2808,200043020004302000430,4350,0,0.0,0.0
-420,https://www.lego.com/da-dk/product/connections-kit-2000431,LEGO® SERIOUS PLAY® Connections Kit,6,2455,200043120004312000431,4160,0,0.0,0.0
-421,https://www.lego.com/da-dk/product/window-exploration-bag-2000409,LEGO® SERIOUS PLAY® Window Exploration Bag,6,5100,200040920004092000409,2676,0,0.0,0.0
-422,https://www.lego.com/da-dk/product/starter-kit-2000414,LEGO® SERIOUS PLAY® Starter Kit,6,234,200041420004142000414,200,0,0.0,0.0
-423,https://www.lego.com/da-dk/product/mopar-dodge-srt-top-fuel-dragster-and-1970-dodge-challenger-t-a-76904,Mopar Dodge//SRT Top Fuel-dragster og 1970 Dodge Challenger T/A,8,627,769047690476904,499,0,0.0,0.0
-424,https://www.lego.com/da-dk/product/ford-gt-heritage-edition-and-bronco-r-76905,Ford GT Heritage Edition og Bronco R,8,660,769057690576905,449,4.8,4.8,4.8
-425,https://www.lego.com/da-dk/product/lamborghini-urus-st-x-lamborghini-huracan-super-trofeo-evo-76899,Lamborghini Urus ST-X & Lamborghini Huracán Super Trofeo EVO,8,663,768997689976899,439,3.7,2.8,3.7
-426,https://www.lego.com/da-dk/product/chevrolet-corvette-c8-r-race-car-and-1968-chevrolet-corvette-76903,Chevrolet Corvette C8.R-racerbil og 1968 Chevrolet Corvette,8,512,769037690376903,349,4.7,4.7,4.7
-427,https://www.lego.com/da-dk/product/formula-e-panasonic-jaguar-racing-gen2-car-jaguar-i-pace-etrophy-76898,Formula E Panasonic Jaguar Racing GEN2-bil og Jaguar I-PACE eTROPHY,8,565,768987689876898,349,0,0.0,0.0
-428,https://www.lego.com/da-dk/product/ferrari-f8-tributo-76895,Ferrari F8 Tributo,7,275,768957689576895,180,4.5,4.5,4.5
-429,https://www.lego.com/da-dk/product/koenigsegg-jesko-76900,Koenigsegg Jesko,7,280,769007690076900,180,4.9,4.8,4.9
-430,https://www.lego.com/da-dk/product/mclaren-elva-76902,McLaren Elva,7,263,769027690276902,180,4.6,4.5,4.6
-431,https://www.lego.com/da-dk/product/nissan-gt-r-nismo-76896,Nissan GT-R NISMO,7,298,768967689676896,180,0,0.0,0.0
-432,https://www.lego.com/da-dk/product/toyota-gr-supra-76901,Toyota GR Supra,7,299,769017690176901,180,0,0.0,0.0
-433,https://www.lego.com/da-dk/product/1985-audi-sport-quattro-s1-76897,1985 Audi Sport quattro S1,7,250,768977689776897,180,0,0.0,0.0
-434,https://www.lego.com/da-dk/product/daily-bugle-76178,Daily Bugle,18,3772,761787617876178,2299,0,0.0,0.0
-435,https://www.lego.com/da-dk/product/attack-on-the-spider-lair-76175,Angreb på Spider-tilholdsstedet,8,466,761757617576175,749,0,0.0,0.0
-436,https://www.lego.com/da-dk/product/venomosaurus-ambush-76151,Venomosaurus-baghold,8,640,761517615176151,599,0,0.0,0.0
-437,https://www.lego.com/da-dk/product/carnage-76199,Carnage,18,546,761997619976199,549,0,0.0,0.0
-438,https://www.lego.com/da-dk/product/venom-76187,Venom,18,565,761877618776187,549,0,0.0,0.0
-439,https://www.lego.com/da-dk/product/spider-man-headquarters-10940,Spider-Mans hovedkvarter,2,36,109401094010940,270,0,0.0,0.0
-440,https://www.lego.com/da-dk/product/spider-man-doctor-octopus-mech-battle-76198,Spider-Man og Doctor Octopus i mech-robotkamp,7,305,761987619876198,180,0,0.0,0.0
-441,https://www.lego.com/da-dk/product/spider-man-and-ghost-rider-vs-carnage-76173,Spider-Man og Ghost Rider mod Carnage,7,212,761737617376173,180,0,0.0,0.0
-442,https://www.lego.com/da-dk/product/spider-man-versus-venom-and-iron-venom-40454,Spider-Man mod Venom og Iron Venom,6,63,404544045440454,130,0,0.0,0.0
-443,https://www.lego.com/da-dk/product/miles-morales-mech-armour-76171,Miles Morales' kamprobot,7,125,761717617176171,100,0,0.0,0.0
-444,https://www.lego.com/da-dk/product/spider-man-at-the-sanctum-workshop-76185,Spider-Man i det allerhelligstes værksted,7,355,761857618576185,349,0,0.0,0.0
-445,https://www.lego.com/da-dk/product/spider-man-vs-mysterio-s-drone-attack-76184,Spider-Man mod Mysterios droneangreb,4,73,761847618476184,180,0,0.0,0.0
-446,https://www.lego.com/da-dk/product/spider-man-s-drone-duel-76195,Spider-Mans droneduel,7,198,761957619576195,180,0,0.0,0.0
-447,https://www.lego.com/da-dk/product/spider-ham-keyring-854077,Spider-Ham-nøglering,6,50,0,0,0,0.0,0.0
-448,https://www.lego.com/da-dk/product/spider-man-s-monster-truck-vs-mysterio-76174,Spider-Mans monstertruck mod Mysterio,8,439,761747617476174,359,0,0.0,0.0
-449,https://www.lego.com/da-dk/product/venom-crawler-76163,Venom-kravler,8,413,761637616376163,270,0,0.0,0.0
-450,https://www.lego.com/da-dk/product/spider-man-and-sandman-showdown-76172,Spider-Man og Sandmans opgør,4,45,761727617276172,100,0,0.0,0.0
-451,https://www.lego.com/da-dk/product/spider-man-mech-76146,Spider-Man-robot,6,152,761467614676146,100,0,0.0,0.0
-452,https://www.lego.com/da-dk/product/republic-gunship-75309,Republikkens kampskib,18,3292,753097530975309,2699,3.5,3.9,3.5
-453,https://www.lego.com/da-dk/product/imperial-light-cruiser-75315,Kejserlig let krydser,10,1336,753157531575315,1199,0,0.0,0.0
-454,https://www.lego.com/da-dk/product/the-bad-batch-attack-shuttle-75314,The Bad Batch™ angrebsskib,9,969,753147531475314,899,0,0.0,0.0
-455,https://www.lego.com/da-dk/product/darth-vader-meditation-chamber-75296,Darth Vaders™ meditationskammer,18,663,752967529675296,649,0,0.0,0.0
-456,https://www.lego.com/da-dk/product/imperial-armored-marauder-75311,Kejserligt Marauder-fartøj,8,478,753117531175311,349,0,0.0,0.0
-457,https://www.lego.com/da-dk/product/the-armorer-s-mandalorian-forge-75319,Våbensmedens mandalorianske smedje,8,258,753197531975319,270,0,0.0,0.0
-458,https://www.lego.com/da-dk/product/duel-on-mandalore-75310,Duel på Mandalore™,7,147,753107531075310,180,0,0.0,0.0
-459,https://www.lego.com/da-dk/product/brick-sketches-bb-8-40431,BB-8™,8,171,404314043140431,150,0,0.0,0.0
-460,https://www.lego.com/da-dk/product/first-order-stormtrooper-40391,LEGO® Brick Sketches™ Stormsoldat fra Den Første Orden,8,151,403914039140391,150,0,0.0,0.0
-461,https://www.lego.com/da-dk/product/millennium-falcon-75192,Millennium Falcon™,16,7541,751927519275192,6999,4.0,4.2,4.0
-462,https://www.lego.com/da-dk/product/imperial-star-destroyer-75252,Kejserlig stjernedestroyer,16,4784,752527525275252,5299,3.1,3.7,3.1
-463,https://www.lego.com/da-dk/product/mos-eisley-cantina-75290,Mos Eisleys Cantina,18,3187,752907529075290,2799,0,0.0,0.0
-464,https://www.lego.com/da-dk/product/r2-d2-75308,R2-D2™,18,2314,753087530875308,1599,0,0.0,0.0
-465,https://www.lego.com/da-dk/product/a-wing-starfighter-75275,A-wing-stjernejager,18,1673,752757527575275,1599,3.7,3.9,3.7
-466,https://www.lego.com/da-dk/product/star-wars-the-sith-31200,Star Wars™ Sith™-fyrsterne,18,3406,312003120031200,1099,0,0.0,0.0
-467,https://www.lego.com/da-dk/product/mandalorian-battle-pack-75267,Mandaloriansk Battle Pack,6,102,752677526775267,130,0,0.0,0.0
-468,https://www.lego.com/da-dk/product/at-at-75288,AT-AT™,10,1267,752887528875288,1399,0,0.0,0.0
-469,https://www.lego.com/da-dk/product/the-upside-down-75810,Vrangsiden,16,2287,758107581075810,1799,4.1,4.1,4.1
-470,https://www.lego.com/da-dk/product/4x4-mercedes-benz-zetros-trial-truck-42129,Firhjulstrukket Mercedes-Benz Zetros offroadtruck,12,2110,421294212942129,2299,0,0.0,0.0
-471,https://www.lego.com/da-dk/product/heavy-duty-tow-truck-42128,Stor kranvogn,11,2017,421284212842128,1299,0,0.0,0.0
-472,https://www.lego.com/da-dk/product/ford-f-150-raptor-42126,Ford® F-150 Raptor,18,1379,421264212642126,1249,0,0.0,0.0
-473,https://www.lego.com/da-dk/product/bugatti-chiron-42083,Bugatti Chiron,16,3599,420834208342083,3199,4.3,4.2,4.3
-474,https://www.lego.com/da-dk/product/lamborghini-sian-fkp-37-42115,Lamborghini Sián FKP 37,18,3696,421154211542115,2899,4.0,3.4,4.0
-475,https://www.lego.com/da-dk/product/getaway-truck-42090,Flugtbil,7,128,420904209042090,153,0,0.0,0.0
-476,https://www.lego.com/da-dk/product/liebherr-r-9800-excavator-42100,Liebherr R 9800 gravemaskine,12,4108,421004210042100,3399,4.2,3.9,4.2
-477,https://www.lego.com/da-dk/product/6x6-volvo-articulated-hauler-42114,Sekshjulet Volvo-dumper,11,2193,421144211442114,1999,3.6,3.9,3.6
-478,https://www.lego.com/da-dk/product/4x4-x-treme-off-roader-42099,Firhjulstrukket X-trem offroader,11,958,420994209942099,1799,0,0.0,0.0
-479,https://www.lego.com/da-dk/product/land-rover-defender-42110,Land Rover Defender,11,2573,421104211042110,1499,4.2,4.3,4.2
-480,https://www.lego.com/da-dk/product/ferrari-488-gte-af-corse-51-42125,Ferrari 488 GTE “AF Corse #51”,18,1677,421254212542125,1399,0,0.0,0.0
-481,https://www.lego.com/da-dk/product/porsche-911-rsr-42096,Porsche 911 RSR,10,1580,420964209642096,1399,4.1,4.2,4.1
-482,https://www.lego.com/da-dk/product/app-controlled-top-gear-rally-car-42109,App-styret Top Gear-rallybil,9,463,421094210942109,1199,0,0.0,0.0
-483,https://www.lego.com/da-dk/product/off-road-buggy-42124,Offroader-buggy,10,374,421244212442124,999,0,0.0,0.0
-484,https://www.lego.com/da-dk/product/dom-s-dodge-charger-42111,Doms Dodge Charger,10,1077,421114211142111,899,0,0.0,0.0
-485,https://www.lego.com/da-dk/product/concrete-mixer-truck-42112,Lastbil med betonblander,10,1163,421124211242112,899,4.6,4.2,4.6
-486,https://www.lego.com/da-dk/product/mobile-crane-42108,Mobilkran,10,1292,421084210842108,899,0,0.0,0.0
-487,https://www.lego.com/da-dk/product/vibe-city-concert-41258,Vibe City-koncert,6,494,412584125841258,549,0,0.0,0.0
-488,https://www.lego.com/da-dk/product/volcano-rock-city-concert-41254,Volcano Rock-bykoncert,6,387,412544125441254,349,0,0.0,0.0
-489,https://www.lego.com/da-dk/product/poppy-s-hot-air-balloon-adventure-41252,Poppys balloneventyr,6,250,412524125241252,300,0,0.0,0.0
-490,https://www.lego.com/da-dk/product/poppy-s-pod-41251,Poppys kapsel,4,103,412514125141251,180,0,0.0,0.0
-491,https://www.lego.com/da-dk/product/branch-keyring-854004,Kvist-nøglering,6,50,0,0,0,0.0,0.0
-492,https://www.lego.com/da-dk/product/pop-village-celebration-41255,Pop-landsbyfest,6,380,412554125541255,449,0,0.0,0.0
-493,https://www.lego.com/da-dk/product/the-boombox-43115,The Boombox,9,996,431154311543115,899,0,0.0,0.0
-494,https://www.lego.com/da-dk/product/punk-pirate-ship-43114,Punk Pirate Ship,8,615,431144311443114,649,0,0.0,0.0
-495,https://www.lego.com/da-dk/product/k-pawp-concert-43113,K-Pawp Concert,8,514,431134311343113,449,0,0.0,0.0
-496,https://www.lego.com/da-dk/product/candy-castle-stage-43111,Candy Castle Stage,7,344,431114311143111,270,0,0.0,0.0
-497,https://www.lego.com/da-dk/product/robo-hiphop-car-43112,Robo HipHop Car,7,387,431124311243112,270,0,0.0,0.0
-498,https://www.lego.com/da-dk/product/alien-dj-beatbox-43104,Alien DJ BeatBox,7,73,431044310443104,180,0,0.0,0.0
-499,https://www.lego.com/da-dk/product/candy-mermaid-beatbox-43102,Candy Mermaid BeatBox,7,71,431024310243102,180,0,0.0,0.0
-500,https://www.lego.com/da-dk/product/folk-fairy-beatbox-43110,Folk Fairy BeatBox,7,89,431104311043110,180,0,0.0,0.0
-501,https://www.lego.com/da-dk/product/hiphop-robot-beatbox-43107,HipHop Robot BeatBox,7,73,431074310743107,180,0,0.0,0.0
-502,https://www.lego.com/da-dk/product/metal-dragon-beatbox-43109,Metal Dragon BeatBox,7,86,431094310943109,180,0,0.0,0.0
-503,https://www.lego.com/da-dk/product/party-llama-beatbox-43105,Party Llama BeatBox,7,82,431054310543105,180,0,0.0,0.0
-504,https://www.lego.com/da-dk/product/punk-pirate-beatbox-43103,Punk Pirate BeatBox,7,73,431034310343103,180,0,0.0,0.0
-505,https://www.lego.com/da-dk/product/unicorn-dj-beatbox-43106,Unicorn DJ BeatBox,7,84,431064310643106,180,0,0.0,0.0
-506,https://www.lego.com/da-dk/product/bandmates-43101,Bandmates,7,11,431014310143101,40,0,0.0,0.0
-507,https://www.lego.com/da-dk/product/water-tape-854065,Vandbånd,6,23,854065854065854065,80,0,0.0,0.0
-508,https://www.lego.com/da-dk/product/lego-xtra-sea-accessories-40341,LEGO® xtra havudstyr,6,24,403414034140341,40,0,0.0,0.0
-509,https://www.lego.com/da-dk/product/botanical-accessories-40376,Plantetilbehør,6,32,403764037640376,40,0,0.0,0.0
-510,https://www.lego.com/da-dk/product/sports-accessories-40375,Sportstilbehør,6,36,403754037540375,40,0,0.0,0.0
-511,https://www.lego.com/da-dk/product/xtra-chinatown-40464,xtra Chinatown,8,35,404644046440464,40,0,0.0,0.0
-512,https://www.lego.com/da-dk/product/xtra-food-40465,xtra Mad,6,36,404654046540465,40,0,0.0,0.0
-513,https://www.lego.com/da-dk/product/food-accessories-40309,Madtilbehør,6,30,403094030940309,40,0,0.0,0.0
+0,https://www.lego.com/da-dk/product/empire-state-building-21046,Empire State Building,16,1767,210462104621046,899.0,0,0.0,0.0
+1,https://www.lego.com/da-dk/product/statue-of-liberty-21042,Frihedsgudinden,16,1685,210422104221042,899.0,0,0.0,0.0
+2,https://www.lego.com/da-dk/product/taj-mahal-21056,Taj Mahal,18,2022,210562105621056,899.0,0,0.0,0.0
+3,https://www.lego.com/da-dk/product/trafalgar-square-21045,Trafalgar Square,12,1197,210452104521045,749.0,0,0.0,0.0
+4,https://www.lego.com/da-dk/product/the-white-house-21054,Det Hvide Hus,18,1483,210542105421054,719.0,0,0.0,0.0
+5,https://www.lego.com/da-dk/product/tokyo-21051,Tokyo,16,547,210512105121051,549.0,0,0.0,0.0
+6,https://www.lego.com/da-dk/product/new-york-city-21028,New York City,12,598,210282102821028,449.0,0,0.0,0.0
+7,https://www.lego.com/da-dk/product/paris-21044,Paris,12,649,210442104421044,449.0,0,0.0,0.0
+8,https://www.lego.com/da-dk/product/london-21034,London,12,468,210342103421034,399.0,4.0,4.1,4.0
+9,https://www.lego.com/da-dk/product/dubai-21052,Dubai,16,740,210522105221052,549.0,0,0.0,0.0
+10,https://www.lego.com/da-dk/product/san-francisco-21043,San Francisco,12,565,210432104321043,449.0,0,0.0,0.0
+11,https://www.lego.com/da-dk/product/burj-khalifa-21055,Burj Khalifa,16,333,210552105521055,399.0,2.2,2.2,2.2
+12,https://www.lego.com/da-dk/product/batman-40386,Batman™,8,115,403864038640386,150.0,0,0.0,0.0
+13,https://www.lego.com/da-dk/product/the-joker-40428,Jokeren,8,170,404284042840428,150.0,0,0.0,0.0
+14,https://www.lego.com/da-dk/product/batman-vs-the-penguin-harley-quinn-40453,Batman™ mod Pingvinen og Harley Quinn™,6,63,404534045340453,130.0,0,0.0,0.0
+15,https://www.lego.com/da-dk/product/1989-batmobile-76139,1989 Batmobile™,16,3306,761397613976139,1899.0,4.4,4.4,4.4
+16,https://www.lego.com/da-dk/product/1989-batwing-76161,1989-batving​e,18,2363,761617616176161,1599.0,3.9,4.1,3.9
+17,https://www.lego.com/da-dk/product/mobile-bat-base-76160,Mobil batbase,8,743,761607616076160,799.0,0,0.0,0.0
+18,https://www.lego.com/da-dk/product/batman-cowl-76182,Batman™-hætte,18,410,761827618276182,549.0,0,0.0,0.0
+19,https://www.lego.com/da-dk/product/joker-s-trike-chase-76159,Jagt på Jokerens trehjuler,7,440,761597615976159,449.0,0,0.0,0.0
+20,https://www.lego.com/da-dk/product/batcave-10919,Bathulen,2,33,109191091910919,349.0,0,0.0,0.0
+21,https://www.lego.com/da-dk/product/batman-classic-tv-series-batmobile-76188,Batmobile™ fra klassisk Batman™ tv-serie,7,345,761887618876188,300.0,0,0.0,0.0
+22,https://www.lego.com/da-dk/product/batman-vs-the-joker-batmobile-chase-76180,Batman™ mod Jokeren: Batmobile™-jagt,4,136,761807618076180,270.0,0,0.0,0.0
+23,https://www.lego.com/da-dk/product/lego-dc-batman-batmobile-tumbler-76240,LEGO® DC Batman™ Batmobile™-Tumbler,18,2049,762407624076240,1799.0,0,0.0,0.0
+24,https://www.lego.com/da-dk/product/classic-tv-series-batman-cowl-76238,Batman™-hætte fra klassisk tv-serie,18,372,762387623876238,549.0,0,0.0,0.0
+25,https://www.lego.com/da-dk/product/lego-dc-batman-batmobile-tumbler-scarecrow-showdown-76239,LEGO® DC Batman™ Batmobile™-Tumbler: Opgør med Scarecrow™,8,422,762397623976239,349.0,0,0.0,0.0
+26,https://www.lego.com/da-dk/product/lego-batman-movie-hq-luggage-tag-5005296,LEGO BATMAN: FILMEN HQ BAGAGEMÆRKE,6,90,0,,,,
+27,https://www.lego.com/da-dk/product/lego-batman-movie-luggage-tag-5005273,LEGO BATMAN: FILMEN – BAGAGEMÆRKE,6,90,0,,,,
+28,https://www.lego.com/da-dk/product/batboat-the-penguin-pursuit-76158,Batbåd – Pingvinjagten!,4,54,761587615876158,100.0,0,0.0,0.0
+29,https://www.lego.com/da-dk/product/boost-creative-toolbox-17101,Kreativ værktøjskasse,7,847,171011710117101,1399.0,0,0.0,0.0
+30,https://www.lego.com/da-dk/product/harry-hermione-ron-hagrid-40495,"Harry, Hermione, Ron og Hagrid™",10,466,404954049540495,230.0,0,0.0,0.0
+31,https://www.lego.com/da-dk/product/scrooge-mcduck-huey-dewey-louie-40477,"Joakim von And, Rip, Rap og Rup",10,340,404774047740477,230.0,0,0.0,0.0
+32,https://www.lego.com/da-dk/product/voldemort-nagini-bellatrix-40496,"Voldemort™, Nagini og Bellatrix",10,344,404964049640496,230.0,0,0.0,0.0
+33,https://www.lego.com/da-dk/product/belle-bottom-kevin-and-bob-40421,"Belle Bottom, Kevin og Bob",10,309,404214042140421,200.0,0,0.0,0.0
+34,https://www.lego.com/da-dk/product/gru-stuart-and-otto-40420,"Gru, Stuart og Otto",10,244,404204042040420,200.0,0,0.0,0.0
+35,https://www.lego.com/da-dk/product/chinese-new-year-pandas-40466,Kinesisk nytår – pandaer,10,249,404664046640466,200.0,0,0.0,0.0
+36,https://www.lego.com/da-dk/product/wedding-bride-40383,Brud,10,306,403834038340383,130.0,0,0.0,0.0
+37,https://www.lego.com/da-dk/product/wedding-groom-40384,Brudgom,10,255,403844038440384,130.0,0,0.0,0.0
+38,https://www.lego.com/da-dk/product/dalmatian-40479,Dalmatiner,8,252,404794047940479,130.0,0,0.0,0.0
+39,https://www.lego.com/da-dk/product/goofy-pluto-40378,Fedtmule og Pluto,10,214,403784037840378,130.0,4.5,4.7,4.5
+40,https://www.lego.com/da-dk/product/goldfish-40442,Guldfisk,8,186,404424044240442,130.0,0,0.0,0.0
+41,https://www.lego.com/da-dk/product/hamster-40482,Hamster,8,243,404824048240482,130.0,0,0.0,0.0
+42,https://www.lego.com/da-dk/product/shorthair-cats-40441,Korthårskatte,8,250,404414044140441,130.0,0,0.0,0.0
+43,https://www.lego.com/da-dk/product/cockatiel-40481,Nymfeparakit,8,219,404814048140481,130.0,0,0.0,0.0
+44,https://www.lego.com/da-dk/product/ginger-tabby-40480,Rødstribet kat,8,269,404804048040480,130.0,0,0.0,0.0
+45,https://www.lego.com/da-dk/product/german-shepherd-40440,Schæferhund,8,247,404404044040440,130.0,3.7,4.0,3.7
+46,https://www.lego.com/da-dk/product/budgie-40443,Undulat,8,261,404434044340443,130.0,0,0.0,0.0
+47,https://www.lego.com/da-dk/product/donald-duck-40377,Anders And,10,90,403774037740377,100.0,4.0,4.7,4.0
+48,https://www.lego.com/da-dk/product/brick-sketches-bb-8-40431,BB-8™,8,171,404314043140431,150.0,0,0.0,0.0
+49,https://www.lego.com/da-dk/product/first-order-stormtrooper-40391,LEGO® Brick Sketches™ Stormsoldat fra Den Første Orden,8,151,403914039140391,150.0,0,0.0,0.0
+50,https://www.lego.com/da-dk/product/mickey-mouse-40456,Mickey Mouse,8,118,404564045640456,150.0,0,0.0,0.0
+51,https://www.lego.com/da-dk/product/minnie-mouse-40457,Minnie Mouse,8,140,404574045740457,150.0,0,0.0,0.0
+52,https://www.lego.com/da-dk/product/lego-city-advent-calendar-60303,LEGO® City julekalender,5,349,603036030360303,200.0,0,0.0,0.0
+53,https://www.lego.com/da-dk/product/main-square-60271,Hovedtorvet,6,1517,602716027160271,1399.0,0,0.0,0.0
+54,https://www.lego.com/da-dk/product/rocket-assembly-transport-60229,Raketmontering og -transport,7,1054,602296022960229,1199.0,0,0.0,0.0
+55,https://www.lego.com/da-dk/product/police-station-60246,Politistation,6,743,602466024660246,899.0,0,0.0,0.0
+56,https://www.lego.com/da-dk/product/fire-station-60215,Brandstation,5,509,602156021560215,549.0,0,0.0,0.0
+57,https://www.lego.com/da-dk/product/police-helicopter-transport-60244,Politihelikoptertransport,5,317,602446024460244,399.0,0,0.0,0.0
+58,https://www.lego.com/da-dk/product/race-boat-transporter-60254,Racerbådstransporter,5,238,602546025460254,250.0,0,0.0,0.0
+59,https://www.lego.com/da-dk/product/fire-helicopter-response-60248,Brandvæsnets helikopterenhed,5,93,602486024860248,230.0,2.2,1.8,2.2
+60,https://www.lego.com/da-dk/product/racing-cars-60256,Racerbiler,5,190,602566025660256,230.0,0,0.0,0.0
+61,https://www.lego.com/da-dk/product/police-highway-arrest-60242,Anholdelse i trafikken,5,185,602426024260242,180.0,0,0.0,0.0
+62,https://www.lego.com/da-dk/product/construction-bulldozer-60252,Byggeplads med bulldozer,4,126,602526025260252,180.0,0,0.0,0.0
+63,https://www.lego.com/da-dk/product/safari-off-roader-60267,Safari-offroader,5,168,602676026760267,180.0,0,0.0,0.0
+64,https://www.lego.com/da-dk/product/fire-hazard-truck-60279,Brandslukningsbil,5,87,602796027960279,100.0,0,0.0,0.0
+65,https://www.lego.com/da-dk/product/street-sweeper-60249,Fejemaskine,5,89,602496024960249,100.0,0,0.0,0.0
+66,https://www.lego.com/da-dk/product/police-dog-unit-60241,Hundepatrulje,4,67,602416024160241,100.0,0,0.0,0.0
+67,https://www.lego.com/da-dk/product/monster-truck-60251,Monstertruck,5,55,602516025160251,100.0,0,0.0,0.0
+68,https://www.lego.com/da-dk/product/police-patrol-car-60239,Politipatruljevogn,5,92,602396023960239,100.0,0,0.0,0.0
+69,https://www.lego.com/da-dk/product/passenger-train-60197,Passagertog,6,677,601976019760197,1099.0,0,0.0,0.0
+70,https://www.lego.com/da-dk/product/bricks-and-lights-11009,Klodser og lys,5,441,110091100911009,250.0,0,0.0,0.0
+71,https://www.lego.com/da-dk/product/bricks-bricks-plates-11717,"Klodser, klodser, plader",4,1504,117171171711717,649.0,0,0.0,0.0
+72,https://www.lego.com/da-dk/product/bricks-bricks-bricks-10717,"Klodser, klodser, klodser",4,1500,107171071710717,549.0,0,0.0,0.0
+73,https://www.lego.com/da-dk/product/bricks-and-wheels-11014,Klodser og hjul,4,653,110141101411014,449.0,0,0.0,0.0
+74,https://www.lego.com/da-dk/product/creative-building-bricks-11016,Kreative byggeklodser,4,1201,110161101611016,449.0,0,0.0,0.0
+75,https://www.lego.com/da-dk/product/around-the-world-11015,Verden rundt,4,950,110151101511015,449.0,0,0.0,0.0
+76,https://www.lego.com/da-dk/product/bricks-and-animals-11011,Klodser og dyr,4,1500,110111101111011,439.0,0,0.0,0.0
+77,https://www.lego.com/da-dk/product/lego-large-creative-brick-box-10698,LEGO® Kreativt byggeri – stor,4,790,106981069810698,399.0,0,0.0,0.0
+78,https://www.lego.com/da-dk/product/creative-transparent-bricks-11013,Kreative gennemsigtige klodser,4,500,110131101311013,270.0,0,0.0,0.0
+79,https://www.lego.com/da-dk/product/lego-medium-creative-brick-box-10696,LEGO® Kreativt byggeri – medium,4,484,106961069610696,250.0,0,0.0,0.0
+80,https://www.lego.com/da-dk/product/basic-brick-set-11002,Basisklodser,4,300,110021100211002,180.0,0,0.0,0.0
+81,https://www.lego.com/da-dk/product/bricks-and-houses-11008,Klodser og huse,4,270,110081100811008,180.0,0,0.0,0.0
+82,https://www.lego.com/da-dk/product/creative-suitcase-10713,Kreativ kuffert,4,213,107131071310713,180.0,0,0.0,0.0
+83,https://www.lego.com/da-dk/product/gray-baseplate-10701,Grå byggeplade,4,1,107011070110701,130.0,0,0.0,0.0
+84,https://www.lego.com/da-dk/product/lego-creative-bricks-10692,LEGO® Kreative klodser,4,221,106921069210692,130.0,0,0.0,0.0
+85,https://www.lego.com/da-dk/product/blue-baseplate-10714,Blå byggeplade,4,1,107141071410714,70.0,0,0.0,0.0
+86,https://www.lego.com/da-dk/product/green-baseplate-10700,Grøn byggeplade,4,1,107001070010700,70.0,0,0.0,0.0
+87,https://www.lego.com/da-dk/product/white-baseplate-11010,Hvid byggeplade,4,1,110101101011010,70.0,0,0.0,0.0
+88,https://www.lego.com/da-dk/product/riverside-houseboat-31093,Husbåd,7,396,310933109331093,229.0,0,0.0,0.0
+89,https://www.lego.com/da-dk/product/propeller-plane-31099,Propelfly,6,128,310993109931099,100.0,0,0.0,0.0
+90,https://www.lego.com/da-dk/product/medieval-castle-31120,Middelalderborg,9,1426,311203112031120,899.0,0,0.0,0.0
+91,https://www.lego.com/da-dk/product/pirate-ship-31109,Piratskib,9,1260,311093110931109,899.0,0,0.0,0.0
+92,https://www.lego.com/da-dk/product/ferris-wheel-31119,Pariserhjul,9,1002,311193111931119,799.0,0,0.0,0.0
+93,https://www.lego.com/da-dk/product/townhouse-pet-shop-cafe-31097,Byhus med dyrehandel og café,9,969,310973109731097,599.0,0,0.0,0.0
+94,https://www.lego.com/da-dk/product/caravan-family-holiday-31108,Familieferie med campingvogn,9,766,311083110831108,599.0,0,0.0,0.0
+95,https://www.lego.com/da-dk/product/monster-burger-truck-31104,Monsterburgervogn,8,499,311043110431104,449.0,0,0.0,0.0
+96,https://www.lego.com/da-dk/product/space-shuttle-adventure-31117,Rumfærge-eventyr,8,486,311173111731117,449.0,0,0.0,0.0
+97,https://www.lego.com/da-dk/product/surfer-beach-house-31118,Surfer-strandhus,8,564,311183111831118,449.0,0,0.0,0.0
+98,https://www.lego.com/da-dk/product/space-rover-explorer-31107,Rumudforskningskøretøj,8,510,311073110731107,359.0,0,0.0,0.0
+99,https://www.lego.com/da-dk/product/townhouse-toy-store-31105,Byhus med legetøjsbutik,8,554,311053110531105,349.0,0,0.0,0.0
+100,https://www.lego.com/da-dk/product/fish-tank-31122,Akvarium,8,352,311223112231122,270.0,4.2,4.3,4.2
+101,https://www.lego.com/da-dk/product/crocodile-31121,Krokodille,7,454,311213112131121,270.0,0,0.0,0.0
+102,https://www.lego.com/da-dk/product/safari-wildlife-tree-house-31116,Safari-trætophus,7,397,311163111631116,270.0,0,0.0,0.0
+103,https://www.lego.com/da-dk/product/race-car-transporter-31113,Racerbil-transporter,7,328,311133111331113,230.0,0,0.0,0.0
+104,https://www.lego.com/da-dk/product/space-mining-mech-31115,Rum-minerobot,7,327,311153111531115,230.0,0,0.0,0.0
+105,https://www.lego.com/da-dk/product/fire-dragon-31102,Ilddrage,7,234,311023110231102,180.0,0,0.0,0.0
+106,https://www.lego.com/da-dk/product/colosseum-10276,Colosseum,18,9036,102761027610276,3899.0,0,0.0,0.0
+107,https://www.lego.com/da-dk/product/camp-nou-fc-barcelona-10284,Camp Nou – FC Barcelona,18,5509,102841028410284,2499.0,0,0.0,0.0
+108,https://www.lego.com/da-dk/product/police-station-10278,Politistation,18,2923,102781027810278,1399.0,4.3,4.3,4.3
+109,https://www.lego.com/da-dk/product/the-friends-apartments-10292,Lejlighederne fra Venner,18,2048,102921029210292,1299.0,0,0.0,0.0
+110,https://www.lego.com/da-dk/product/porsche-911-10295,Porsche 911,18,1458,102951029510295,1199.0,0,0.0,0.0
+111,https://www.lego.com/da-dk/product/volkswagen-t2-camper-van-10279,Volkswagen T2 autocamper,18,2207,102791027910279,1199.0,0,0.0,0.0
+112,https://www.lego.com/da-dk/product/santa-s-visit-10293,Julemandens besøg,18,1445,102931029310293,799.0,0,0.0,0.0
+113,https://www.lego.com/da-dk/product/roller-coaster-10261,Rutsjebane,16,4124,102611026110261,2699.0,4.6,4.1,4.6
+114,https://www.lego.com/da-dk/product/old-trafford-manchester-united-10272,Old Trafford – Manchester United,16,3898,102721027210272,2199.0,3.9,3.8,3.9
+115,https://www.lego.com/da-dk/product/assembly-square-10255,Butiksgade,16,4002,102551025510255,2099.0,4.7,4.6,4.7
+116,https://www.lego.com/da-dk/product/haunted-house-10273,Spøgelseshus i forlystelsespark,18,3231,102731027310273,1799.0,4.3,4.1,4.3
+117,https://www.lego.com/da-dk/product/ghostbusters-ecto-1-10274,Ghostbusters™ ECTO-1,18,2352,102741027410274,1599.0,4.4,4.3,4.4
+118,https://www.lego.com/da-dk/product/corner-garage-10264,Hjørneværksted,16,2569,102641026410264,1499.0,0,0.0,0.0
+119,https://www.lego.com/da-dk/product/nasa-space-shuttle-discovery-10283,NASA Space Shuttle Discovery,18,2354,102831028310283,1399.0,0,0.0,0.0
+120,https://www.lego.com/da-dk/product/bookshop-10270,Boghandel,16,2504,102701027010270,1299.0,0,0.0,0.0
+121,https://www.lego.com/da-dk/product/ford-mustang-10265,Ford Mustang,16,1471,102651026510265,1199.0,4.6,4.4,4.6
+122,https://www.lego.com/da-dk/product/bird-of-paradise-10289,Paradisfugl,18,1173,102891028910289,899.0,0,0.0,0.0
+123,https://www.lego.com/da-dk/product/wonder-woman-vs-cheetah-76157,Wonder Woman™ vs Cheetah,8,371,761577615776157,279.0,0,0.0,0.0
+124,https://www.lego.com/da-dk/product/the-disney-castle-71040,Disney-slottet,16,4080,710407104071040,2999.0,4.5,4.4,4.5
+125,https://www.lego.com/da-dk/product/belle-and-rapunzel-s-royal-stables-43195,Belle og Rapunzels kongelige stalde,5,239,431954319543195,449.0,0,0.0,0.0
+126,https://www.lego.com/da-dk/product/ariel-belle-cinderella-and-tiana-s-storybook-adventures-43193,"Ariel, Belle, Askepot og Tianas bog-eventyr",5,130,431934319343193,230.0,0,0.0,0.0
+127,https://www.lego.com/da-dk/product/daisy-duck-40476,Andersine And,10,110,404764047640476,100.0,0,0.0,0.0
+128,https://www.lego.com/da-dk/product/mickey-mouse-minnie-mouse-buildable-characters-43179,Bygbare Mickey Mouse og Minnie Mouse-figurer,18,1739,431794317943179,1399.0,4.0,3.8,4.0
+129,https://www.lego.com/da-dk/product/winnie-the-pooh-21326,Peter Plys,18,1265,213262132621326,899.0,4.7,4.4,4.7
+130,https://www.lego.com/da-dk/product/elsa-s-magical-ice-palace-43172,Elsas magiske ispalads,6,701,431724317243172,649.0,0,0.0,0.0
+131,https://www.lego.com/da-dk/product/boun-s-boat-43185,Bouns båd,6,247,431854318543185,449.0,0,0.0,0.0
+132,https://www.lego.com/da-dk/product/bruni-the-salamander-buildable-character-43186,Salamanderen Bruni – bygbar figur,6,96,431864318643186,100.0,0,0.0,0.0
+133,https://www.lego.com/da-dk/product/the-ice-castle-43197,Isslottet,14,1599,0,,,,
+134,https://www.lego.com/da-dk/product/disney-s-mickey-mouse-31202,Disneys Mickey Mouse,18,2658,312023120231202,1099.0,0,0.0,0.0
+135,https://www.lego.com/da-dk/product/arendelle-castle-village-41167,Arendal slotsby,5,521,411674116741167,749.0,0,0.0,0.0
+136,https://www.lego.com/da-dk/product/belle-and-the-beast-s-castle-43196,Belle og Udyrets slot,6,505,431964319643196,749.0,0,0.0,0.0
+137,https://www.lego.com/da-dk/product/mickey-friends-fire-truck-station-10776,Mickey og venners brandstation og brandbil,4,144,107761077610776,449.0,0,0.0,0.0
+138,https://www.lego.com/da-dk/product/mickey-mouse-donald-duck-s-farm-10775,Mickey Mouse og Anders Ands bondegård,4,118,107751077510775,270.0,0,0.0,0.0
+139,https://www.lego.com/da-dk/product/mickey-mouse-minnie-mouse-s-space-rocket-10774,Mickey Mouse og Minnie Mouses rumraket,4,88,107741077410774,180.0,0,0.0,0.0
+140,https://www.lego.com/da-dk/product/minnie-mouse-s-ice-cream-shop-10773,Minnie Mouses isbutik,4,100,107731077310773,180.0,0,0.0,0.0
+141,https://www.lego.com/da-dk/product/mickey-mouse-s-propeller-plane-10772,Mickey Mouses propelfly,4,100,0,,,,
+142,https://www.lego.com/da-dk/product/bag-tag-dragon-41939,Taskevedhæng – drage,6,82,419394193941939,60.0,0,0.0,0.0
+143,https://www.lego.com/da-dk/product/bag-tag-unicorn-41940,Taskevedhæng – enhjørning,6,80,419404194041940,60.0,0,0.0,0.0
+144,https://www.lego.com/da-dk/product/go-team-bracelet-41911,Armbånd med holdånd,6,33,419114191141911,50.0,0,0.0,0.0
+145,https://www.lego.com/da-dk/product/creative-designer-box-41938,Kreativt designersæt,7,779,419384193841938,349.0,0,0.0,0.0
+146,https://www.lego.com/da-dk/product/multi-pack-summer-vibes-41937,Multipak med sommerstemning,6,441,419374193741937,270.0,0,0.0,0.0
+147,https://www.lego.com/da-dk/product/creative-party-kit-41926,Kreativt festsæt,6,623,419264192641926,230.0,0,0.0,0.0
+148,https://www.lego.com/da-dk/product/secret-holder-41924,Hemmelighedsholder,6,451,419244192441924,180.0,0,0.0,0.0
+149,https://www.lego.com/da-dk/product/creative-picture-frames-41914,Kreative billedrammer,6,398,419144191441914,180.0,0,0.0,0.0
+150,https://www.lego.com/da-dk/product/lots-of-dots-41935,Masser af DOTS,6,1040,419354193541935,180.0,0,0.0,0.0
+151,https://www.lego.com/da-dk/product/desk-organizer-41907,Skrivebordssystem,6,405,419074190741907,180.0,0,0.0,0.0
+152,https://www.lego.com/da-dk/product/jewelry-box-41915,Smykkeskrin,6,374,419154191541915,180.0,0,0.0,0.0
+153,https://www.lego.com/da-dk/product/secret-boxes-41925,Hemmelighedsæsker,6,273,419254192541925,130.0,0,0.0,0.0
+154,https://www.lego.com/da-dk/product/cool-cactus-bracelet-41922,Armbånd med cool kaktus,6,33,419224192241922,60.0,0,0.0,0.0
+155,https://www.lego.com/da-dk/product/mermaid-vibes-bracelets-41909,Armbånd med havfruestemning,6,34,419094190941909,60.0,0,0.0,0.0
+156,https://www.lego.com/da-dk/product/ice-cream-besties-bracelets-41910,Armbånd med is og gode venner,6,34,419104191041910,60.0,0,0.0,0.0
+157,https://www.lego.com/da-dk/product/starlight-bracelets-41934,Armbånd med stjerneskin,6,34,419344193441934,60.0,0,0.0,0.0
+158,https://www.lego.com/da-dk/product/adventure-bracelets-41918,Eventyr-armbånd,6,34,419184191841918,60.0,0,0.0,0.0
+159,https://www.lego.com/da-dk/product/monster-bracelets-41923,Monster-armbånd,6,34,419234192341923,60.0,0,0.0,0.0
+160,https://www.lego.com/da-dk/product/creative-fun-10887,Kreativt sjov,1,120,108871088710887,349.0,0,0.0,0.0
+161,https://www.lego.com/da-dk/product/number-train-10847,Tog med tal,1,23,108471084710847,180.0,0,0.0,0.0
+162,https://www.lego.com/da-dk/product/pizza-stand-10927,Pizzabod,2,18,109271092710927,100.0,0,0.0,0.0
+163,https://www.lego.com/da-dk/product/lego-education-my-xl-world-45028,Min kæmpestore verden,2,480,450284502845028,2030.0,0,0.0,0.0
+164,https://www.lego.com/da-dk/product/coding-express-45025,Kodeekspressen,2,234,450254502545025,1918.0,0,0.0,0.0
+165,https://www.lego.com/da-dk/product/tubes-45026,Rør,3,150,450264502645026,1155.0,0,0.0,0.0
+166,https://www.lego.com/da-dk/product/tower-crane-construction-10933,Byggeplads med tårnkran,2,123,109331093310933,1099.0,0,0.0,0.0
+167,https://www.lego.com/da-dk/product/cargo-train-10875,Godstog,2,105,108751087510875,1099.0,4.1,3.8,4.1
+168,https://www.lego.com/da-dk/product/amusement-park-10956,Forlystelsespark,2,95,109561095610956,999.0,0,0.0,0.0
+169,https://www.lego.com/da-dk/product/happy-childhood-moments-10943,Glade barndomsstunder,2,227,109431094310943,899.0,0,0.0,0.0
+170,https://www.lego.com/da-dk/product/parking-garage-and-car-wash-10948,Parkeringshus og bilvask,2,112,109481094810948,899.0,0,0.0,0.0
+171,https://www.lego.com/da-dk/product/barn-tractor-farm-animal-care-10952,"Lade, traktor og pasning af bondegårdsdyr",2,97,109521095210952,649.0,0,0.0,0.0
+172,https://www.lego.com/da-dk/product/steam-train-10874,Damptog,2,59,108741087410874,549.0,0,0.0,0.0
+173,https://www.lego.com/da-dk/product/creative-birthday-party-10958,Kreativ fødselsdagsfest,1,200,109581095810958,549.0,0,0.0,0.0
+174,https://www.lego.com/da-dk/product/creative-animals-10934,Kreative Dyr,1,175,109341093410934,549.0,0,0.0,0.0
+175,https://www.lego.com/da-dk/product/modular-playhouse-10929,Modullegehus,2,129,109291092910929,549.0,0,0.0,0.0
+176,https://www.lego.com/da-dk/product/wrecking-ball-demolition-10932,Nedrivningsarbejde,2,56,109321093210932,549.0,0,0.0,0.0
+177,https://www.lego.com/da-dk/product/frozen-ice-castle-10899,Frost – isslot,2,59,108991089910899,449.0,0,0.0,0.0
+178,https://www.lego.com/da-dk/product/lego-friends-advent-calendar-41690,LEGO® Friends julekalender,6,370,416904169041690,200.0,0,0.0,0.0
+179,https://www.lego.com/da-dk/product/heartlake-city-park-41447,Heartlake park,6,432,414474144741447,279.0,0,0.0,0.0
+180,https://www.lego.com/da-dk/product/nature-glamping-41392,Luksuscamping i naturen,6,241,413924139241392,270.0,0,0.0,0.0
+181,https://www.lego.com/da-dk/product/andrea-s-car-stage-41390,Andreas bil og scene,6,240,413904139041390,180.0,0,0.0,0.0
+182,https://www.lego.com/da-dk/product/heartlake-city-bakery-41440,Heartlake bageri,4,99,414404144041440,180.0,0,0.0,0.0
+183,https://www.lego.com/da-dk/product/heartlake-city-hair-salon-41391,Heartlake frisørsalon,6,235,413914139141391,180.0,0,0.0,0.0
+184,https://www.lego.com/da-dk/product/emma-s-dalmatian-cube-41663,Emmas dalmatinerboks,6,41,416634166341663,100.0,0,0.0,0.0
+185,https://www.lego.com/da-dk/product/puppy-playground-41396,Hvalpelegeplads,4,57,413964139641396,100.0,0,0.0,0.0
+186,https://www.lego.com/da-dk/product/heartlake-city-grand-hotel-41684,Heartlake Grand Hotel,8,1308,416844168441684,899.0,0,0.0,0.0
+187,https://www.lego.com/da-dk/product/heartlake-city-shopping-mall-41450,Heartlake butikscenter,8,1032,414504145041450,899.0,0,0.0,0.0
+188,https://www.lego.com/da-dk/product/magical-funfair-roller-coaster-41685,Magisk rutsjebane-forlystelse,8,974,416854168541685,799.0,0,0.0,0.0
+189,https://www.lego.com/da-dk/product/party-boat-41433,Festbåd,7,640,414334143341433,749.0,0,0.0,0.0
+190,https://www.lego.com/da-dk/product/summer-fun-water-park-41430,Sommerbadeland,8,1001,414304143041430,719.0,0,0.0,0.0
+191,https://www.lego.com/da-dk/product/andrea-s-family-house-41449,Andreas families hus,6,802,414494144941449,649.0,0,0.0,0.0
+192,https://www.lego.com/da-dk/product/heartlake-city-school-41682,Heartlake skole,6,605,416824168241682,649.0,0,0.0,0.0
+193,https://www.lego.com/da-dk/product/forest-horseback-riding-center-41683,Skov-ridecenter,7,511,416834168341683,649.0,0,0.0,0.0
+194,https://www.lego.com/da-dk/product/surfer-beachfront-41693,Surferhus ved stranden,6,685,416934169341693,649.0,0,0.0,0.0
+195,https://www.lego.com/da-dk/product/friendship-bus-41395,Venskabsbus,8,778,413954139541395,649.0,0,0.0,0.0
+196,https://www.lego.com/da-dk/product/anna-and-elsa-s-frozen-wonderland-43194,Anna og Elsas Frost-vinterland,4,154,431944319443194,349.0,0,0.0,0.0
+197,https://www.lego.com/da-dk/product/elsa-s-jewelry-box-creation-41168,Elsas smykkeskrinsmodel,6,300,411684116841168,349.0,0,0.0,0.0
+198,https://www.lego.com/da-dk/product/elsa-s-wagon-adventure-41166,Elsas vogneventyr,4,116,411664116641166,270.0,0,0.0,0.0
+199,https://www.lego.com/da-dk/product/elsa-and-the-nokk-storybook-adventures-43189,Elsa og Nokkens bog-eventyr,5,125,431894318943189,180.0,0,0.0,0.0
+200,https://www.lego.com/da-dk/product/elsa-and-olaf-s-tea-party-10920,Elsa og Olafs teselskab,2,17,109201092010920,180.0,0,0.0,0.0
+201,https://www.lego.com/da-dk/product/lego-ǀ-disney-frozen-2-anna-keyring-853969,LEGO® ǀ Disney Frost 2 Anna-nøglering,6,50,0,,,,
+202,https://www.lego.com/da-dk/product/anna-and-elsa-s-storybook-adventures-43175,Anna og Elsas bog-eventyr,5,133,431754317543175,180.0,0,0.0,0.0
+203,https://www.lego.com/da-dk/product/lego-ǀ-disney-frozen-2-elsa-keyring-853968,LEGO® ǀ Disney Frost 2 Elsa-nøglering,6,50,0,,,,
+204,https://www.lego.com/da-dk/product/diagon-alley-75978,Diagonalstræde,16,5544,759787597875978,3199.0,0,0.0,0.0
+205,https://www.lego.com/da-dk/product/hogwarts-icons-collectors-edition-76391,Hogwarts™-ikoner – samlerudgave,18,3010,763917639176391,1999.0,0,0.0,0.0
+206,https://www.lego.com/da-dk/product/lego-harry-potter-advent-calendar-76390,LEGO® Harry Potter™ julekalender,7,274,763907639076390,270.0,0,0.0,0.0
+207,https://www.lego.com/da-dk/product/hogwarts-castle-71043,Hogwarts™-slottet,16,6020,710437104371043,3499.0,4.4,4.6,4.4
+208,https://www.lego.com/da-dk/product/hogwarts-room-of-requirement-75966,Hogwarts™ Fornødenhedsrummet,7,193,759667596675966,180.0,0,0.0,0.0
+209,https://www.lego.com/da-dk/product/hogwarts-chamber-of-secrets-76389,Hogwarts™: Hemmelighedernes Kammer,9,1176,763897638976389,1249.0,0,0.0,0.0
+210,https://www.lego.com/da-dk/product/harry-potter-hermione-granger-76393,Harry Potter og Hermione Granger™,10,1673,763937639376393,1199.0,0,0.0,0.0
+211,https://www.lego.com/da-dk/product/harry-potter-hogwarts-crests-31201,Harry Potter™ Hogwarts™-våbenskjolde,18,4249,312013120131201,1099.0,0,0.0,0.0
+212,https://www.lego.com/da-dk/product/attack-on-the-burrow-75980,Angrebet på Vindelhuset,9,1047,759807598075980,899.0,4.6,4.3,4.6
+213,https://www.lego.com/da-dk/product/hogwarts-astronomy-tower-75969,Hogwarts™ Astronomitårnet,9,971,759697596975969,899.0,4.4,4.2,4.4
+214,https://www.lego.com/da-dk/product/hogwarts-clock-tower-75948,Hogwarts™-klokketårn,9,922,759487594875948,799.0,4.5,4.3,4.5
+215,https://www.lego.com/da-dk/product/hogsmeade-village-visit-76388,Besøg i Hogsmeade™-landsbyen,8,851,763887638876388,749.0,0,0.0,0.0
+216,https://www.lego.com/da-dk/product/hogwarts-express-75955,Hogwarts™-ekspressen,8,801,759557595575955,749.0,4.4,4.3,4.4
+217,https://www.lego.com/da-dk/product/hogwarts-whomping-willow-75953,Hogwarts™-slagpoplen,8,753,759537595375953,649.0,4.4,4.1,4.4
+218,https://www.lego.com/da-dk/product/hogwarts-wizard-s-chess-76392,Hogwarts™: Troldmandsskak,10,876,763927639276392,649.0,0,0.0,0.0
+219,https://www.lego.com/da-dk/product/typewriter-21327,Skrivemaskine,18,2079,213272132721327,1599.0,4.4,4.4,4.4
+220,https://www.lego.com/da-dk/product/seinfeld-21328,Seinfeld,18,1326,213282132821328,749.0,0,0.0,0.0
+221,https://www.lego.com/da-dk/product/grand-piano-21323,Flygel,18,3662,213232132321323,2699.0,4.2,4.2,4.2
+222,https://www.lego.com/da-dk/product/tree-house-21318,Trætophus,16,3036,213182131821318,1799.0,4.6,4.6,4.6
+223,https://www.lego.com/da-dk/product/medieval-blacksmith-21325,Middelaldersmedje,18,2164,213252132521325,1299.0,4.7,4.3,4.7
+224,https://www.lego.com/da-dk/product/123-sesame-street-21324,123 Sesame Street,18,1367,213242132421324,1099.0,4.3,4.3,4.3
+225,https://www.lego.com/da-dk/product/central-perk-21319,Central Perk,16,1070,213192131921319,649.0,4.5,4.6,4.5
+226,https://www.lego.com/da-dk/product/international-space-station-21321,Den internationale rumstation,16,864,213212132121321,549.0,3.9,4.4,3.9
+227,https://www.lego.com/da-dk/product/dinosaur-fossils-21320,Dinosaurfossiler,16,910,213202132021320,549.0,0,0.0,0.0
+228,https://www.lego.com/da-dk/product/ship-in-a-bottle-92177,Flaskeskib,12,962,921779217792177,599.0,0,0.0,0.0
+229,https://www.lego.com/da-dk/product/lego-nasa-apollo-saturn-v-92176,LEGO® NASA Apollo Saturn V,14,1969,921769217692176,1099.0,4.6,4.8,4.6
+230,https://www.lego.com/da-dk/product/lego-ideas-fender-stratocaster-21329,LEGO® Ideas Fender® Stratocaster®,18,1074,213292132921329,899.0,0,0.0,0.0
+231,https://www.lego.com/da-dk/product/joey-keyring-854119,Joey-nøglering,6,50,0,,,,
+232,https://www.lego.com/da-dk/product/monica-keyring-854121,Monica-nøglering,6,50,0,,,,
+233,https://www.lego.com/da-dk/product/phoebe-keyring-854122,Phoebe-nøglering,6,50,0,,,,
+234,https://www.lego.com/da-dk/product/rachel-keyring-854120,Rachel-nøglering,6,50,0,,,,
+235,https://www.lego.com/da-dk/product/baryonyx-dinosaur-boat-escape-76942,World Baryonyx-dinosaurflugt i båd,8,308,769427694276942,749.0,0,0.0,0.0
+236,https://www.lego.com/da-dk/product/stygimoloch-dinosaur-escape-76939,Stygimoloch-dinosaurflugt,4,129,769397693976939,349.0,0,0.0,0.0
+237,https://www.lego.com/da-dk/product/t-rex-dinosaur-fossil-exhibition-76940,T. rex-dinosaurudstilling,7,198,769407694076940,270.0,0,0.0,0.0
+238,https://www.lego.com/da-dk/product/indominus-rex-vs-ankylosaurus-75941,Indominus rex mod ankylosaurus,8,537,759417594175941,899.0,0,0.0,0.0
+239,https://www.lego.com/da-dk/product/t-rex-and-triceratops-dinosaur-breakout-10939,T. rex og triceratops på dinosaurflugt,2,36,109391093910939,270.0,0,0.0,0.0
+240,https://www.lego.com/da-dk/product/carnotaurus-dinosaur-chase-76941,Carnotaurus-dinosaurjagt,7,240,769417694176941,449.0,0,0.0,0.0
+241,https://www.lego.com/da-dk/product/jurassic-park-t-rex-rampage-75936,Jurassic Park: T. rex-ravage,16,3120,759367593675936,1899.0,0,0.0,0.0
+242,https://www.lego.com/da-dk/product/gallimimus-and-pteranodon-breakout-75940,Gallimimus og pteranodon-flugt,7,391,759407594075940,549.0,0,0.0,0.0
+243,https://www.lego.com/da-dk/product/velociraptor-biplane-rescue-mission-75942,Velociraptor: Flyredningsmission​,4,101,759427594275942,270.0,0,0.0,0.0
+244,https://www.lego.com/da-dk/product/dr-wu-s-lab-baby-dinosaurs-breakout-75939,Dr. Wus laboratorium: Dinosaurungernes flugt,6,164,759397593975939,180.0,0,0.0,0.0
+245,https://www.lego.com/da-dk/product/marvel-studios-iron-man-31199,Marvel Studios Iron Man,18,3167,311993119931199,1099.0,0,0.0,0.0
+246,https://www.lego.com/da-dk/product/star-wars-the-sith-31200,Star Wars™ Sith™-fyrsterne,18,3406,312003120031200,1099.0,0,0.0,0.0
+247,https://www.lego.com/da-dk/product/world-map-31203,Verdenskort,18,11695,312033120331203,1999.0,0,0.0,0.0
+248,https://www.lego.com/da-dk/product/andy-warhol-s-marilyn-monroe-31197,Andy Warhol's Marilyn Monroe,18,3341,311973119731197,1099.0,0,0.0,0.0
+249,https://www.lego.com/da-dk/product/the-beatles-31198,The Beatles,18,2933,311983119831198,1099.0,3.3,3.0,3.3
+250,https://www.lego.com/da-dk/product/lego-education-spike-prime-set-45678,LEGO® Education SPIKE™ Prime-sæt,10,528,456784567845678,3110.0,0,0.0,0.0
+251,https://www.lego.com/da-dk/product/storytales-45005,Min første historie,3,109,450054500545005,987.0,0,0.0,0.0
+252,https://www.lego.com/da-dk/product/lego-education-spike-prime-expansion-set-45680,LEGO® Education SPIKE™ Prime-udvidelsessæt,10,603,456804568045680,941.0,0,0.0,0.0
+253,https://www.lego.com/da-dk/product/lego-education-bricq-motion-essential-set-45401,LEGO® Education BricQ Motion Essential-sæt,6,523,454014540145401,922.0,0,0.0,0.0
+254,https://www.lego.com/da-dk/product/lego-education-bricq-motion-prime-set-45400,LEGO® Education BricQ Motion Prime-sæt,10,564,454004540045400,922.0,0,0.0,0.0
+255,https://www.lego.com/da-dk/product/the-ultimate-bundle-5007062,Ultimativ sampak,10,2716,0,,,,
+256,https://www.lego.com/da-dk/product/the-creative-bundle-5007061,Kreativ sampak,10,1168,0,,,,
+257,https://www.lego.com/da-dk/product/the-team-up-bundle-5007060,Teamwork-sampak,10,1098,0,,,,
+258,https://www.lego.com/da-dk/product/bowser-s-airship-expansion-set-71391,Bowsers luftskib – udvidelsessæt,8,1152,713917139171391,899.0,0,0.0,0.0
+259,https://www.lego.com/da-dk/product/reznor-knockdown-expansion-set-71390,Reznor-væltning – udvidelsessæt,8,862,713907139071390,649.0,0,0.0,0.0
+260,https://www.lego.com/da-dk/product/adventures-with-luigi-starter-course-71387,Eventyr med Luigi – startbane,6,280,713877138771387,549.0,0,0.0,0.0
+261,https://www.lego.com/da-dk/product/lakitu-sky-world-expansion-set-71389,Lakitu-skyverden – udvidelsessæt,7,484,713897138971389,349.0,0,0.0,0.0
+262,https://www.lego.com/da-dk/product/boss-sumo-bro-topple-tower-expansion-set-71388,Sumo Bro-bossens væltetårn – udvidelsessæt,6,231,713887138871388,270.0,0,0.0,0.0
+263,https://www.lego.com/da-dk/product/bee-mario-power-up-pack-71393,Bi-Mario powerpakke,6,13,713937139371393,100.0,0,0.0,0.0
+264,https://www.lego.com/da-dk/product/frog-mario-power-up-pack-71392,Frø-Mario powerpakke,6,11,713927139271392,100.0,0,0.0,0.0
+265,https://www.lego.com/da-dk/product/character-packs-series-3-71394,Figurpakker – serie 3,6,24,713947139471394,30.0,0,0.0,0.0
+266,https://www.lego.com/da-dk/product/nintendo-entertainment-system-71374,Nintendo Entertainment System™,18,2646,713747137471374,1799.0,0,0.0,0.0
+267,https://www.lego.com/da-dk/product/boomer-bill-barrage-expansion-set-71366,Boomer Bill-spærreild – udvidelsessæt,7,132,713667136671366,270.0,0,0.0,0.0
+268,https://www.lego.com/da-dk/product/whomp-s-lava-trouble-expansion-set-71364,Whomps lavaballade – udvidelsessæt,6,133,713647136471364,153.0,0,0.0,0.0
+269,https://www.lego.com/da-dk/product/builder-mario-power-up-pack-71373,Bygge-Mario powerpakke,6,10,713737137371373,100.0,0,0.0,0.0
+270,https://www.lego.com/da-dk/product/bowser-s-castle-boss-battle-expansion-set-71369,Bowsers slot – bosskamp – udvidelsessæt,8,1010,713697136971369,899.0,0,0.0,0.0
+271,https://www.lego.com/da-dk/product/toad-s-treasure-hunt-expansion-set-71368,Toads skattejagt – udvidelsessæt,8,464,713687136871368,649.0,0,0.0,0.0
+272,https://www.lego.com/da-dk/product/daily-bugle-76178,Daily Bugle,18,3772,761787617876178,2299.0,0,0.0,0.0
+273,https://www.lego.com/da-dk/product/battle-at-the-ancient-village-76177,Kampen ved den gamle landsby,8,400,761777617776177,349.0,0,0.0,0.0
+274,https://www.lego.com/da-dk/product/tony-stark-s-sakaarian-iron-man-76194,Tony Starks sakaarianske Iron Man,8,369,761947619476194,299.0,0,0.0,0.0
+275,https://www.lego.com/da-dk/product/bro-thor-s-new-asgard-76200,Bro Thors nye Asgård,7,265,762007620076200,270.0,0,0.0,0.0
+276,https://www.lego.com/da-dk/product/captain-carter-the-hydra-stomper-76201,Captain Carter og Hydra-knuseren,8,343,762017620176201,270.0,0,0.0,0.0
+277,https://www.lego.com/da-dk/product/escape-from-the-ten-rings-76176,Flugten fra De Ti Ringe,7,321,761767617676176,270.0,0,0.0,0.0
+278,https://www.lego.com/da-dk/product/lego-minifigures-marvel-studios-71031,LEGO® Minifigures Marvel Studios,5,10,710317103171031,30.0,0,0.0,0.0
+279,https://www.lego.com/da-dk/product/iron-man-hall-of-armor-76125,Iron Mans dragtgalleri,7,524,761257612576125,549.0,0,0.0,0.0
+280,https://www.lego.com/da-dk/product/iron-man-mech-76140,Iron Man-robot,6,148,761407614076140,100.0,0,0.0,0.0
+281,https://www.lego.com/da-dk/product/the-guardians-ship-76193,Guardians-rumskibet,14,1901,761937619376193,1299.0,0,0.0,0.0
+282,https://www.lego.com/da-dk/product/attack-on-the-spider-lair-76175,Angreb på Spider-tilholdsstedet,8,466,761757617576175,749.0,0,0.0,0.0
+283,https://www.lego.com/da-dk/product/avengers-endgame-final-battle-76192,Avengers: Endgame – den endelige kamp,8,527,761927619276192,649.0,0,0.0,0.0
+284,https://www.lego.com/da-dk/product/infinity-gauntlet-76191,Evighedshandsken,18,590,761917619176191,649.0,0,0.0,0.0
+285,https://www.lego.com/da-dk/product/venomosaurus-ambush-76151,Venomosaurus-baghold,8,640,761517615176151,599.0,0,0.0,0.0
+286,https://www.lego.com/da-dk/product/carnage-76199,Carnage,18,546,761997619976199,549.0,0,0.0,0.0
+287,https://www.lego.com/da-dk/product/venom-76187,Venom,18,565,761877618776187,549.0,0,0.0,0.0
+288,https://www.lego.com/da-dk/product/robot-inventor-51515,Robot Inventor,10,949,515155151551515,2799.0,4.0,3.6,4.0
+289,https://www.lego.com/da-dk/product/ev3-intelligent-brick-45500,Intelligent EV3 klods,10,1,455004550045500,1699.0,0,0.0,0.0
+290,https://www.lego.com/da-dk/product/ev3-gyro-sensor-45505,EV3 Gyrosensor,10,1,455054550545505,300.0,0,0.0,0.0
+291,https://www.lego.com/da-dk/product/ev3-ultrasonic-sensor-45504,EV3 Ultralydssensor,10,1,455044550445504,300.0,0,0.0,0.0
+292,https://www.lego.com/da-dk/product/ev3-touch-sensor-45507,EV3 Tryksensor,10,1,455074550745507,180.0,0,0.0,0.0
+293,https://www.lego.com/da-dk/product/ev3-cable-pack-45514,EV3-kabelpakke,10,7,455144551445514,150.0,0,0.0,0.0
+294,https://www.lego.com/da-dk/product/ev3-medium-servo-motor-45503,Mellemstor EV3 servomotor,10,1,455034550345503,230.0,0,0.0,0.0
+295,https://www.lego.com/da-dk/product/the-taiga-adventure-21162,Tajga-eventyret,7,74,211622116221162,100.0,0,0.0,0.0
+296,https://www.lego.com/da-dk/product/the-pirate-ship-adventure-21152,Piratskibseventyret,8,386,211522115221152,449.0,0,0.0,0.0
+297,https://www.lego.com/da-dk/product/the-modern-treehouse-21174,Det moderne trætophus,9,909,211742117421174,1099.0,0,0.0,0.0
+298,https://www.lego.com/da-dk/product/the-creeper-mine-21155,Creeper™-minen,8,834,211552115521155,749.0,0,0.0,0.0
+299,https://www.lego.com/da-dk/product/the-illager-raid-21160,Illager-angrebet,8,562,211602116021160,649.0,0,0.0,0.0
+300,https://www.lego.com/da-dk/product/the-crafting-box-3-0-21161,Crafting-boks 3.0,8,564,211612116121161,599.0,0,0.0,0.0
+301,https://www.lego.com/da-dk/product/the-first-adventure-21169,Det første eventyr,8,542,211692116921169,549.0,0,0.0,0.0
+302,https://www.lego.com/da-dk/product/the-sky-tower-21173,Himmeltårnet,8,565,211732117321173,499.0,0,0.0,0.0
+303,https://www.lego.com/da-dk/product/the-pig-house-21170,Grisehuset,8,490,211702117021170,359.0,0,0.0,0.0
+304,https://www.lego.com/da-dk/product/the-blaze-bridge-21154,Blaze-broen,8,372,211542115421154,349.0,0,0.0,0.0
+305,https://www.lego.com/da-dk/product/the-jungle-abomination-21176,Det afskyelige junglevæsen,8,489,211762117621176,349.0,0,0.0,0.0
+306,https://www.lego.com/da-dk/product/the-warped-forest-21168,Den sære skov,8,287,211682116821168,270.0,0,0.0,0.0
+307,https://www.lego.com/da-dk/product/the-ruined-portal-21172,Den ødelagte portal,8,316,211722117221172,270.0,0,0.0,0.0
+308,https://www.lego.com/da-dk/product/the-bee-farm-21165,Bifarmen,8,238,211652116521165,180.0,0,0.0,0.0
+309,https://www.lego.com/da-dk/product/the-abandoned-mine-21166,"Den ""forladte"" mine",7,248,211662116621166,180.0,0,0.0,0.0
+310,https://www.lego.com/da-dk/product/the-end-battle-21151,Ender-slaget,7,222,211512115121151,180.0,0,0.0,0.0
+311,https://www.lego.com/da-dk/product/the-trading-post-21167,Handelsposten,8,201,211672116721167,180.0,0,0.0,0.0
+312,https://www.lego.com/da-dk/product/series-21-71029,Serie 21,5,8,710297102971029,30.0,0,0.0,0.0
+313,https://www.lego.com/da-dk/product/fairground-mf-acc-set-40373,Minifigur- og tilbehørssæt – forlystelsespark,6,51,403734037340373,130.0,0,0.0,0.0
+314,https://www.lego.com/da-dk/product/minifigure-belight-backpack-5005918,Minifigurrygsæk med reflekser,5,399,0,,,,
+315,https://www.lego.com/da-dk/product/wizarding-world-minifigure-accessory-set-40500,Minifigur- og tilbehørssæt – Troldmandsverdenen,6,33,405004050040500,130.0,0,0.0,0.0
+316,https://www.lego.com/da-dk/product/minions-kung-fu-training-40511,Minions kung-fu-træning,6,54,405114051140511,130.0,0,0.0,0.0
+317,https://www.lego.com/da-dk/product/tlm2-accessory-set-2019-853865,TLM2 tilbehørssæt 2019,6,48,853865853865853865,130.0,0,0.0,0.0
+318,https://www.lego.com/da-dk/product/harry-potter-series-2-71028,Harry Potter™ serie 2,5,8,710287102871028,30.0,4.4,3.8,4.4
+319,https://www.lego.com/da-dk/product/looney-tunes-71030,Looney Tunes™,5,8,710307103071030,30.0,0,0.0,0.0
+320,https://www.lego.com/da-dk/product/unstoppable-bike-chase-75549,Ustoppelig motorcykeljagt,6,136,755497554975549,180.0,0,0.0,0.0
+321,https://www.lego.com/da-dk/product/brick-built-minions-and-their-lair-75551,Klodsbyggede Minions og deres tilholdssted,8,876,755517555175551,449.0,4.4,3.6,4.4
+322,https://www.lego.com/da-dk/product/minions-kung-fu-battle-75550,Minions kung fu-kamp,6,310,755507555075550,349.0,0,0.0,0.0
+323,https://www.lego.com/da-dk/product/minion-pilot-in-training-75547,Minion-pilotelev,4,119,755477554775547,300.0,0,0.0,0.0
+324,https://www.lego.com/da-dk/product/minions-in-gru-s-lab-75546,Minions i Grus laboratorium,4,87,755467554675546,180.0,0,0.0,0.0
+325,https://www.lego.com/da-dk/product/otto-keyring-854043,Otto-nøglering,6,50,0,,,,
+326,https://www.lego.com/da-dk/product/stuart-keyring-854071,Stuart-nøglering,6,50,0,,,,
+327,https://www.lego.com/da-dk/product/monkie-kid-s-team-secret-hq-80013,Monkie Kid-teamets hemmelige hovedkvarter,10,1959,800138001380013,1119.0,0,0.0,0.0
+328,https://www.lego.com/da-dk/product/monkey-king-warrior-mech-80012,Monkey Kings krigerrobot,10,1629,800128001280012,959.0,3.9,4.4,3.9
+329,https://www.lego.com/da-dk/product/red-son-s-inferno-truck-80011,Red Sons infernovogn,9,1111,800118001180011,719.0,0,0.0,0.0
+330,https://www.lego.com/da-dk/product/monkie-kid-s-cloud-jet-80008,Monkie Kids himmeljet,8,529,800088000880008,359.0,0,0.0,0.0
+331,https://www.lego.com/da-dk/product/iron-bull-tank-80007,Jerntyr-kampvogn,7,430,800078000780007,319.0,0,0.0,0.0
+332,https://www.lego.com/da-dk/product/white-dragon-horse-bike-80006,Hvid dragehest-motorcykel,6,259,800068000680006,216.0,0,0.0,0.0
+333,https://www.lego.com/da-dk/product/monkie-kid-s-rc-race-40472,Monkie Kids fjernstyrede racerløb,6,57,404724047240472,104.0,0,0.0,0.0
+334,https://www.lego.com/da-dk/product/monkey-king-40381,Monkey King,10,175,403814038140381,80.0,0,0.0,0.0
+335,https://www.lego.com/da-dk/product/the-legendary-flower-fruit-mountain-80024,Det legendariske Blomsterfrugtbjerg,10,1949,800248002480024,1039.0,4.5,4.4,4.5
+336,https://www.lego.com/da-dk/product/the-flaming-foundry-80016,Flammestøberiet,9,1427,800168001680016,959.0,0,0.0,0.0
+337,https://www.lego.com/da-dk/product/monkie-kid-s-team-dronecopter-80023,Monkie Kid-teamets dronecopter,10,1462,800238002380023,959.0,0,0.0,0.0
+338,https://www.lego.com/da-dk/product/the-bone-demon-80028,Bone Demon,9,1375,800288002880028,899.0,0,0.0,0.0
+339,https://www.lego.com/da-dk/product/spider-queen-s-arachnoid-base-80022,Spider Queens edderkoppebase,9,1170,800228002280022,719.0,0,0.0,0.0
+340,https://www.lego.com/da-dk/product/monkie-kid-s-lion-guardian-80021,Monkie Kids løvevogter,8,774,800218002180021,519.0,0,0.0,0.0
+341,https://www.lego.com/da-dk/product/pigsy-s-noodle-tank-80026,Pigsys nudelkampvogn,8,662,800268002680026,449.0,0,0.0,0.0
+342,https://www.lego.com/da-dk/product/monkie-kid-s-cloud-roadster-80015,Monkie Kids himmelfræser,8,659,800158001580015,439.0,0,0.0,0.0
+343,https://www.lego.com/da-dk/product/sandy-s-power-loader-mech-80025,Sandys Power-Mech,8,520,800258002580025,399.0,0,0.0,0.0
+344,https://www.lego.com/da-dk/product/sandy-s-speedboat-80014,Sandys speedbåd,8,394,800148001480014,359.0,0,0.0,0.0
+345,https://www.lego.com/da-dk/product/ninjago-city-gardens-71741,NINJAGO® Citys haver,14,5685,717417174171741,2399.0,0,0.0,0.0
+346,https://www.lego.com/da-dk/product/epic-battle-set-cole-vs-ghost-warrior-71733,Episk kampsæt – Cole mod spøgelseskriger,6,51,717337173371733,100.0,0,0.0,0.0
+347,https://www.lego.com/da-dk/product/epic-battle-set-jay-vs-serpentine-71732,Episk kampsæt – Jay mod Serpentine-kriger,6,69,717327173271732,100.0,0,0.0,0.0
+348,https://www.lego.com/da-dk/product/epic-battle-set-kai-vs-skulkin-71730,Episk kampsæt – Kai mod Skulkin-kriger,6,61,717307173071730,100.0,0,0.0,0.0
+349,https://www.lego.com/da-dk/product/epic-battle-set-zane-vs-nindroid-71731,Episk kampsæt – Zane mod nindroide,6,57,717317173171731,100.0,0,0.0,0.0
+350,https://www.lego.com/da-dk/product/hydro-bounty-71756,Skæbne-ubåden,9,1159,717567175671756,1249.0,0,0.0,0.0
+351,https://www.lego.com/da-dk/product/temple-of-the-endless-sea-71755,Det Uendelige Havs tempel,9,1060,717557175571755,999.0,0,0.0,0.0
+352,https://www.lego.com/da-dk/product/destiny-s-bounty-71705,Skæbnebåden,9,1781,717057170571705,959.0,0,0.0,0.0
+353,https://www.lego.com/da-dk/product/ultra-sonic-raider-71739,Ultrasonisk angrebsmaskine,9,725,717397173971739,799.0,0,0.0,0.0
+354,https://www.lego.com/da-dk/product/skull-sorcerer-s-dungeons-71722,Kranietroldmandens fangekældre,9,1171,717227172271722,719.0,0,0.0,0.0
+355,https://www.lego.com/da-dk/product/catamaran-sea-battle-71748,Katamarankamp til havs,9,780,717487174871748,649.0,0,0.0,0.0
+356,https://www.lego.com/da-dk/product/water-dragon-71754,Vanddrage,9,737,717547175471754,649.0,0,0.0,0.0
+357,https://www.lego.com/da-dk/product/skull-sorcerer-s-dragon-71721,Kranietroldmandens drage,9,1016,717217172171721,599.0,0,0.0,0.0
+358,https://www.lego.com/da-dk/product/zane-s-titan-mech-battle-71738,Zanes kæmperobotkamp,9,840,717387173871738,499.0,0,0.0,0.0
+359,https://www.lego.com/da-dk/product/fire-dragon-attack-71753,Ilddrageangreb,8,563,717537175371753,449.0,0,0.0,0.0
+360,https://www.lego.com/da-dk/product/the-keepers-village-71747,Vogternes landsby,8,632,717477174771747,449.0,0,0.0,0.0
+361,https://www.lego.com/da-dk/product/x-1-ninja-charger-71737,X-1 ninjabil,8,599,717377173771737,419.0,0,0.0,0.0
+362,https://www.lego.com/da-dk/product/liebherr-r-9800-excavator-42100,Liebherr R 9800 gravemaskine,12,4108,421004210042100,3399.0,4.2,3.9,4.2
+363,https://www.lego.com/da-dk/product/4x4-x-treme-off-roader-42099,Firhjulstrukket X-trem offroader,11,958,420994209942099,1799.0,0,0.0,0.0
+364,https://www.lego.com/da-dk/product/cargo-train-60198,Godstog,6,1226,601986019860198,1699.0,0,0.0,0.0
+365,https://www.lego.com/da-dk/product/app-controlled-top-gear-rally-car-42109,App-styret Top Gear-rallybil,9,463,421094210942109,1199.0,0,0.0,0.0
+366,https://www.lego.com/da-dk/product/move-hub-88006,Move Hub,7,1,880068800688006,699.0,0,0.0,0.0
+367,https://www.lego.com/da-dk/product/technic-hub-88012,Technic hub,7,1,880128801288012,699.0,0,0.0,0.0
+368,https://www.lego.com/da-dk/product/hub-88009,Hub,7,1,880098800988009,449.0,0,0.0,0.0
+369,https://www.lego.com/da-dk/product/technic-xl-motor-88014,Technic XL-motor,7,1,880148801488014,300.0,0,0.0,0.0
+370,https://www.lego.com/da-dk/product/technic-large-motor-88013,Technic stor motor,7,1,880138801388013,300.0,0,0.0,0.0
+371,https://www.lego.com/da-dk/product/battery-box-88015,Batteriboks,7,1,880158801588015,270.0,0,0.0,0.0
+372,https://www.lego.com/da-dk/product/remote-control-88010,Fjernbetjening,7,1,880108801088010,200.0,0,0.0,0.0
+373,https://www.lego.com/da-dk/product/medium-linear-motor-88008,Mellemstor lineærmotor,7,1,880088800888008,150.0,0,0.0,0.0
+374,https://www.lego.com/da-dk/product/color-distance-sensor-88007,Farve- og afstandssensor,7,1,880078800788007,130.0,0,0.0,0.0
+375,https://www.lego.com/da-dk/product/train-motor-88011,Togmotor,7,7,880118801188011,130.0,0,0.0,0.0
+376,https://www.lego.com/da-dk/product/identity-and-landscape-kit-2000430,LEGO® SERIOUS PLAY® Identity and Landscape Kit,6,2808,200043020004302000430,4350.0,0,0.0,0.0
+377,https://www.lego.com/da-dk/product/connections-kit-2000431,LEGO® SERIOUS PLAY® Connections Kit,6,2455,200043120004312000431,4160.0,0,0.0,0.0
+378,https://www.lego.com/da-dk/product/window-exploration-bag-2000409,LEGO® SERIOUS PLAY® Window Exploration Bag,6,5100,200040920004092000409,2676.0,0,0.0,0.0
+379,https://www.lego.com/da-dk/product/starter-kit-2000414,LEGO® SERIOUS PLAY® Starter Kit,6,234,200041420004142000414,200.0,0,0.0,0.0
+380,https://www.lego.com/da-dk/product/mopar-dodge-srt-top-fuel-dragster-and-1970-dodge-challenger-t-a-76904,Mopar Dodge//SRT Top Fuel-dragster og 1970 Dodge Challenger T/A,8,627,769047690476904,499.0,0,0.0,0.0
+381,https://www.lego.com/da-dk/product/ford-gt-heritage-edition-and-bronco-r-76905,Ford GT Heritage Edition og Bronco R,8,660,769057690576905,449.0,4.8,4.8,4.8
+382,https://www.lego.com/da-dk/product/lamborghini-urus-st-x-lamborghini-huracan-super-trofeo-evo-76899,Lamborghini Urus ST-X & Lamborghini Huracán Super Trofeo EVO,8,663,768997689976899,439.0,3.7,2.8,3.7
+383,https://www.lego.com/da-dk/product/chevrolet-corvette-c8-r-race-car-and-1968-chevrolet-corvette-76903,Chevrolet Corvette C8.R-racerbil og 1968 Chevrolet Corvette,8,512,769037690376903,349.0,4.7,4.7,4.7
+384,https://www.lego.com/da-dk/product/formula-e-panasonic-jaguar-racing-gen2-car-jaguar-i-pace-etrophy-76898,Formula E Panasonic Jaguar Racing GEN2-bil og Jaguar I-PACE eTROPHY,8,565,768987689876898,349.0,0,0.0,0.0
+385,https://www.lego.com/da-dk/product/ferrari-f8-tributo-76895,Ferrari F8 Tributo,7,275,768957689576895,180.0,4.5,4.5,4.5
+386,https://www.lego.com/da-dk/product/koenigsegg-jesko-76900,Koenigsegg Jesko,7,280,769007690076900,180.0,4.9,4.8,4.9
+387,https://www.lego.com/da-dk/product/mclaren-elva-76902,McLaren Elva,7,263,769027690276902,180.0,4.6,4.5,4.6
+388,https://www.lego.com/da-dk/product/nissan-gt-r-nismo-76896,Nissan GT-R NISMO,7,298,768967689676896,180.0,0,0.0,0.0
+389,https://www.lego.com/da-dk/product/toyota-gr-supra-76901,Toyota GR Supra,7,299,769017690176901,180.0,0,0.0,0.0
+390,https://www.lego.com/da-dk/product/1985-audi-sport-quattro-s1-76897,1985 Audi Sport quattro S1,7,250,768977689776897,180.0,0,0.0,0.0
+391,https://www.lego.com/da-dk/product/spider-man-headquarters-10940,Spider-Mans hovedkvarter,2,36,109401094010940,270.0,0,0.0,0.0
+392,https://www.lego.com/da-dk/product/spider-man-doctor-octopus-mech-battle-76198,Spider-Man og Doctor Octopus i mech-robotkamp,7,305,761987619876198,180.0,0,0.0,0.0
+393,https://www.lego.com/da-dk/product/spider-man-and-ghost-rider-vs-carnage-76173,Spider-Man og Ghost Rider mod Carnage,7,212,761737617376173,180.0,0,0.0,0.0
+394,https://www.lego.com/da-dk/product/spider-man-versus-venom-and-iron-venom-40454,Spider-Man mod Venom og Iron Venom,6,63,404544045440454,130.0,0,0.0,0.0
+395,https://www.lego.com/da-dk/product/miles-morales-mech-armour-76171,Miles Morales' kamprobot,7,125,761717617176171,100.0,0,0.0,0.0
+396,https://www.lego.com/da-dk/product/spider-man-at-the-sanctum-workshop-76185,Spider-Man i det allerhelligstes værksted,7,355,761857618576185,349.0,0,0.0,0.0
+397,https://www.lego.com/da-dk/product/spider-man-vs-mysterio-s-drone-attack-76184,Spider-Man mod Mysterios droneangreb,4,73,761847618476184,180.0,0,0.0,0.0
+398,https://www.lego.com/da-dk/product/spider-man-s-drone-duel-76195,Spider-Mans droneduel,7,198,761957619576195,180.0,0,0.0,0.0
+399,https://www.lego.com/da-dk/product/spider-ham-keyring-854077,Spider-Ham-nøglering,6,50,0,,,,
+400,https://www.lego.com/da-dk/product/spider-man-s-monster-truck-vs-mysterio-76174,Spider-Mans monstertruck mod Mysterio,8,439,761747617476174,359.0,0,0.0,0.0
+401,https://www.lego.com/da-dk/product/venom-crawler-76163,Venom-kravler,8,413,761637616376163,270.0,0,0.0,0.0
+402,https://www.lego.com/da-dk/product/spider-man-and-sandman-showdown-76172,Spider-Man og Sandmans opgør,4,45,761727617276172,100.0,0,0.0,0.0
+403,https://www.lego.com/da-dk/product/spider-man-mech-76146,Spider-Man-robot,6,152,761467614676146,100.0,0,0.0,0.0
+404,https://www.lego.com/da-dk/product/republic-gunship-75309,Republikkens kampskib,18,3292,753097530975309,2699.0,3.5,3.9,3.5
+405,https://www.lego.com/da-dk/product/imperial-light-cruiser-75315,Kejserlig let krydser,10,1336,753157531575315,1199.0,0,0.0,0.0
+406,https://www.lego.com/da-dk/product/the-bad-batch-attack-shuttle-75314,The Bad Batch™ angrebsskib,9,969,753147531475314,899.0,0,0.0,0.0
+407,https://www.lego.com/da-dk/product/darth-vader-meditation-chamber-75296,Darth Vaders™ meditationskammer,18,663,752967529675296,649.0,0,0.0,0.0
+408,https://www.lego.com/da-dk/product/imperial-armored-marauder-75311,Kejserligt Marauder-fartøj,8,478,753117531175311,349.0,0,0.0,0.0
+409,https://www.lego.com/da-dk/product/the-armorer-s-mandalorian-forge-75319,Våbensmedens mandalorianske smedje,8,258,753197531975319,270.0,0,0.0,0.0
+410,https://www.lego.com/da-dk/product/duel-on-mandalore-75310,Duel på Mandalore™,7,147,753107531075310,180.0,0,0.0,0.0
+411,https://www.lego.com/da-dk/product/millennium-falcon-75192,Millennium Falcon™,16,7541,751927519275192,6999.0,4.0,4.2,4.0
+412,https://www.lego.com/da-dk/product/imperial-star-destroyer-75252,Kejserlig stjernedestroyer,16,4784,752527525275252,5299.0,3.1,3.7,3.1
+413,https://www.lego.com/da-dk/product/mos-eisley-cantina-75290,Mos Eisleys Cantina,18,3187,752907529075290,2799.0,0,0.0,0.0
+414,https://www.lego.com/da-dk/product/r2-d2-75308,R2-D2™,18,2314,753087530875308,1599.0,0,0.0,0.0
+415,https://www.lego.com/da-dk/product/a-wing-starfighter-75275,A-wing-stjernejager,18,1673,752757527575275,1599.0,3.7,3.9,3.7
+416,https://www.lego.com/da-dk/product/mandalorian-battle-pack-75267,Mandaloriansk Battle Pack,6,102,752677526775267,130.0,0,0.0,0.0
+417,https://www.lego.com/da-dk/product/at-at-75288,AT-AT™,10,1267,752887528875288,1399.0,0,0.0,0.0
+418,https://www.lego.com/da-dk/product/the-upside-down-75810,Vrangsiden,16,2287,758107581075810,1799.0,4.1,4.1,4.1
+419,https://www.lego.com/da-dk/product/4x4-mercedes-benz-zetros-trial-truck-42129,Firhjulstrukket Mercedes-Benz Zetros offroadtruck,12,2110,421294212942129,2299.0,0,0.0,0.0
+420,https://www.lego.com/da-dk/product/heavy-duty-tow-truck-42128,Stor kranvogn,11,2017,421284212842128,1299.0,0,0.0,0.0
+421,https://www.lego.com/da-dk/product/ford-f-150-raptor-42126,Ford® F-150 Raptor,18,1379,421264212642126,1249.0,0,0.0,0.0
+422,https://www.lego.com/da-dk/product/bugatti-chiron-42083,Bugatti Chiron,16,3599,420834208342083,3199.0,4.3,4.2,4.3
+423,https://www.lego.com/da-dk/product/lamborghini-sian-fkp-37-42115,Lamborghini Sián FKP 37,18,3696,421154211542115,2899.0,4.0,3.4,4.0
+424,https://www.lego.com/da-dk/product/getaway-truck-42090,Flugtbil,7,128,420904209042090,153.0,0,0.0,0.0
+425,https://www.lego.com/da-dk/product/6x6-volvo-articulated-hauler-42114,Sekshjulet Volvo-dumper,11,2193,421144211442114,1999.0,3.6,3.9,3.6
+426,https://www.lego.com/da-dk/product/land-rover-defender-42110,Land Rover Defender,11,2573,421104211042110,1499.0,4.2,4.3,4.2
+427,https://www.lego.com/da-dk/product/ferrari-488-gte-af-corse-51-42125,Ferrari 488 GTE “AF Corse #51”,18,1677,421254212542125,1399.0,0,0.0,0.0
+428,https://www.lego.com/da-dk/product/porsche-911-rsr-42096,Porsche 911 RSR,10,1580,420964209642096,1399.0,4.1,4.2,4.1
+429,https://www.lego.com/da-dk/product/off-road-buggy-42124,Offroader-buggy,10,374,421244212442124,999.0,0,0.0,0.0
+430,https://www.lego.com/da-dk/product/dom-s-dodge-charger-42111,Doms Dodge Charger,10,1077,421114211142111,899.0,0,0.0,0.0
+431,https://www.lego.com/da-dk/product/concrete-mixer-truck-42112,Lastbil med betonblander,10,1163,421124211242112,899.0,4.6,4.2,4.6
+432,https://www.lego.com/da-dk/product/mobile-crane-42108,Mobilkran,10,1292,421084210842108,899.0,0,0.0,0.0
+433,https://www.lego.com/da-dk/product/vibe-city-concert-41258,Vibe City-koncert,6,494,412584125841258,549.0,0,0.0,0.0
+434,https://www.lego.com/da-dk/product/volcano-rock-city-concert-41254,Volcano Rock-bykoncert,6,387,412544125441254,349.0,0,0.0,0.0
+435,https://www.lego.com/da-dk/product/poppy-s-hot-air-balloon-adventure-41252,Poppys balloneventyr,6,250,412524125241252,300.0,0,0.0,0.0
+436,https://www.lego.com/da-dk/product/poppy-s-pod-41251,Poppys kapsel,4,103,412514125141251,180.0,0,0.0,0.0
+437,https://www.lego.com/da-dk/product/branch-keyring-854004,Kvist-nøglering,6,50,0,,,,
+438,https://www.lego.com/da-dk/product/the-boombox-43115,The Boombox,9,996,431154311543115,899.0,0,0.0,0.0
+439,https://www.lego.com/da-dk/product/punk-pirate-ship-43114,Punk Pirate Ship,8,615,431144311443114,649.0,0,0.0,0.0
+440,https://www.lego.com/da-dk/product/k-pawp-concert-43113,K-Pawp Concert,8,514,431134311343113,449.0,0,0.0,0.0
+441,https://www.lego.com/da-dk/product/candy-castle-stage-43111,Candy Castle Stage,7,344,431114311143111,270.0,0,0.0,0.0
+442,https://www.lego.com/da-dk/product/robo-hiphop-car-43112,Robo HipHop Car,7,387,431124311243112,270.0,0,0.0,0.0
+443,https://www.lego.com/da-dk/product/alien-dj-beatbox-43104,Alien DJ BeatBox,7,73,431044310443104,180.0,0,0.0,0.0
+444,https://www.lego.com/da-dk/product/candy-mermaid-beatbox-43102,Candy Mermaid BeatBox,7,71,431024310243102,180.0,0,0.0,0.0
+445,https://www.lego.com/da-dk/product/folk-fairy-beatbox-43110,Folk Fairy BeatBox,7,89,431104311043110,180.0,0,0.0,0.0
+446,https://www.lego.com/da-dk/product/hiphop-robot-beatbox-43107,HipHop Robot BeatBox,7,73,431074310743107,180.0,0,0.0,0.0
+447,https://www.lego.com/da-dk/product/metal-dragon-beatbox-43109,Metal Dragon BeatBox,7,86,431094310943109,180.0,0,0.0,0.0
+448,https://www.lego.com/da-dk/product/party-llama-beatbox-43105,Party Llama BeatBox,7,82,431054310543105,180.0,0,0.0,0.0
+449,https://www.lego.com/da-dk/product/punk-pirate-beatbox-43103,Punk Pirate BeatBox,7,73,431034310343103,180.0,0,0.0,0.0
+450,https://www.lego.com/da-dk/product/unicorn-dj-beatbox-43106,Unicorn DJ BeatBox,7,84,431064310643106,180.0,0,0.0,0.0
+451,https://www.lego.com/da-dk/product/bandmates-43101,Bandmates,7,11,431014310143101,40.0,0,0.0,0.0
+452,https://www.lego.com/da-dk/product/water-tape-854065,Vandbånd,6,23,854065854065854065,80.0,0,0.0,0.0
+453,https://www.lego.com/da-dk/product/lego-xtra-sea-accessories-40341,LEGO® xtra havudstyr,6,24,403414034140341,40.0,0,0.0,0.0
+454,https://www.lego.com/da-dk/product/botanical-accessories-40376,Plantetilbehør,6,32,403764037640376,40.0,0,0.0,0.0
+455,https://www.lego.com/da-dk/product/sports-accessories-40375,Sportstilbehør,6,36,403754037540375,40.0,0,0.0,0.0
+456,https://www.lego.com/da-dk/product/xtra-chinatown-40464,xtra Chinatown,8,35,404644046440464,40.0,0,0.0,0.0
+457,https://www.lego.com/da-dk/product/xtra-food-40465,xtra Mad,6,36,404654046540465,40.0,0,0.0,0.0
+458,https://www.lego.com/da-dk/product/food-accessories-40309,Madtilbehør,6,30,403094030940309,40.0,0,0.0,0.0
