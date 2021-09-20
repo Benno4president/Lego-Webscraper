@@ -22,7 +22,8 @@ def load_from_csv(filename):
     return pd.read_csv(filename)
 
 
-def pie_charter(label_arr=[], value_arr=[]):
+
+def pie_charter(label_arr=[], value_arr=[], amount=9999):
     matplotlib.rcParams.update({'font.size': 20})
 
     # data to plot
@@ -39,13 +40,14 @@ def pie_charter(label_arr=[], value_arr=[]):
         labels.append(i.get('Label'))
         sizes.append(i.get('Val'))
 
+
     # explode 1st slice
     explode = []
     for i in range(len(sizes)):
         explode.append(0)
     fig, axs = plt.subplots(figsize=(5, 5))
-    plt.pie(sizes, explode=explode, labels=labels, colors=colors,
-            autopct='%1.1f%%', shadow=True, startangle=90)
+    plt.pie(sizes[:amount], explode=explode[:amount], labels=labels[:amount], colors=colors[:amount],
+            autopct='%1.1f%%', shadow=False, startangle=90)
 
     plt.axis('equal')
     plt.show()

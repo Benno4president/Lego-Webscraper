@@ -122,7 +122,8 @@ def main():
 
     t0 = time.time()
     # lego_setliste = LegoDotComScraper(legodotcom, 1)
-    lego_setliste = load_objects_from_path('pickle.rick')
+    _lego_setliste = load_objects_from_path('pickle.rick')
+    lego_setliste = remove_dubs_heavy(_lego_setliste)
     # save_objects_to_path(lego_setliste, "pickle.rick")
     # print(ANSI_RAINBOW("   GHETTO SHIT"))
     t1 = time.time()
@@ -140,6 +141,15 @@ def main():
     # df = NumpyAnalyser.load_from_csv('pickle.csv')
     # df = NumpyAnalyser.load_from_csv('inventory_sets.csv')
     # NumpyAnalyser.html_pd_stats(df, 'lego_api_stats.html')
+    _label = []
+    _price =[]
+    for set in lego_setliste:
+        if float(set.rating_amount) > 4.5:
+            _price.append(set.price)
+            _label.append(set.name)
+
+    NumpyAnalyser.pie_charter(_label, _price, 10)
+
 
     gg = LegoModel.divide_into_age_groups(lego_setliste, [[1, 3], [4, 5], [6, 8], [9, 12], [13, 21]])
 

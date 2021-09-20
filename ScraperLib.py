@@ -149,6 +149,20 @@ def removeDupFromList(x):
     return list(dict.fromkeys(x))
 
 
+def remove_dubs_heavy(_list):
+    new_list = []
+    seen = [] # set()  # set for fast O(1) amortized lookup
+    for line in _list:
+        if (line.name + str(line.product_number)) in seen:
+            # line.print()
+            continue  # skip duplicate
+        seen.append(line.name + str(line.product_number))
+        new_list.append(line)
+        # line.print()
+    # print('removed lines:', len(_list) - len(new_list), 'new_list len:', len(new_list))
+    return new_list
+
+
 def numbersToRelativeSize(length, progress, get_full_length: bool = False, size: int = 40):
     if length == 0 or progress == 0:
         return 0
@@ -156,7 +170,6 @@ def numbersToRelativeSize(length, progress, get_full_length: bool = False, size:
         return size - int(((progress / length) * size))
     else:
         return int((progress / length) * size)
-
 
 
 # ProgressBar.new_bar('th', len(list[object]), 'pre-fix', )
@@ -172,6 +185,8 @@ class BarDesign(Enum):
 
 
 class ProgressBar:
+    amount = 0
+
     def __init__(self, tag: str, length: int = 0, pre_fix: str = '', bar_design: BarDesign = BarDesign.not_so_simple,
                  display_time_elapsed: bool = False, is_relative: bool = True, display_percent: bool = True, ):
         self.progress: int = 0
@@ -184,6 +199,11 @@ class ProgressBar:
         self.display_percent: bool = display_percent
         self.start_time: time = time.time()
         self.end_time: time = time.time()
+        self.add()
+
+    @classmethod
+    def add(cls):
+        cls.amount += 1
 
 
 class Loading:
@@ -244,13 +264,14 @@ class Loading:
         nyancat = read_textfile('nyanloadingbar.txt')
         print('')
         for no in nyancat:
-            print(numbersToRelativeSize(model.length, model.progress) * ANSI_RAINBOW('#', reset_on=len(nyancat)), no, end='')
-            #print((numbersToRelativeSize(model.length, model.progress, get_full_length=True) - len(no)) * ' ', '|', end='')
-
+            print(numbersToRelativeSize(model.length, model.progress) * ANSI_RAINBOW('#', reset_on=len(nyancat)), no,
+                  end='')
+            # print((numbersToRelativeSize(model.length, model.progress, get_full_length=True) - len(no)) * ' ', '|', end='')
 
     @staticmethod
     def print_not_simple_bar(model: ProgressBar):
-        print(model.pre_fix.ljust(22), '>[', numbersToRelativeSize(model.length, model.progress) * ANSI_GREEN('='), end='')
+        print(model.pre_fix.ljust(22), '>[', numbersToRelativeSize(model.length, model.progress) * ANSI_GREEN('='),
+              end='')
         print(numbersToRelativeSize(model.length, model.progress, get_full_length=True) * ANSI_RED('='), ']<', end='')
         if model.display_percent and model.length != 0:
             print(' ', int((model.progress / model.length) * 100), '%', end='')
