@@ -47,3 +47,17 @@ def take_below_price(equal_or_above: float, list_: list[Legoset]):
         if i.price <= equal_or_above:
             sub_list.append(i)
     return sub_list
+
+
+def divide_into_age_groups(list_, divide_by_arr):
+    master_list = []
+    sub_list = []
+    for i in divide_by_arr:
+        for item in list_:
+            if i[0] <= item.age <= i[1]:
+                sub_list.append(item)
+        master_list.append(sub_list)
+        sub_list = []
+    return master_list
+
+

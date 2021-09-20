@@ -244,7 +244,9 @@ class Loading:
         nyancat = read_textfile('nyanloadingbar.txt')
         print('')
         for no in nyancat:
-            print(model.progress * ANSI_RAINBOW('#'), no, end='')
+            print(numbersToRelativeSize(model.length, model.progress) * ANSI_RAINBOW('#', reset_on=len(nyancat)), no, end='')
+            #print((numbersToRelativeSize(model.length, model.progress, get_full_length=True) - len(no)) * ' ', '|', end='')
+
 
     @staticmethod
     def print_not_simple_bar(model: ProgressBar):

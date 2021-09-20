@@ -1,6 +1,9 @@
 import concurrent.futures
 import time
 
+import numpy as np
+
+import LegoModel
 import NumpyAnalyser
 from LegoModel import Theme, Legoset, take_above_price, take_below_price
 from ScraperLib import *
@@ -71,8 +74,8 @@ def LegoDotComScraper(link, nrofthemes=50000):
                                               get_item='href')
         themes.append(new_theme)
 
-    Loading.new_bar('th', nrofthemes, 'Scraping themes:')
-    Loading.new_bar('ls', len(legosets), 'Scraping lego sets:')
+    Loading.new_bar('th', nrofthemes, 'Scraping themes:', bar_design=1)
+    Loading.new_bar('ls', len(legosets), 'Scraping lego sets:', bar_design=1)
     Loading.start('th', 'ls')
     for ls in themes:
         set_soup = requestSoup(ls.link)
@@ -123,18 +126,28 @@ def main():
     # save_objects_to_path(lego_setliste, "pickle.rick")
     # print(ANSI_RAINBOW("   GHETTO SHIT"))
     t1 = time.time()
+    """
     print(
         f"It took {ANSI_YELLOW(t1 - t0)} seconds to download to save {ANSI_GREEN(len(lego_setliste))} legoset models.")
     print('average time pr set:', (t1 - t0) / len(lego_setliste))
-
-    # _list = take_above_price(900, lego_setliste)
+    """
+    # _list = take_above_price(0, lego_setliste)
     # _list = take_below_price(1000, _list)
     # Legoset.print_list(_list)
 
     # df = NumpyAnalyser.objects_to_pandas_df(lego_setliste)
     # NumpyAnalyser.save_to_csv(df, 'pickle.csv')
-    df = NumpyAnalyser.load_from_csv('pickle.csv')
-    NumpyAnalyser.html_pd_stats(df)
+    # df = NumpyAnalyser.load_from_csv('pickle.csv')
+    # df = NumpyAnalyser.load_from_csv('inventory_sets.csv')
+    # NumpyAnalyser.html_pd_stats(df, 'lego_api_stats.html')
+
+    gg = LegoModel.divide_into_age_groups(lego_setliste, [[1, 3], [4, 5], [6, 8], [9, 12], [13, 21]])
+
+    temp_age_sum = []
+    for i in gg:
+        temp_age_sum.append(len(i))
+
+    NumpyAnalyser.pie_charter(['1-3', '4-5', '6-8', '9-12', '13-18'], temp_age_sum)
 
 
 if __name__ == '__main__':
