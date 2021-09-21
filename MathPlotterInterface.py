@@ -1,11 +1,13 @@
 import sys
+import pandas as pd
+from pandas import DataFrame
 
 import NumpyAnalyser
 
 
 def stonks(args):
     _args = args
-    df: NumpyAnalyser.pd.DataFrame
+    df: DataFrame
     if len(_args) <= 3:
         pass
     elif _args[2] == '-csv':
