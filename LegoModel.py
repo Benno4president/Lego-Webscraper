@@ -1,5 +1,5 @@
 from itertools import takewhile
-
+name = 'batman'
 
 class Legoset:
     def __init__(self):

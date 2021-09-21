@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import pandas_profiling as pp
-
+import plotly.graph_objects as go
+import plotly.express as px
 
 def html_pd_stats(dataframe, filename='pandas_profiling.html'):
     profile = pp.ProfileReport(dataframe)
@@ -51,6 +52,33 @@ def pie_charter(label_arr=[], value_arr=[], amount=9999):
 
     plt.axis('equal')
     plt.show()
+
+def stonks_chart(df,x_axis ,y_axis, by=''):
+    temp_obj_list = []
+    by = x_axis
+
+    #for value in prices:
+    #    temp_obj_list.append({'Bricks': bricks[prices.index(value)], 'Prices': value})
+    #temp_obj_list.sort(key=lambda x: x.get('Bricks'))
+    #df = pd.DataFrame(temp_obj_list)
+    _df = df.sort_values(by)
+
+    fig = go.Figure([go.Scatter(x=_df[x_axis], y=_df[y_axis])])
+    fig.show()
+
+def scatter_chart(df, x_width, y_length, by=''):
+    by = x_width
+    _df = df.sort_values(by)# iris is a pandas DataFrame
+    fig = px.scatter(_df, x_width, y_length)
+    fig.show()
+
+def orbital_chart(df, r_frequency, d_direction ):
+   # df = px.data.wind()
+    fig = px.bar_polar(df, r=r_frequency, theta=d_direction, color=r_frequency, template="plotly_dark",
+                       color_discrete_sequence=px.colors.sequential.Plasma_r)
+    fig.show()
+
+
 
 
 class NumpyAnal:

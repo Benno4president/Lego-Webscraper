@@ -120,12 +120,15 @@ def main():
     legodotcom = 'https://www.lego.com/da-dk/themes'
 
     t0 = time.time()
-    _lego_setliste = LegoDotComScraper(legodotcom)
-    #_lego_setliste = load_objects_from_path('pickle.rick')
-    lego_setliste = remove_dubs_heavy(_lego_setliste)
+    #_lego_setliste = LegoDotComScraper(legodotcom)
+    lego_setliste = load_objects_from_path('pickle.rick')
+    #lego_setliste = remove_dubs_heavy(_lego_setliste)
     # save_objects_to_path(lego_setliste, "pickle.rick")
-    # print(ANSI_RAINBOW("   GHETTO SHIT"))
+    print(ANSI_RAINBOW("   GHETTO SHIT"))
     t1 = time.time()
+
+   # for na in lego_setliste:
+    #    link = na.link.split('')[]
     """
     print(
         f"It took {ANSI_YELLOW(t1 - t0)} seconds to download to save {ANSI_GREEN(len(lego_setliste))} legoset models.")
@@ -137,9 +140,10 @@ def main():
 
     # df = NumpyAnalyser.objects_to_pandas_df(lego_setliste)
     # NumpyAnalyser.save_to_csv(df, 'pickle.csv')
-    # df = NumpyAnalyser.load_from_csv('pickle.csv')
+    df = NumpyAnalyser.load_from_csv('pickle.csv')
     # df = NumpyAnalyser.load_from_csv('inventory_sets.csv')
     #NumpyAnalyser.html_pd_stats(df, 'lego_api_stats.html')
+    """
     Legoset.print_list(lego_setliste)
     _label = []
     _price = []
@@ -149,13 +153,17 @@ def main():
             _label.append(set.name)
     NumpyAnalyser.pie_charter(_label, _price, 10)
 
+"""
     gg = LegoModel.divide_into_age_groups(lego_setliste, [[1, 3], [4, 5], [6, 8], [9, 12], [13, 21]])
-
     temp_age_sum = []
     for i in gg:
         temp_age_sum.append(len(i))
 
-    NumpyAnalyser.pie_charter(['1-3', '4-5', '6-8', '9-12', '13-18'], temp_age_sum)
+    #NumpyAnalyser.pie_charter(['1-3', '4-5', '6-8', '9-12', '13-18'], temp_age_sum)
+
+    NumpyAnalyser.scatter_chart(df, 'price','amount_bricks')
+
+    #NumpyAnalyser.orbital_chart(df, 'age', 'price')
 
 
 if __name__ == '__main__':
