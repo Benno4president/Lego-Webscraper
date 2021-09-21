@@ -1,5 +1,3 @@
-import matplotlib
-import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import pandas_profiling as pp
@@ -15,6 +13,9 @@ def objects_to_pandas_df(objs):
     return pd.DataFrame([t.__dict__ for t in objs])
 
 
+def dict_to_pandas_df(objs):
+    return pd.DataFrame(objs)
+
 def save_to_csv(obj: pd.DataFrame, filename):
     obj.to_csv(filename)
 
@@ -23,7 +24,7 @@ def load_from_csv(filename):
     return pd.read_csv(filename)
 
 
-
+"""
 def pie_charter(label_arr=[], value_arr=[], amount=9999):
     matplotlib.rcParams.update({'font.size': 20})
 
@@ -52,17 +53,13 @@ def pie_charter(label_arr=[], value_arr=[], amount=9999):
 
     plt.axis('equal')
     plt.show()
+"""
 
-def stonks_chart(df,x_axis ,y_axis, by=''):
-    temp_obj_list = []
+def stonks_chart(df,x_axis ,y_axis, sort=False, by=''):
     by = x_axis
-
-    #for value in prices:
-    #    temp_obj_list.append({'Bricks': bricks[prices.index(value)], 'Prices': value})
-    #temp_obj_list.sort(key=lambda x: x.get('Bricks'))
-    #df = pd.DataFrame(temp_obj_list)
-    _df = df.sort_values(by)
-
+    _df = df
+    if sort:
+        _df = df.sort_values(by)
     fig = go.Figure([go.Scatter(x=_df[x_axis], y=_df[y_axis])])
     fig.show()
 

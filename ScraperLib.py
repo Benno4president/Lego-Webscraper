@@ -176,9 +176,9 @@ def numbersToRelativeSize(length, progress, get_full_length: bool = False, size:
 
 # ProgressBar.new_bar('th', len(list[object]), 'pre-fix', )
 
-# ProgressBar.update('th')
-
 # ProgressBar.start('th', 'st')
+
+# ProgressBar.update('th')
 
 class BarDesign(Enum):
     simple = 0

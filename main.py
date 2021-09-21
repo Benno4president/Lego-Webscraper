@@ -160,7 +160,6 @@ def main():
         temp_age_sum.append(len(i))
 
     #NumpyAnalyser.pie_charter(['1-3', '4-5', '6-8', '9-12', '13-18'], temp_age_sum)
-
     NumpyAnalyser.scatter_chart(df, 'price','amount_bricks')
 
     #NumpyAnalyser.orbital_chart(df, 'age', 'price')
