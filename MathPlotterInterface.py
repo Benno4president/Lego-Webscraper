@@ -5,24 +5,34 @@ from pandas import DataFrame
 import NumpyAnalyser
 
 
-def stonks(args):
-    _args = args
-    df: DataFrame
-    if len(_args) <= 3:
-        pass
-    elif _args[2] == '-csv':
-        df = NumpyAnalyser.load_from_csv(args[3])
-        NumpyAnalyser.stonks_chart(df, args[0], args[1])
+def stonks(df, args):
+    if len(args) == 4:
+        NumpyAnalyser.stonks_chart(df, args[2], args[3])
+    elif len(args) == 5:
+        NumpyAnalyser.stonks_chart(df, args[2], args[3], by=args[4])
     else:
-        print('... stonks \'x-axis tag\' \'y-axis tag\' -csv \'filename.csv\'')
+        print('Syntax: file.csv chart_type x_axis y_axis ?sort_by')
 
 
-def p2(args):
-    print('p2', args)
+def scatter(df, args):
+    if len(args) == 4:
+        NumpyAnalyser.scatter_chart(df, args[2], args[3])
+    elif len(args) == 5:
+        NumpyAnalyser.scatter_chart(df, args[2], args[3], by=args[4])
+    else:
+        print('Syntax: file.csv chart_type x_axis y_axis ?sort_by')
+
+
+def orbital(df, args):
+    if len(args) == 4:
+        NumpyAnalyser.orbital_chart(df, args[2], args[3])
+    else:
+        print('Syntax: file.csv chart_type x_axis y_axis ?sort_by')
 
 myDict = {
     "stonks": stonks,
-    "P2": p2
+    "scatter": scatter,
+    "orbital": orbital
     #"pie": NumpyAnalyser.pie_charter()
 }
 
@@ -31,23 +41,14 @@ def main():
     _args = sys.argv
 
     if len(_args) <= 2:
-        _args = ['MathPlotterIncerface.py', 'stonks', 'price', 'amount_bricks', '-csv', 'pickle.csv']
-
+        _args = ['MathPlotterInterface.py', 'pickle.csv', 'scatter', 'price', 'amount_bricks']
+    print(_args)
+    _args.remove(_args[0])
     command_var = _args[1]
-    _args.remove(_args[0])
-    _args.remove(_args[0])
-
-    processed_args = []
-    for arg in _args:
-        if arg[0].isdigit() and ',' in arg:
-            processed_args.append([int(c) for c in arg.split(',')])  # if you want ints
-        elif ',' in arg:
-            processed_args.append(arg.split(','))
-        else:
-            processed_args.append(arg)
+    df = NumpyAnalyser.load_from_csv(_args[0])
 
     # print(processed_args[0], processed_args[1], command_var)
-    myDict.get(command_var, lambda: 'Invalid')(processed_args)
+    myDict.get(command_var, lambda: 'Invalid')(df, _args)
 
 
 if __name__ == '__main__':

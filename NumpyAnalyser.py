@@ -4,6 +4,7 @@ import pandas_profiling as pp
 import plotly.graph_objects as go
 import plotly.express as px
 
+
 def html_pd_stats(dataframe, filename='pandas_profiling.html'):
     profile = pp.ProfileReport(dataframe)
     profile.to_file(filename)
@@ -15,6 +16,7 @@ def objects_to_pandas_df(objs):
 
 def dict_to_pandas_df(objs):
     return pd.DataFrame(objs)
+
 
 def save_to_csv(obj: pd.DataFrame, filename):
     obj.to_csv(filename)
@@ -55,27 +57,30 @@ def pie_charter(label_arr=[], value_arr=[], amount=9999):
     plt.show()
 """
 
-def stonks_chart(df,x_axis ,y_axis, sort=False, by=''):
-    by = x_axis
+
+def stonks_chart(df, x_axis, y_axis, sort=True, by=''):
+    if by == '':
+        by = x_axis
     _df = df
     if sort:
         _df = df.sort_values(by)
     fig = go.Figure([go.Scatter(x=_df[x_axis], y=_df[y_axis])])
     fig.show()
 
+
 def scatter_chart(df, x_width, y_length, by=''):
-    by = x_width
-    _df = df.sort_values(by)# iris is a pandas DataFrame
+    if by == '':
+        by = x_width
+    _df = df.sort_values(by)  # iris is a pandas DataFrame
     fig = px.scatter(_df, x_width, y_length)
     fig.show()
 
-def orbital_chart(df, r_frequency, d_direction ):
-   # df = px.data.wind()
+
+def orbital_chart(df, r_frequency, d_direction):
+    # df = px.data.wind()
     fig = px.bar_polar(df, r=r_frequency, theta=d_direction, color=r_frequency, template="plotly_dark",
                        color_discrete_sequence=px.colors.sequential.Plasma_r)
     fig.show()
-
-
 
 
 class NumpyAnal:
