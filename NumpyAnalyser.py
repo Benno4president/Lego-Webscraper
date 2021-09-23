@@ -91,3 +91,32 @@ class NumpyAnal:
         psum = sum(prices)
         isum = sum(items)
         return (psum / isum)
+
+
+
+
+def sigma(first, last, const):
+    sum = 0
+    for i in range(first, last + 1):
+        sum += const * i
+    return sum
+
+def queue_handling(my_service_rate, lambda_interarrivel_rate, n, m):
+
+       # if sectohour is True:
+       #     WA_service_rate = (service_rate*60)*60
+       #     interarrivel_rate = (interarrivel_rate*60)*60
+       #     return service_rate, interarrivel_rate
+
+
+
+
+    average_number_customers_being_served = (1/(3*my_service_rate-lambda_interarrivel_rate))*60
+    average_number_of_servings = lambda_interarrivel_rate/my_service_rate
+    probability_of_empty_system = sigma(m-1,n,((average_number_of_servings*n)/(np.math.factorial(n)))+((average_number_of_servings*m)/(np.math.factorial(3))*(1-(lambda_interarrivel_rate/3*my_service_rate))))
+
+
+
+
+    print('Average number of customers being served:',average_number_customers_being_served, 'Average number of servings:','Average number of servings:',average_number_of_servings,'Probability of empty_system', probability_of_empty_system)
+    return average_number_customers_being_served, average_number_of_servings, probability_of_empty_system
