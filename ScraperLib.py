@@ -151,7 +151,7 @@ def removeDupFromList(x):
 
 def remove_dubs_heavy(_list):
     new_list = []
-    seen = [] # set()  # set for fast O(1) amortized lookup
+    seen = []  # set()  # set for fast O(1) amortized lookup
     for line in _list:
         if line.price == 0:
             continue
@@ -163,6 +163,19 @@ def remove_dubs_heavy(_list):
         # line.print()
     # print('removed lines:', len(_list) - len(new_list), 'new_list len:', len(new_list))
     return new_list
+
+
+class Printer:
+    math_dict = dict()
+
+    @classmethod
+    def print(cls):
+        for i in cls.math_dict:
+            print(f"| {i}: {cls.math_dict[i]}")
+
+    @classmethod
+    def add_entry(cls, name: str, value: float) -> None:
+        cls.math_dict.update({name: value})
 
 
 def numbersToRelativeSize(length, progress, get_full_length: bool = False, size: int = 40):

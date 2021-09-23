@@ -1,7 +1,6 @@
 import concurrent.futures
 import time
 
-
 import LegoModel
 import NumpyAnalyser
 from LegoModel import Theme, Legoset, take_above_price, take_below_price
@@ -120,14 +119,14 @@ def main():
     legodotcom = 'https://www.lego.com/da-dk/themes'
 
     t0 = time.time()
-    #_lego_setliste = LegoDotComScraper(legodotcom)
+    # _lego_setliste = LegoDotComScraper(legodotcom)
     lego_setliste = load_objects_from_path('pickle.rick')
-    #lego_setliste = remove_dubs_heavy(_lego_setliste)
+    # lego_setliste = remove_dubs_heavy(_lego_setliste)
     # save_objects_to_path(lego_setliste, "pickle.rick")
     print(ANSI_RAINBOW("   GHETTO SHIT"))
     t1 = time.time()
 
-   # for na in lego_setliste:
+    # for na in lego_setliste:
     #    link = na.link.split('')[]
     """
     print(
@@ -142,7 +141,7 @@ def main():
     # NumpyAnalyser.save_to_csv(df, 'pickle.csv')
     df = NumpyAnalyser.load_from_csv('pickle.csv')
     # df = NumpyAnalyser.load_from_csv('inventory_sets.csv')
-    #NumpyAnalyser.html_pd_stats(df, 'lego_api_stats.html')
+    # NumpyAnalyser.html_pd_stats(df, 'lego_api_stats.html')
     """
     Legoset.print_list(lego_setliste)
     _label = []
@@ -159,15 +158,12 @@ def main():
     for i in gg:
         temp_age_sum.append(len(i))
 
-    #NumpyAnalyser.pie_charter(['1-3', '4-5', '6-8', '9-12', '13-18'], temp_age_sum)
+    # NumpyAnalyser.pie_charter(['1-3', '4-5', '6-8', '9-12', '13-18'], temp_age_sum)
     # NumpyAnalyser.scatter_chart(df, 'price','amount_bricks')
-
-
+    new_printer = Printer()
     # NumpyAnalyser.orbital_chart(df, 'age', 'price')
-
-
-
-
+    queue_test = NumpyAnalyser.queue_handling(27, 24, 0, 0)
+    Printer.print()
 
 
 if __name__ == '__main__':

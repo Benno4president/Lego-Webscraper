@@ -4,6 +4,8 @@ import pandas_profiling as pp
 import plotly.graph_objects as go
 import plotly.express as px
 
+from ScraperLib import Printer
+
 
 def html_pd_stats(dataframe, filename='pandas_profiling.html'):
     profile = pp.ProfileReport(dataframe)
@@ -111,12 +113,14 @@ def queue_handling(my_service_rate, lambda_interarrivel_rate, n, m):
 
 
 
-    average_number_customers_being_served = (1/(3*my_service_rate-lambda_interarrivel_rate))*60
-    average_number_of_servings = lambda_interarrivel_rate/my_service_rate
-    probability_of_empty_system = sigma(m-1,n,((average_number_of_servings*n)/(np.math.factorial(n)))+((average_number_of_servings*m)/(np.math.factorial(3))*(1-(lambda_interarrivel_rate/3*my_service_rate))))
+    average_number_customers_being_served: float = (1/(3*my_service_rate-lambda_interarrivel_rate))*60
+    average_number_of_servings: float = lambda_interarrivel_rate/my_service_rate
+    probability_of_empty_system: float = sigma(m-1,n,((average_number_of_servings*n)/(np.math.factorial(n)))+((average_number_of_servings*m)/(np.math.factorial(3))*(1-(lambda_interarrivel_rate/3*my_service_rate))))
 
-
+    Printer.add_entry('Avg. cus/be/served', average_number_customers_being_served)
+    Printer.add_entry('Avg. num/servings', average_number_of_servings)
+    Printer.add_entry('Prob of emp/sys', probability_of_empty_system)
 
 
     print('Average number of customers being served:',average_number_customers_being_served, 'Average number of servings:','Average number of servings:',average_number_of_servings,'Probability of empty_system', probability_of_empty_system)
-    return average_number_customers_being_served, average_number_of_servings, probability_of_empty_system
+    return {average_number_customers_being_served, average_number_of_servings, probability_of_empty_system}
