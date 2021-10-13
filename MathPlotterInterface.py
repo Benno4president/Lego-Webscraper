@@ -43,6 +43,7 @@ def main():
     if len(_args) <= 2:
         _args = ['MathPlotterInterface.py', 'pickle.csv', 'scatter', 'price', 'amount_bricks']
     print(_args)
+
     _args.remove(_args[0])
     command_var = _args[1]
     df = NumpyAnalyser.load_from_csv(_args[0])

@@ -72,8 +72,8 @@ def LegoDotComScraper(link, nrofthemes=50000):
                                               get_item='href')
         themes.append(new_theme)
 
-    Loading.new_bar('th', nrofthemes, 'Scraping themes:', bar_design=2)
-    Loading.new_bar('ls', len(legosets), 'Scraping lego sets:', bar_design=2)
+    Loading.new_bar('th', nrofthemes, 'Scraping themes:', bar_design=1)
+    Loading.new_bar('ls', len(legosets), 'Scraping lego sets:', bar_design=1)
     Loading.start('th', 'ls')
     for ls in themes:
         set_soup = requestSoup(ls.link)
@@ -119,7 +119,7 @@ def main():
     legodotcom = 'https://www.lego.com/da-dk/themes'
 
     t0 = time.time()
-    # _lego_setliste = LegoDotComScraper(legodotcom)
+    _lego_setliste = LegoDotComScraper(legodotcom, 1)
     lego_setliste = load_objects_from_path('pickle.rick')
     # lego_setliste = remove_dubs_heavy(_lego_setliste)
     # save_objects_to_path(lego_setliste, "pickle.rick")
